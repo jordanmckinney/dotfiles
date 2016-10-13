@@ -1,16 +1,17 @@
-set nocompatible        " be iMproved, required
 
-syntax enable           " enable syntax processing
+" System {{{
+"===============================================================
 
-filetype indent on              " load filetype-specific indent files
-set wildmenu                    " visual autocomplete for command menu
+    set nocompatible                " be iMproved, required
+    syntax enable                   " enable syntax processing
+    set wildmenu                    " visual autocomplete for command menu
+    set lazyredraw                  " redraw only when we need to.
+    inoremap jk <esc>
+    "" turn off search highlight 
+    "" nnoremap <leader><space> :nohlsearch<CR>
 
-set lazyredraw                  " redraw only when we need to.
-
-inoremap jk <esc>
-
-" turn off search highlight 
-" nnoremap <leader><space> :nohlsearch<CR>
+"===============================================================
+" }}}
 
 " Appearance {{{
 "===============================================================
@@ -22,6 +23,7 @@ inoremap jk <esc>
     set showmatch                   " highlight matching [{()}]
     set incsearch                   " search as characters are entered
     set hlsearch                    " highlight matches
+    set t_Co=256                    " use 256 colors 
 
 "===============================================================
 " }}}
@@ -33,6 +35,7 @@ inoremap jk <esc>
     set softtabstop=4       " number of spaces in tab when editing
     set shiftwidth=4        " number of spaces inserted per tab
     set expandtab           " tabs are spaces
+    filetype indent on              " load filetype-specific indent files
 
 "===============================================================
 " }}}
@@ -44,8 +47,8 @@ inoremap jk <esc>
     nnoremap E $                    " move to start of line
     nnoremap $ <nop>                " disable default move to start 
     nnoremap ^ <nop>                " disable default move to end
-    nnoremap j gj                   " prevent cursor from skipping over wrapped line
-    nnoremap k gk                   " prevent cursor from skipping over wrapped line
+    "nnoremap j gj                   " prevent cursor from skipping over wrapped line
+    "nnoremap k gk                   " prevent cursor from skipping over wrapped line
 
 "===============================================================
 " }}}
@@ -68,21 +71,24 @@ inoremap jk <esc>
 "===============================================================
 " }}}
 
-" <Ctrl-l> redraws the screen and removes any search highlighting.
-nnoremap <silent> <C-l> :nohl<CR><C-l>
+" Extras {{{
+"===============================================================
 
-" let mapleader=","
+    " <Ctrl-l> redraws the screen and removes any search highlighting.
+    nnoremap <silent> <C-l> :nohl<CR><C-l>
 
-" toggle gundo
-" https://github.com/sjl/gundo.vim
-" nnoremap <leader>u :GundoToggle<CR>
+    " let mapleader=","
 
-set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+    " toggle gundo
+    " https://github.com/sjl/gundo.vim
+    " nnoremap <leader>u :GundoToggle<CR>
 
-" Always show statusline
-set laststatus=2
+    set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
 
-" Use 256 colours (Use this setting only if your terminal supports 256 colours)
-set t_Co=256
+    " Always show statusline
+    set laststatus=2
+
+"===============================================================
+" }}}
 
 " vim:foldmethod=marker:foldlevel=0
