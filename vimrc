@@ -1,5 +1,5 @@
 
-" System {{{
+" General {{{
 "===============================================================
 
     set nocompatible                " be iMproved, required
@@ -28,18 +28,6 @@
 "===============================================================
 " }}}
 
-" Formatting {{{
-"===============================================================
-
-    set tabstop=4           " number of visual spaces per TAB
-    set softtabstop=4       " number of spaces in tab when editing
-    set shiftwidth=4        " number of spaces inserted per tab
-    set expandtab           " tabs are spaces
-    filetype indent on              " load filetype-specific indent files
-
-"===============================================================
-" }}}
-
 " Navigation {{{
 "===============================================================
 
@@ -53,6 +41,18 @@
 "===============================================================
 " }}}
 
+" Formatting {{{
+"===============================================================
+
+    set tabstop=4           " number of visual spaces per TAB
+    set softtabstop=4       " number of spaces in tab when editing
+    set shiftwidth=4        " number of spaces inserted per tab
+    set expandtab           " tabs are spaces
+    filetype indent on              " load filetype-specific indent files
+
+"===============================================================
+" }}}
+
 " Folding {{{
 "===============================================================
 
@@ -61,7 +61,7 @@
     set modelines=1                 " only do this for this file
 
     set foldenable                  " enable folding
-    " set foldlevelstart=10         " open most folds by default
+    set foldlevelstart=10           " open most folds by default
     set foldnestmax=10              " 10 nested fold max
 
     nnoremap <space> za             " use space to open/close folds
