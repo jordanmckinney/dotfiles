@@ -31,12 +31,23 @@
 " Navigation {{{
 "===============================================================
 
-    nnoremap B ^                    " move to beginning of line
-    nnoremap E $                    " move to start of line
-    nnoremap $ <nop>                " disable default move to start 
-    nnoremap ^ <nop>                " disable default move to end
-    "nnoremap j gj                   " prevent cursor from skipping over wrapped line
-    "nnoremap k gk                   " prevent cursor from skipping over wrapped line
+    " move to beginning of line
+    nnoremap B ^
+
+    " move to end of line
+    nnoremap E $
+    
+    " disable default move to start 
+    nnoremap $ <nop>
+
+    " disable default move to end
+    nnoremap ^ <nop>
+
+    " prevent cursor from skipping over wrapped line
+    nnoremap j gj
+
+    " prevent cursor from skipping over wrapped line
+    nnoremap k gk
 
 "===============================================================
 " }}}
@@ -64,7 +75,8 @@
     set foldlevelstart=10           " open most folds by default
     set foldnestmax=10              " 10 nested fold max
 
-    nnoremap <space> za             " use space to open/close folds
+    " use space to open/close folds
+    nnoremap <space> za
     set foldmethod=indent           " fold based on indent level
 
 
