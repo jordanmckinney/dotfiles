@@ -2,7 +2,7 @@
 " General {{{
 "===============================================================
 
-    set nocompatible                " be iMproved, required
+    set nocompatible                " required for powerline?
     syntax enable                   " enable syntax processing
     set wildmenu                    " visual autocomplete for command menu
     set lazyredraw                  " redraw only when we need to.
