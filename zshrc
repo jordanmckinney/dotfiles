@@ -96,6 +96,7 @@ alias cdpl='cd ~/Dropbox/xPL/'
 alias cddb='cd ~/Dropbox/xDB/'
 alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
 alias cdkattis='cd ~/Dropbox/Code/kattis'
+alias cdcode='cd ~/Dropbox/Code/'
 
 
 
