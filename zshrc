@@ -87,3 +87,24 @@ export PATH="/home/jordan/anaconda3/bin:$PATH"
 #export TERM="xterm-256color"
 
 export TERM="xterm-256color"
+
+alias shutdown='shutdown -h now'
+alias cddot='cd ~/Dropbox/DotFiles/'
+alias cdos='cd ~/Dropbox/xOS/'
+alias cdse='cd ~/Dropbox/xSE/'
+alias cdpl='cd ~/Dropbox/xPL/'
+alias cddb='cd ~/Dropbox/xDB/'
+alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
+alias cdkattis='cd ~/Dropbox/Code/kattis'
+
+
+
+
+
+
+
+
+
+
+
+
