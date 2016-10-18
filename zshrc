@@ -79,12 +79,9 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+
 export PATH="/home/jordan/anaconda3/bin:$PATH"
-#export TERM="xterm-256color"
+# export TERM="xterm-256color"
 
 export TERM="xterm-256color"
 
@@ -98,4 +95,6 @@ alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
 alias cdkattis='cd ~/Dropbox/Code/kattis'
 alias cdcode='cd ~/Dropbox/code/'
 
-
+# git stuff
+alias gitadd='git add .'
+alias gitpom='git push origin master'
