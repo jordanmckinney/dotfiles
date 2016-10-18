@@ -6,7 +6,7 @@
     syntax enable                   " enable syntax processing
     set wildmenu                    " visual autocomplete for command menu
     set lazyredraw                  " redraw only when we need to.
-    inoremap jk <esc>
+    inoremap df <esc>
     "" turn off search highlight 
     "" nnoremap <leader><space> :nohlsearch<CR>
 
