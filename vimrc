@@ -7,8 +7,22 @@
     set wildmenu                    " visual autocomplete for command menu
     set lazyredraw                  " redraw only when we need to.
     inoremap df <esc>
-    "" turn off search highlight 
-    "" nnoremap <leader><space> :nohlsearch<CR>
+
+    " Swap : and ; to make colon commands easier to type
+    nnoremap  ;  :
+    nnoremap  :  ;
+
+"===============================================================
+" }}}
+
+" Editing {{{
+"===============================================================
+
+    " Swap v and CTRL-V, because Block mode is more useful that Visual mode
+    nnoremap    v   <C-V>
+    nnoremap <C-V>     v
+    vnoremap    v   <C-V>
+    vnoremap <C-V>     v
 
 "===============================================================
 " }}}
@@ -25,6 +39,11 @@
     set hlsearch                    " highlight matches
     set t_Co=256                    " use 256 colors 
 
+    " highlight 81st column of wide lines
+    highlight ColorColumn ctermbg=magenta
+    call matchadd('ColorColumn', '\%81v', 100)
+
+
 "===============================================================
 " }}}
 
@@ -36,7 +55,7 @@
 
     " move to end of line
     nnoremap E $
-    
+
     " disable default move to start 
     nnoremap $ <nop>
 
@@ -59,7 +78,11 @@
     set softtabstop=4       " number of spaces in tab when editing
     set shiftwidth=4        " number of spaces inserted per tab
     set expandtab           " tabs are spaces
-    filetype indent on              " load filetype-specific indent files
+    filetype indent on      " load filetype-specific indent files
+
+    " Make tabs, trailing whitespace, and non-breaking spaces visible
+    exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+    set list
 
 "===============================================================
 " }}}

@@ -93,8 +93,8 @@ alias cdpl='cd ~/Dropbox/xPL/'
 alias cddb='cd ~/Dropbox/xDB/'
 alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
 alias cdkattis='cd ~/Dropbox/Code/kattis'
-alias cdcode='cd ~/Dropbox/code/'
+alias cdcode='cd ~/Dropbox/Code/'
 
 # git stuff
-alias gitadd='git add .'
-alias gitpom='git push origin master'
+alias gadd='git add .'
+alias gpom='git push origin master'
