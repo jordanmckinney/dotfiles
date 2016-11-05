@@ -96,6 +96,7 @@
     " use space to open/close folds
     nnoremap <space> za
     set foldmethod=indent           " fold based on indent level
+    :hi Folded ctermbg=DarkBlue
 
 
 "===============================================================
