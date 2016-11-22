@@ -2,7 +2,7 @@
 " General {{{
 "===============================================================
 
-    inoremap df <esc>
+    " inoremap df <esc>
     set nocompatible                " required for a bunch of reasons
     syntax enable                   " enable syntax processing
     set wildmenu                    " visual autocomplete for command menu
@@ -32,7 +32,7 @@
 "===============================================================
 
     colorscheme vice
-    set number                      " show line numbers
+    "set number                      " show line numbers
     set showcmd                     " show command in bottom bar
     set cursorline                  " highlights line number that cursor is on
     set showmatch                   " highlight matching [{()}]
