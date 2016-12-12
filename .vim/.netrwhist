@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/jordan/Dropbox/DotFiles'
 let g:netrw_dirhist_2='/home/jordan/.vim'
 let g:netrw_dirhist_3='/home/jordan/Dropbox/DotFiles/zsh'
 let g:netrw_dirhist_4='/home/jordan/Dropbox/xSE/lab4'
 let g:netrw_dirhist_5='/home/jordan/Dropbox/Code/web/Skeleton-2.0.4'
+let g:netrw_dirhist_6='/home/jordan/Dropbox/csref/git'

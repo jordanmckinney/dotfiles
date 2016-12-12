@@ -1,17 +1,59 @@
 
+" Vundle {{{
+"===============================================================
+
+    " Plug ins to try
+    "   surround
+    "   commentary
+    "   youcompleteme
+    "   nerdtree
+
+    set nocompatible              " be iMproved, required
+    filetype off                  " required
+
+    " set the runtime path to include Vundle and initialize
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
+
+    Plugin 'VundleVim/Vundle.vim'
+    Plugin 'itchyny/lightline.vim'
+    Plugin 'tpope/vim-surround'
+
+    " to install add line in vimrc, :PluginInstall
+    " to delete: remove line in vimrc, :PluginUpdate
+    call vundle#end()            " required
+
+"===============================================================
+" }}}
+
+" Lightline {{{
+"===============================================================
+
+    let g:lightline = {
+          \ 'colorscheme': 'wombat',
+          \ 'component': {
+          \   'readonly': '%{&readonly?"":""}',
+          \ },
+          \ 'separator': { 'left': '', 'right': '' },
+          \ 'subseparator': { 'left': '', 'right': '' }
+          \ }
+
+"===============================================================
+" }}}
+
 " General {{{
 "===============================================================
 
-    " inoremap df <esc>
-    set nocompatible                " required for a bunch of reasons
+    "set nocompatible                " required for a bunch of reasons
     syntax enable                   " enable syntax processing
     set wildmenu                    " visual autocomplete for command menu
     set lazyredraw                  " redraw only when we need to.
+    set encoding=UTF-8
 
     " Swap : and ; to make colon commands easier to type
     nnoremap  ;  :
     nnoremap  :  ;
-
+    imap jj <Esc>
 
 "===============================================================
 " }}}
@@ -28,11 +70,21 @@
 "===============================================================
 " }}}
 
+" Autocorrect {{{
+"===============================================================
+
+    :ab teh the
+    :ab syspl System.out.println
+
+"===============================================================
+" }}}
+
 " Appearance {{{
 "===============================================================
 
     colorscheme vice
-    "set number                      " show line numbers
+    set relativenumber              " show line numbers
+    set number
     set showcmd                     " show command in bottom bar
     set cursorline                  " highlights line number that cursor is on
     set showmatch                   " highlight matching [{()}]
@@ -44,20 +96,15 @@
     highlight ColorColumn ctermbg=magenta
     call matchadd('ColorColumn', '\%81v', 100)
 
+    " no-text area transparent
+    hi Normal ctermbg=none
+    highlight NonText ctermbg=none
 
 "===============================================================
 " }}}
 
 " Navigation {{{
 "===============================================================
-
-    " move to beginning of line
-    nnoremap B ^
-    nnoremap ^ <nop>
-
-    " move to end of line
-    nnoremap E $
-    nnoremap $ <nop>
 
     " prevent cursor from skipping over wrapped line
     nnoremap j gj
@@ -69,11 +116,13 @@
 " Formatting {{{
 "===============================================================
 
+    filetype indent on              " load filetype-specific indent files
     set tabstop=4                   " number of visual spaces per TAB
     set softtabstop=4               " number of spaces in tab when editing
     set shiftwidth=4                " number of spaces inserted per tab
     set expandtab                   " tabs are spaces
-    filetype indent on              " load filetype-specific indent files
+    set smartindent
+    set autoindent
 
     " Make tabs, trailing whitespace, and non-breaking spaces visible
     exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
@@ -85,9 +134,6 @@
 " Folding {{{
 "===============================================================
 
-    " foldmethod=marker               " fold by markers rather than indent
-    " foldlevel=0                     " fold by default 
-
     set modelines=1                 " only do this for this file
     set foldenable                  " enable folding
     set foldlevelstart=10           " open most folds by default
@@ -96,8 +142,7 @@
     " use space to open/close folds
     nnoremap <space> za
     set foldmethod=indent           " fold based on indent level
-    :hi Folded ctermbg=DarkBlue
-
+    :hi Folded ctermbg=DarkBlue     " color of folded lines
 
 "===============================================================
 " }}}
@@ -105,13 +150,13 @@
 " Extras {{{
 "===============================================================
 
-    " <Ctrl-l> redraws the screen and removes any search highlighting.
+    " remove search highlights
     nnoremap <silent> <C-l> :nohl<CR><C-l>
 
-    " let mapleader=","
-    " toggle gundo
-    " https://github.com/sjl/gundo.vim
-    " nnoremap <leader>u :GundoToggle<CR>
+    " keep more info in mem to speed up
+    set hidden
+    set history=100
+    "let mapleader=" "
 
     " Always show statusline
     set laststatus=2
