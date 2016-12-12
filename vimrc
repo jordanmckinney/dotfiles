@@ -3,7 +3,6 @@
 "===============================================================
 
     " Plug ins to try
-    "   surround
     "   commentary
     "   youcompleteme
     "   nerdtree
@@ -18,9 +17,9 @@
     Plugin 'VundleVim/Vundle.vim'
     Plugin 'itchyny/lightline.vim'
     Plugin 'tpope/vim-surround'
-
     " to install add line in vimrc, :PluginInstall
     " to delete: remove line in vimrc, :PluginUpdate
+
     call vundle#end()            " required
 
 "===============================================================
@@ -50,15 +49,10 @@
     set lazyredraw                  " redraw only when we need to.
     set encoding=UTF-8
 
-    " Swap : and ; to make colon commands easier to type
-    nnoremap  ;  :
-    nnoremap  :  ;
-    imap jj <Esc>
-
 "===============================================================
 " }}}
 
-" Editing {{{
+" Remappings {{{
 "===============================================================
 
     " Swap v and CTRL-V, because Block mode is more useful that Visual mode
@@ -66,6 +60,23 @@
     nnoremap <C-V>     v
     vnoremap    v   <C-V>
     vnoremap <C-V>     v
+
+    " saves pinky stretching
+    imap jj <Esc>
+
+    " Swap : and ; to make colon commands easier to type
+    nnoremap  ;  :
+    nnoremap  :  ;
+
+    " allows moving up/down wrapped lines more naturally
+    nnoremap j gj
+    nnoremap k gk
+
+    " use space to open/close folds
+    nnoremap <space> za
+
+    " remove search highlights
+    nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 "===============================================================
 " }}}
@@ -103,16 +114,6 @@
 "===============================================================
 " }}}
 
-" Navigation {{{
-"===============================================================
-
-    " prevent cursor from skipping over wrapped line
-    nnoremap j gj
-    nnoremap k gk
-
-"===============================================================
-" }}}
-
 " Formatting {{{
 "===============================================================
 
@@ -139,8 +140,6 @@
     set foldlevelstart=10           " open most folds by default
     set foldnestmax=10              " 10 nested fold max
 
-    " use space to open/close folds
-    nnoremap <space> za
     set foldmethod=indent           " fold based on indent level
     :hi Folded ctermbg=DarkBlue     " color of folded lines
 
@@ -149,9 +148,6 @@
 
 " Extras {{{
 "===============================================================
-
-    " remove search highlights
-    nnoremap <silent> <C-l> :nohl<CR><C-l>
 
     " keep more info in mem to speed up
     set hidden
