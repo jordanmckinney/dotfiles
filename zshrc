@@ -86,6 +86,7 @@ export PATH="/home/jordan/anaconda3/bin:$PATH"
 export TERM="xterm-256color"
 
 alias shutdown='shutdown -h now'
+alias restart='shutdown -r now'
 alias cddot='cd ~/Dropbox/dotfiles/'
 alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
 alias cdcode='cd ~/Dropbox/code/'

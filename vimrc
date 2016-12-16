@@ -3,9 +3,9 @@
 "===============================================================
 
     " Plug ins to try
-    "   commentary
-    "   youcompleteme
-    "   nerdtree
+    " commentary
+    " youcompleteme
+    " nerdtree
 
     set nocompatible              " be iMproved, required
     filetype off                  " required
@@ -15,12 +15,20 @@
     call vundle#begin()
 
     Plugin 'VundleVim/Vundle.vim'
-    Plugin 'itchyny/lightline.vim'
-    Plugin 'tpope/vim-surround'
-    " to install add line in vimrc, :PluginInstall
-    " to delete: remove line in vimrc, :PluginUpdate
 
-    call vundle#end()            " required
+    " just like airline or powerline
+    Plugin 'itchyny/lightline.vim'
+
+    " allows easy surround of word/line with quotes/brackets etc
+    Plugin 'tpope/vim-surround'
+
+    " allows easy commenting out of lines/blocks
+    Plugin 'tpope/vim-commentary'
+
+    " :PluginInstall
+    " :PluginUpdate
+
+    call vundle#end()
 
 "===============================================================
 " }}}
@@ -36,6 +44,17 @@
           \ 'separator': { 'left': '', 'right': '' },
           \ 'subseparator': { 'left': '', 'right': '' }
           \ }
+
+"===============================================================
+" }}}
+
+" Commentary {{{
+"===============================================================
+
+    " py not currently working
+    autocmd FileType py setlocal commentstring=#\ %s
+    autocmd FileType js setlocal commentstring=//\ %s
+    autocmd FileType c setlocal commentstring=//\ %s
 
 "===============================================================
 " }}}
