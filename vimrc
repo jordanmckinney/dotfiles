@@ -3,12 +3,14 @@
 "===============================================================
 
     " Plug ins to try
-    " commentary
     " youcompleteme
     " nerdtree
 
     set nocompatible              " be iMproved, required
     filetype off                  " required
+
+    " enable filetype plugins
+    filetype plugin on
 
     " set the runtime path to include Vundle and initialize
     set rtp+=~/.vim/bundle/Vundle.vim
@@ -51,10 +53,106 @@
 " Commentary {{{
 "===============================================================
 
-    " py not currently working
     autocmd FileType py setlocal commentstring=#\ %s
     autocmd FileType js setlocal commentstring=//\ %s
     autocmd FileType c setlocal commentstring=//\ %s
+    autocmd FileType java setlocal commentstring=//\ %s
+
+"===============================================================
+" }}}
+
+
+" Appearance {{{
+"===============================================================
+
+    try
+        colorscheme vice
+    catch
+        colorscheme desert
+    endtry
+
+    set encoding=UTF-8
+    set relativenumber              " show line numbers
+    set number
+    set showcmd                     " show command in bottom bar
+    set cursorline                  " highlights line number that cursor is on
+    set showmatch                   " highlight matching [{()}]
+    set t_Co=256                    " use 256 colors 
+
+    " highlight 81st column of wide lines
+    highlight ColorColumn ctermbg=magenta
+    call matchadd('ColorColumn', '\%81v', 100)
+
+    " no-text area transparent
+    hi Normal ctermbg=none
+    highlight NonText ctermbg=none
+
+"===============================================================
+" }}}
+
+" Autocorrect {{{
+"===============================================================
+
+    :ab teh the
+    :ab syspl System.out.println
+
+"===============================================================
+" }}}
+
+" Backup {{{
+"===============================================================
+
+    set nobackup
+    set nowb
+    set noswapfile
+
+"===============================================================
+" }}}
+
+" Extras {{{
+"===============================================================
+
+    " Always show statusline
+    set laststatus=2
+    set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+    " Ignore compiled files
+    set wildignore=*.o,*~,*.pyc
+
+"===============================================================
+" }}}
+
+" Folding {{{
+"===============================================================
+
+    set modelines=1                 " only do this for this file
+    set foldenable                  " enable folding
+    set foldlevelstart=10           " open most folds by default
+    set foldnestmax=10              " 10 nested fold max
+
+    set foldmethod=indent           " fold based on indent level
+    :hi Folded ctermbg=DarkBlue     " color of folded lines
+
+"===============================================================
+" }}}
+
+" Formatting {{{
+"===============================================================
+
+    filetype indent on              " load filetype-specific indent files
+    set tabstop=4                   " number of visual spaces per TAB
+    set softtabstop=4               " number of spaces in tab when editing
+    set shiftwidth=4                " number of spaces inserted per tab
+
+    set expandtab                   " tabs are spaces
+    set smartindent
+    set autoindent
+    set wrap
+    "filetype indent on
+
+    " Make tabs, trailing whitespace, and non-breaking spaces visible
+    exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+    set list
 
 "===============================================================
 " }}}
@@ -62,11 +160,14 @@
 " General {{{
 "===============================================================
 
-    "set nocompatible                " required for a bunch of reasons
     syntax enable                   " enable syntax processing
     set wildmenu                    " visual autocomplete for command menu
     set lazyredraw                  " redraw only when we need to.
-    set encoding=UTF-8
+
+    " keep more info in mem to speed up
+    set hidden
+    set history=100
+    let mapleader=" "
 
 "===============================================================
 " }}}
@@ -91,91 +192,31 @@
     nnoremap j gj
     nnoremap k gk
 
-    " use space to open/close folds
-    nnoremap <space> za
-
     " remove search highlights
     nnoremap <silent> <C-l> :nohl<CR><C-l>
 
+    " toggle spellcheck
+    map <leader>ss ;setlocal spell!<cr>
+    " save
+    map <leader>w ;w<cr>
+    " save and quit
+    map <leader>q ;wq<cr>
+    " open/close fold
+    map <leader>l za<cr>
+    " paste from system register
+    map <leader>p "+p<cr>
+
 "===============================================================
 " }}}
 
-" Autocorrect {{{
+" Searching {{{
 "===============================================================
 
-    :ab teh the
-    :ab syspl System.out.println
-
-"===============================================================
-" }}}
-
-" Appearance {{{
-"===============================================================
-
-    colorscheme vice
-    set relativenumber              " show line numbers
-    set number
-    set showcmd                     " show command in bottom bar
-    set cursorline                  " highlights line number that cursor is on
-    set showmatch                   " highlight matching [{()}]
+    set ignorecase                  " ignore case when searching
+    set smartcase
     set incsearch                   " search as characters are entered
     set hlsearch                    " highlight matches
-    set t_Co=256                    " use 256 colors 
-
-    " highlight 81st column of wide lines
-    highlight ColorColumn ctermbg=magenta
-    call matchadd('ColorColumn', '\%81v', 100)
-
-    " no-text area transparent
-    hi Normal ctermbg=none
-    highlight NonText ctermbg=none
-
-"===============================================================
-" }}}
-
-" Formatting {{{
-"===============================================================
-
-    filetype indent on              " load filetype-specific indent files
-    set tabstop=4                   " number of visual spaces per TAB
-    set softtabstop=4               " number of spaces in tab when editing
-    set shiftwidth=4                " number of spaces inserted per tab
-    set expandtab                   " tabs are spaces
-    set smartindent
-    set autoindent
-
-    " Make tabs, trailing whitespace, and non-breaking spaces visible
-    exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
-    set list
-
-"===============================================================
-" }}}
-
-" Folding {{{
-"===============================================================
-
-    set modelines=1                 " only do this for this file
-    set foldenable                  " enable folding
-    set foldlevelstart=10           " open most folds by default
-    set foldnestmax=10              " 10 nested fold max
-
-    set foldmethod=indent           " fold based on indent level
-    :hi Folded ctermbg=DarkBlue     " color of folded lines
-
-"===============================================================
-" }}}
-
-" Extras {{{
-"===============================================================
-
-    " keep more info in mem to speed up
-    set hidden
-    set history=100
-    "let mapleader=" "
-
-    " Always show statusline
-    set laststatus=2
-    set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+    set magic                       " for regex
 
 "===============================================================
 " }}}
