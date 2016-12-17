@@ -27,6 +27,12 @@
     " allows easy commenting out of lines/blocks
     Plugin 'tpope/vim-commentary'
 
+    " fuzzy file search
+    Plugin 'ctrlpvim/ctrlp.vim'
+
+    " file explorer
+    Plugin 'scrooloose/nerdtree'
+
     " :PluginInstall
     " :PluginUpdate
 
@@ -62,6 +68,20 @@
 " }}}
 
 
+" General {{{
+"===============================================================
+
+    syntax enable                   " enable syntax processing
+    set wildmenu                    " visual autocomplete for command menu
+    set lazyredraw                  " redraw only when we need to.
+
+    set hidden
+    set history=100
+    let mapleader=" "
+
+"===============================================================
+" }}}
+
 " Appearance {{{
 "===============================================================
 
@@ -77,15 +97,18 @@
     set showcmd                     " show command in bottom bar
     set cursorline                  " highlights line number that cursor is on
     set showmatch                   " highlight matching [{()}]
-    set t_Co=256                    " use 256 colors 
+    set t_Co=256                    " use 256 colors
+    set laststatus=2                " Always show statusline
 
     " highlight 81st column of wide lines
     highlight ColorColumn ctermbg=magenta
     call matchadd('ColorColumn', '\%81v', 100)
 
+    highlight NonText ctermbg=none
+    " color of folded lines
+    hi Folded ctermbg=053
     " no-text area transparent
     hi Normal ctermbg=none
-    highlight NonText ctermbg=none
 
 "===============================================================
 " }}}
@@ -109,15 +132,13 @@
 "===============================================================
 " }}}
 
-" Extras {{{
+" Ignore {{{
 "===============================================================
 
-    " Always show statusline
-    set laststatus=2
-    set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-
     " Ignore compiled files
-    set wildignore=*.o,*~,*.pyc
+    set wildignore=*.o,*~,*.pyc,*.a
+    set wildignore=*.bmp,*.gif,*.ico,*.jpg,*.png
+    set wildignore=*.git
 
 "===============================================================
 " }}}
@@ -129,9 +150,7 @@
     set foldenable                  " enable folding
     set foldlevelstart=10           " open most folds by default
     set foldnestmax=10              " 10 nested fold max
-
     set foldmethod=indent           " fold based on indent level
-    :hi Folded ctermbg=DarkBlue     " color of folded lines
 
 "===============================================================
 " }}}
@@ -148,26 +167,10 @@
     set smartindent
     set autoindent
     set wrap
-    "filetype indent on
 
     " Make tabs, trailing whitespace, and non-breaking spaces visible
     exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
     set list
-
-"===============================================================
-" }}}
-
-" General {{{
-"===============================================================
-
-    syntax enable                   " enable syntax processing
-    set wildmenu                    " visual autocomplete for command menu
-    set lazyredraw                  " redraw only when we need to.
-
-    " keep more info in mem to speed up
-    set hidden
-    set history=100
-    let mapleader=" "
 
 "===============================================================
 " }}}
@@ -205,6 +208,12 @@
     map <leader>l za<cr>
     " paste from system register
     map <leader>p "+p<cr>
+    " insert empty line below
+    map <leader>j o<esc>cc<esc>kk<cr>
+    " insert empty line above
+    map <leader>k O<esc>cc<esc><cr>
+    " open nerdtree
+    map <leader>t ;NERDTree<cr>
 
 "===============================================================
 " }}}
