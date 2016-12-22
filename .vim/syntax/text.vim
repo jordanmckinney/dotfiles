@@ -6,9 +6,10 @@ endif
 
 "----------------------------------------------------------------/
 " Regex for capitalized words, add your own matches here:
-syn match keyWord '[A-Z][a-z]*'
-syn match headerTitle1 '^\*.*$'
-syn match headerTitle2 '^\*\*.*$'
+syn match keyWord '\ [A-Z]\w\w*'
+syn match keyWord '^[A-Z]\w*'
+syn match headerTitle1 '^###.*$'
+syn match headerTitle2 '^\*\*\*.*$'
 syn match textComment '\/\/.*$'
 "----------------------------------------------------------------------------/
 "  Setup syntax highlighting
