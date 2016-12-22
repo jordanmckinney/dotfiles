@@ -158,14 +158,11 @@
 " Formatting {{{
 "===============================================================
 
-    filetype indent on              " load filetype-specific indent files
-    set tabstop=4                   " number of visual spaces per TAB
-    set softtabstop=4               " number of spaces in tab when editing
-    set shiftwidth=4                " number of spaces inserted per tab
-
+    filetype plugin indent on       " load filetype-specific indent files
     set expandtab                   " tabs are spaces
-    set smartindent
-    set autoindent
+    set shiftwidth=4                " number of spaces inserted per tab
+    set softtabstop=4               " number of spaces in tab when editing
+    set autoindent                  " copies indentation from prev line
     set wrap
 
     " Make tabs, trailing whitespace, and non-breaking spaces visible

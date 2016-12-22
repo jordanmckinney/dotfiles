@@ -54,6 +54,9 @@
     alias cddot='cd ~/Dropbox/dotfiles/'
     alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
     alias cdcode='cd ~/Dropbox/code/'
+    alias cdwork='cd ~/Dropbox/REF/programming/workflow'
+    alias cdpro='cd ~/Dropbox/REF/programming'
+    alias cdref='cd ~/Dropbox/REF'
 
     # git stuff
     alias gadd='git add .'
