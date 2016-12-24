@@ -159,6 +159,7 @@
 "===============================================================
 
     filetype plugin indent on       " load filetype-specific indent files
+    filetype plugin on
     set expandtab                   " tabs are spaces
     set shiftwidth=4                " number of spaces inserted per tab
     set softtabstop=4               " number of spaces in tab when editing
@@ -203,6 +204,8 @@
     map <leader>q ;wq<cr>
     " open/close fold
     map <leader>l za<cr>
+    " copy to system register
+    map <leader>y "+y<cr>
     " paste from system register
     map <leader>p "+p<cr>
     " insert empty line below
