@@ -51,12 +51,16 @@
 
     alias shutdown='shutdown -h now'
     alias restart='shutdown -r now'
-    alias cddot='cd ~/Dropbox/dotfiles/'
+    alias cddot='cd ~/Dropbox/DotFiles/'
     alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
     alias cdcode='cd ~/Dropbox/code/'
-    alias cdwork='cd ~/Dropbox/REF/workflow'
+    alias cdvim='cd ~/Dropbox/REF/workflow'
     alias cdref='cd ~/Dropbox/REF'
     alias cdsref='cd ~/Dropbox/sREF'
+    alias cdwork='cd ~/Dropbox/REF/work'
+    alias cdmast='cd ~/Dropbox/sREF/mastery'
+    alias v=vim
+    # alias python=python3
 
     # git stuff
     alias gadd='git add .'
@@ -96,7 +100,6 @@
 #===============================================================
 
     source $ZSH/oh-my-zsh.sh
-    export PATH="/home/jordan/anaconda3/bin:$PATH"
 
     # Uncomment the following line if you want to disable marking untracked files
     # under VCS as dirty. This makes repository status check for large repositories
@@ -119,5 +122,13 @@
 
 #===============================================================
 # }}}
+
+# export PATH="/home/jordan/anaconda3/bin:$PATH"
+source /usr/local/bin/virtualenvwrapper.sh
+source /usr/local/bin/activate.sh
+# source ~/.autoenv/activate.sh
+
+# pip should only run if there is a virtualenv currently activated
+# export PIP_REQUIRE_VIRTUALENV=true
 
 # vim:foldmethod=marker:foldlevel=0

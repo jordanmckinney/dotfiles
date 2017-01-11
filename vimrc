@@ -1,10 +1,27 @@
+" Setup {{{
+"===============================================================
+
+    " create .vimrc with: source /home/jordan/Dropbox/DotFiles/vimrc
+    " create .vim
+    " ln -s ~/Dropbox/DotFiles/.vim/after ~/.vim/after
+    " ln -s ~/Dropbox/DotFiles/.vim/colors ~/.vim/colors
+    " ln -s ~/Dropbox/DotFiles/.vim/syntax ~/.vim/syntax
+    " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    " :PluginInstall
+    " sudo apt-get install build-essential cmake
+    " sudo apt-get install python-dev python3-dev
+    " cd ~/.vim/bundle/YouCompleteMe
+    " ./install.py --clang-completer
+    " pip3 install flake8
+
+"===============================================================
+" }}}
 
 " Vundle {{{
 "===============================================================
 
-    " Plug ins to try
-    " youcompleteme
-    " nerdtree
+    " :PluginInstall
+    " :PluginUpdate
 
     set nocompatible              " be iMproved, required
     filetype off                  " required
@@ -27,14 +44,17 @@
     " allows easy commenting out of lines/blocks
     Plugin 'tpope/vim-commentary'
 
+    " flake8 py PEP8 style check
+    Plugin 'nvie/vim-flake8'
+
     " fuzzy file search
-    Plugin 'ctrlpvim/ctrlp.vim'
+    " Plugin 'ctrlpvim/ctrlp.vim'
 
     " file explorer
     Plugin 'scrooloose/nerdtree'
 
-    " :PluginInstall
-    " :PluginUpdate
+    " https://github.com/Valloric/YouCompleteMe#user-guide
+    Plugin 'Valloric/YouCompleteMe'
 
     call vundle#end()
 
@@ -63,10 +83,19 @@
     autocmd FileType js setlocal commentstring=//\ %s
     autocmd FileType c setlocal commentstring=//\ %s
     autocmd FileType java setlocal commentstring=//\ %s
+    autocmd FileType txt setlocal commentstring=//\ %s
 
 "===============================================================
 " }}}
 
+" Flake8 {{{
+"===============================================================
+
+    " pip3 install Flake8
+    " autocmd FileType python map <buffer> <F3> :call Flake8()<CR>
+
+"===============================================================
+" }}}
 
 " General {{{
 "===============================================================
@@ -117,6 +146,8 @@
 "===============================================================
 
     :ab teh the
+    :ab recieve receive
+    :ab recieved received
     :ab syspl System.out.println
 
 "===============================================================

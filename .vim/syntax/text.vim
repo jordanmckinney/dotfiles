@@ -7,8 +7,8 @@ endif
 "----------------------------------------------------------------/
 " Regex for capitalized words, add your own matches here:
 syn match headerTitle1 '^###.*$'
-syn match headerTitle2 '^\*\*\*.*$'
-syn match headerTitle3 '^\~\~\~.*$'
+syn match headerTitle2 '^\~\~\~.*$'
+syn match headerTitle3 '^+++.*$'
 syn match textComment '\/\/.*$'
 syn match specialWord '`.*`'
 "----------------------------------------------------------------------------/
