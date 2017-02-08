@@ -1,9 +1,7 @@
-
-# General {{{
+# Plugins {{{
 #===============================================================
 
-    # Path to oh-my-zsh installation.
-    export ZSH=/home/jordan/.oh-my-zsh
+    plugins=(git vi-mode autoenv autosuggestions)
 
 #===============================================================
 # }}}
@@ -11,14 +9,49 @@
 # Appearance {{{
 #===============================================================
 
+    BASE16_SHELL=$HOME/.config/base16-shell/
+    [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+
     ZSH_THEME="robbyrussell"
-    export TERM="xterm-256color"
+    # ZSH_THEME="bira"
+    # ZSH_THEME="cloud"
 
     # Uncomment the following line to disable colors in ls.
     # DISABLE_LS_COLORS="true"
 
     # Uncomment the following line to disable auto-setting terminal title.
     # DISABLE_AUTO_TITLE="true"
+
+#===============================================================
+# }}}
+
+# Exports {{{
+#===============================================================
+
+    # Path to oh-my-zsh installation.
+    export ZSH=/home/jordan/.oh-my-zsh
+    export TERM="xterm-256color"
+    # export PATH="/home/jordan/anaconda3/bin:$PATH"
+
+    source /usr/local/bin/virtualenvwrapper.sh
+    # $ pip install autoenv
+    source /usr/local/bin/activate.sh
+    # source ~/.autoenv/activate.sh
+    # pip should only run if there is a virtualenv currently activated
+    # export PIP_REQUIRE_VIRTUALENV=true
+
+    # Preferred editor for local and remote sessions
+    if [[ -n $SSH_CONNECTION ]]; then
+      export EDITOR='vim'
+    else
+      export EDITOR='nvim'
+    fi
+    # ssh
+    # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+    # docker completion path
+    fpath=(~/.zsh/completion $fpath)
+    autoload -Uz compinit && compinit -i
 
 #===============================================================
 # }}}
@@ -54,33 +87,22 @@
     alias cddot='cd ~/Dropbox/DotFiles/'
     alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
     alias cdcode='cd ~/Dropbox/code/'
-    alias cdvim='cd ~/Dropbox/REF/workflow'
+    alias cdvim='cd ~/Dropbox/REF/technologies'
     alias cdref='cd ~/Dropbox/REF'
     alias cdsref='cd ~/Dropbox/sREF'
     alias cdwork='cd ~/Dropbox/REF/work'
     alias cdmast='cd ~/Dropbox/sREF/mastery'
-    alias v=vim
-    # alias python=python3
+    alias v=nvim
+    alias s=ls
+    alias zz=exit
+    alias dbu='docker-compose build'
+    alias dup='docker-compose up'
+    alias pmrun='python3 manage.py runserver'
+    alias t='tree'
 
     # git stuff
     alias gadd='git add .'
     alias gpom='git push origin master'
-
-#===============================================================
-# }}}
-
-# SSH {{{
-#===============================================================
-
-    # Preferred editor for local and remote sessions
-    if [[ -n $SSH_CONNECTION ]]; then
-      export EDITOR='vim'
-    else
-      export EDITOR='mvim'
-    fi
-
-    # ssh
-    # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 #===============================================================
 # }}}
@@ -96,10 +118,30 @@
 #===============================================================
 # }}}
 
+# vi mode {{{
+#===============================================================
+
+    # enable vi mode!
+    # bindkey -v
+    # export KEYTIMEOUT=1
+
+    # function zle-line-init zle-keymap-select {
+    #     VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]% %{$reset_color%}"
+    #     RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/} $(git_custom_status) $EPS1"
+    #     zle reset-prompt
+    # }
+    # RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_custom_status) $EPS1"
+
+#===============================================================
+# }}}
+
 # Etc {{{
 #===============================================================
 
     source $ZSH/oh-my-zsh.sh
+    source ~/.bin/tmuxinator.zsh
+    # disable ctrl-s scroll lock
+    stty -ixon
 
     # Uncomment the following line if you want to disable marking untracked files
     # under VCS as dirty. This makes repository status check for large repositories
@@ -122,13 +164,5 @@
 
 #===============================================================
 # }}}
-
-# export PATH="/home/jordan/anaconda3/bin:$PATH"
-source /usr/local/bin/virtualenvwrapper.sh
-source /usr/local/bin/activate.sh
-# source ~/.autoenv/activate.sh
-
-# pip should only run if there is a virtualenv currently activated
-# export PIP_REQUIRE_VIRTUALENV=true
 
 # vim:foldmethod=marker:foldlevel=0
