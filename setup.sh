@@ -26,5 +26,5 @@ ln -s ~/Dropbox/DotFiles/.zsh ~/
 echo "set editing-mode vi" > ~/.inputrc
 echo "set keymap vi-command" >> ~/.inputrc
 
-cp ./.zsh/vi-mode/vi-mode.plugin.zsh \
-    ~/.oh-my-zsh/plugins/vi-mode/vi-mode.plugin.zsh
+# cp ./.zsh/vi-mode/vi-mode_altered.plugin.zsh \
+    # ~/.oh-my-zsh/plugins/vi-mode/vi-mode.plugin.zsh

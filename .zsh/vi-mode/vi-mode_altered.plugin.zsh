@@ -35,10 +35,21 @@ bindkey '^r' history-incremental-search-backward
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
 
+function zle-line-init zle-keymap-select {
+    # NORMAL="%{$fg_bold[blue]%}✚%{$fg[blue]%}%{$reset_color%}"
+    # INSERT="%{$fg_bold[red]%}✚%{$fg[red]%}%{$reset_color%}"
+    NORMAL="%{$fg_bold[blue]%}%{$fg[blue]%}[N]%{$reset_color%}"
+    INSERT="%{$fg_bold[green]%}%{$fg[green]%}[I]%{$reset_color%}"
+    RPS1="${${KEYMAP/vicmd/$NORMAL}/(main|viins)/$INSERT}"
+    RPS2=$RPS1
+    zle reset-prompt
+}
+export KEYTIMEOUT=1
+
 # if mode indicator wasn't setup by theme, define default
-if [[ "$MODE_INDICATOR" == "" ]]; then
-  MODE_INDICATOR="%{$fg_bold[red]%}<%{$fg[red]%}<<%{$reset_color%}"
-fi
+# if [[ "$MODE_INDICATOR" == "" ]]; then
+#   MODE_INDICATOR="%{$fg_bold[red]%}<%{$fg[red]%}<<%{$reset_color%}"
+# fi
 
 function vi_mode_prompt_info() {
   echo "${${KEYMAP/vicmd/$MODE_INDICATOR}/(main|viins)/}"

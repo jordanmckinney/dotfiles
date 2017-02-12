@@ -22,6 +22,7 @@
         Plug 'tpope/vim-surround'
         Plug 'tpope/vim-commentary'
         Plug 'scrooloose/nerdtree'
+        Plug 'Xuyuanp/nerdtree-git-plugin'
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
         Plug 'ctrlpvim/ctrlp.vim'
         " Plug 'tpope/vim-fugitive'
@@ -30,6 +31,16 @@
     call plug#end()
     " PlugInstall
     " PlugUpdate
+
+"===============================================================
+" }}}
+
+" Nerdtree {{{
+"===============================================================
+
+    let NERDTreeAutoDeleteBuffer = 1
+    let NERDTreeMinimalUI = 1
+    let NERDTreeDirArrows = 1
 
 "===============================================================
 " }}}
@@ -158,6 +169,8 @@
 " Deoplete {{{
 "===============================================================
 
+    " pip3 install --user neovim
+    " :UpdateRemotePlugins
     " Use Deoplete.
     let g:deoplete#enable_at_startup = 1
 
@@ -208,11 +221,12 @@
     syntax enable                   " enable syntax processing
     set wildmenu                    " visual autocomplete for command menu
     set lazyredraw                  " redraw only when we need to.
-
     set hidden
     set history=100
     let mapleader=" "
     au FocusLost * :wa              " save on losing focus
+    " the best feature of neovim
+    if has('mouse') | set mouse=a | endif
 
 "===============================================================
 " }}}
