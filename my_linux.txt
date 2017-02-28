@@ -4,6 +4,7 @@
 -go into `disks`, it's in there
 
 ~~~ Programs
+-ag (apt-get install silversearcher-ag)
 -git
 -zsh, then go to oh-my-zsh
 -vim

@@ -1,4 +1,4 @@
-# Plugins {{{
+# tmux {{{
 #===============================================================
 
     if [ "$TMUX" = "" ]; then tmux; fi
@@ -10,6 +10,14 @@
 #===============================================================
 
     plugins=(git vi-mode autoenv autosuggestions)
+
+#===============================================================
+# }}}
+
+# Autoenv {{{
+#===============================================================
+
+    # source ~/.autoenv/activate.sh
 
 #===============================================================
 # }}}
@@ -44,7 +52,6 @@
     source /usr/local/bin/virtualenvwrapper.sh
     # $ pip install autoenv
     source /usr/local/bin/activate.sh
-    # source ~/.autoenv/activate.sh
     # pip should only run if there is a virtualenv currently activated
     # export PIP_REQUIRE_VIRTUALENV=true
 
@@ -107,6 +114,7 @@
     alias dup='docker-compose up'
     alias pmrun='python3 manage.py runserver'
     alias t='tree'
+    alias pi='ssh pi@192.168.0.200'
 
     # git stuff
     alias gadd='git add .'

@@ -3,6 +3,7 @@
 mkdir ~/.config
 mkdir ~/.config/nvim
 
+
 # echo "source ~/Dropbox/DotFiles/init.vim" > ~/.config/nvim/init.vim
 rm ~/.config/nvim/init.vim
 ln -s ~/Dropbox/DotFiles/init.vim ~/.config/nvim/

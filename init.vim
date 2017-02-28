@@ -35,12 +35,33 @@
 "===============================================================
 " }}}
 
+" Ag {{{
+"===============================================================
+
+    " apt-get install silversearcher-ag
+    " The Silver Searcher
+    if executable('ag')
+      " Use ag over grep
+      set grepprg=ag\ --nogroup\ --nocolor
+
+      " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+      let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+      " ag is fast enough that CtrlP doesn't need to cache
+      let g:ctrlp_use_caching = 0
+    endif
+
+"===============================================================
+" }}}
+
 " Nerdtree {{{
 "===============================================================
 
     let NERDTreeAutoDeleteBuffer = 1
     let NERDTreeMinimalUI = 1
     let NERDTreeDirArrows = 1
+    " let NERDTreeShowHidden = 1
+    let NERDTreeIgnore = ['\.pyc$']
 
 "===============================================================
 " }}}
@@ -169,6 +190,7 @@
 " Deoplete {{{
 "===============================================================
 
+    " PYTHON3 SUPPORT
     " pip3 install --user neovim
     " :UpdateRemotePlugins
     " Use Deoplete.
@@ -245,7 +267,7 @@
     endtry
 
     set encoding=UTF-8
-    set relativenumber              " show line numbers
+    " set relativenumber              " show line numbers
     set number
     set showcmd                     " show command in bottom bar
     set cursorline                  " highlights line number that cursor is on
@@ -392,6 +414,13 @@
     " move up/down faster
     nnoremap <C-j> 4j
     nnoremap <C-k> 4k
+
+    " grep for word under cursor
+    :nnoremap <leader>* :silent execute "grep! -R " . shellescape(expand("<cWORD>")) . " ."<cr>:copen<cr>
+
+    " bind \ (backward slash) to grep shortcut
+    command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+    nnoremap \ :Ag<SPACE>
 
 "===============================================================
 " }}}
