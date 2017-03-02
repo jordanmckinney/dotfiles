@@ -1,6 +1,6 @@
 # DotFiles
 
-My dotfiles for Vim, ZSH and Tmux. 
+My dotfiles for Vim, ZSH and Tmux.
 
 [Blog post](http://www.jordanmmckinney.com/zshvimtmux/)
 
