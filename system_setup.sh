@@ -86,6 +86,7 @@ pip2 install --user neovim
 
 git config --global user.email "jordanmmck@gmail.com"
 git config --global user.name "Jordan McKinney"
+git config --global push.default simple
 
 # docker?
 
