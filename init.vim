@@ -1,11 +1,6 @@
 " Setup {{{
 "===============================================================
 
-    " curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    "     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    " curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    "     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    " PlugInstall
     " pip3 install flake8
     " sudo apt install xsel
 
@@ -23,10 +18,8 @@
         Plug 'tpope/vim-commentary'
         Plug 'scrooloose/nerdtree'
         Plug 'Xuyuanp/nerdtree-git-plugin'
-        Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
         Plug 'ctrlpvim/ctrlp.vim'
-        " Plug 'tpope/vim-fugitive'
-        " Plug 'nvie/vim-flake8'
+        Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
 
     call plug#end()
     " PlugInstall
@@ -267,6 +260,7 @@
     endtry
 
     set encoding=UTF-8
+
     " set relativenumber              " show line numbers
     set number
     set showcmd                     " show command in bottom bar
@@ -274,18 +268,19 @@
     set showmatch                   " highlight matching [{()}]
     set t_Co=256                    " use 256 colors
     set laststatus=2                " Always show statusline
-    " highlight 81st column of wide lines
+
+    " highlight 80th column of wide lines
     highlight ColorColumn ctermbg=magenta
-    call matchadd('ColorColumn', '\%81v', 100)
+    call matchadd('ColorColumn', '\%120v', 100)
+
+    " cursor is block in normal, line in insert
+    :let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
 
     " no-text area transparent
     " hi Normal ctermbg=none
     " highlight Normal ctermbg=none
     " highlight NonText ctermbg=none
     " let g:base16_transparent_background = 1
-
-    " color of folded lines
-    " hi Folded ctermbg=000
 
 "===============================================================
 " }}}

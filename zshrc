@@ -29,8 +29,6 @@
     [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
     ZSH_THEME="robbyrussell"
-    # ZSH_THEME="bira"
-    # ZSH_THEME="cloud"
 
     # Uncomment the following line to disable colors in ls.
     # DISABLE_LS_COLORS="true"
@@ -44,25 +42,12 @@
 # Exports {{{
 #===============================================================
 
-    # Path to oh-my-zsh installation.
-    export ZSH=/home/jordan/.oh-my-zsh
-    export TERM="xterm-256color"
-    # export PATH="/home/jordan/anaconda3/bin:$PATH"
-
-    source /usr/local/bin/virtualenvwrapper.sh
-    # $ pip install autoenv
-    source /usr/local/bin/activate.sh
-    # pip should only run if there is a virtualenv currently activated
-    # export PIP_REQUIRE_VIRTUALENV=true
-
     # Preferred editor for local and remote sessions
     if [[ -n $SSH_CONNECTION ]]; then
       export EDITOR='vim'
     else
       export EDITOR='nvim'
     fi
-    # ssh
-    # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
     # docker completion path
     fpath=(~/.zsh/completion $fpath)
@@ -154,23 +139,9 @@
 # Etc {{{
 #===============================================================
 
-    source $ZSH/oh-my-zsh.sh
-    source ~/.bin/tmuxinator.zsh
+    # source ~/.bin/tmuxinator.zsh
     # disable ctrl-s scroll lock
     stty -ixon
-
-    # Uncomment the following line if you want to disable marking untracked files
-    # under VCS as dirty. This makes repository status check for large repositories
-    # much, much faster.
-    # DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-    # Uncomment the following line if you want to change the command execution time
-    # stamp shown in the history command output.
-    # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-    # HIST_STAMPS="mm/dd/yyyy"
-
-    # Would you like to use another custom folder than $ZSH/custom?
-    # ZSH_CUSTOM=/path/to/new-custom-folder
 
     # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
     # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
