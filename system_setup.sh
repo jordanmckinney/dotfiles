@@ -67,9 +67,9 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
 
 # ************* Python ********************
-# pip install virtualenv
-# sudo pip install virtualenvwrapper
-# sudo pip install autoenv
+sudo pip install virtualenv
+sudo pip install virtualenvwrapper
+sudo pip install autoenv
 
 # sudo apt install python3-pip
 # pip3 install --upgrade pip

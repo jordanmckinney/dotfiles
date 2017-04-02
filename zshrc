@@ -14,10 +14,11 @@
 #===============================================================
 # }}}
 
-# Autoenv {{{
+# VirtualEnv {{{
 #===============================================================
 
-    # source ~/.autoenv/activate.sh
+    source /usr/local/bin/virtualenvwrapper.sh
+    source /usr/local/bin/activate.sh
 
 #===============================================================
 # }}}
@@ -139,7 +140,6 @@
 # Etc {{{
 #===============================================================
 
-    # source ~/.bin/tmuxinator.zsh
     # disable ctrl-s scroll lock
     stty -ixon
 
