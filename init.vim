@@ -183,8 +183,6 @@
 " Deoplete {{{
 "===============================================================
 
-    " PYTHON3 SUPPORT
-    " pip3 install --user neovim
     " :UpdateRemotePlugins
     " Use Deoplete.
     let g:deoplete#enable_at_startup = 1

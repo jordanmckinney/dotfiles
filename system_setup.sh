@@ -90,6 +90,10 @@ git config --global push.default simple
 
 # docker?
 
+# ************* Nvim *************************
+# :PlugInstall
+# :UpdateRemotePlugins
+#
 # ************* Etc *************************
 # install chrome from the chrome site
 #
