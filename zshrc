@@ -14,15 +14,6 @@
 #===============================================================
 # }}}
 
-# VirtualEnv {{{
-#===============================================================
-
-    source /usr/local/bin/virtualenvwrapper.sh
-    source /usr/local/bin/activate.sh
-
-#===============================================================
-# }}}
-
 # Appearance {{{
 #===============================================================
 
@@ -101,21 +92,11 @@
     alias pmrun='python3 manage.py runserver'
     alias t='tree'
     alias pi='ssh pi@192.168.0.200'
+    alias dac='deactivate'
 
     # git stuff
     alias gadd='git add .'
     alias gpom='git push origin master'
-
-#===============================================================
-# }}}
-
-# Updates {{{
-#===============================================================
-
-    # Uncomment the following line to disable bi-weekly auto-update checks.
-    # DISABLE_AUTO_UPDATE="true"
-    # Uncomment the following line to change how often to auto-update (in days).
-    # export UPDATE_ZSH_DAYS=13
 
 #===============================================================
 # }}}
