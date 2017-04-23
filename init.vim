@@ -56,6 +56,15 @@
     " let NERDTreeShowHidden = 1
     let NERDTreeIgnore = ['\.pyc$']
 
+    " start nerdtree automatically
+    autocmd vimenter * NERDTree
+    " start nerdtree even if no file was specified
+    autocmd StdinReadPre * let s:std_in=1
+    autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+    " allow closing if only thing left is nerdtree
+    autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+    let g:NERDTreeWinSize = 20
+
 "===============================================================
 " }}}
 
@@ -215,15 +224,6 @@
     autocmd FileType c setlocal commentstring=//\ %s
     autocmd FileType java setlocal commentstring=//\ %s
     autocmd FileType txt setlocal commentstring=//\ %s
-
-"===============================================================
-" }}}
-
-" Flake8 {{{
-"===============================================================
-
-    " pip3 install Flake8
-    " autocmd FileType python map <buffer> <F3> :call Flake8()<CR>
 
 "===============================================================
 " }}}
@@ -394,7 +394,8 @@
     " insert empty line above
     map <leader>k O<esc>cc<esc><cr>
     " open nerdtree
-    map <leader>t ;NERDTree<cr>
+    " map <leader>t ;NERDTree<cr>
+    map <leader>t ;NERDTreeToggle<CR>
 
     " use tab to switch between brace pairs
     nnoremap <tab> %

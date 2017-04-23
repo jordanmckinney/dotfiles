@@ -88,15 +88,18 @@
     alias s=ls
     alias zz=exit
     alias dbu='docker-compose build'
-    alias dup='docker-compose up'
+    alias dup='docker-compose up -d'
     alias pmrun='python3 manage.py runserver'
     alias t='tree'
     alias pi='ssh pi@192.168.0.200'
     alias dac='deactivate'
+    alias serv='python manage.py runserver'
 
     # git stuff
     alias gadd='git add .'
     alias gpom='git push origin master'
+    alias gst='git status'
+    alias mux='tmuxinator'
 
 #===============================================================
 # }}}
