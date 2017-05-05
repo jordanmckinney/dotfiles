@@ -53,17 +53,23 @@
     let NERDTreeAutoDeleteBuffer = 1
     let NERDTreeMinimalUI = 1
     let NERDTreeDirArrows = 1
+
     " let NERDTreeShowHidden = 1
     let NERDTreeIgnore = ['\.pyc$']
 
     " start nerdtree automatically
-    autocmd vimenter * NERDTree
+    autocmd VimEnter * NERDTree
+
     " start nerdtree even if no file was specified
     autocmd StdinReadPre * let s:std_in=1
     autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
     " allow closing if only thing left is nerdtree
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
     let g:NERDTreeWinSize = 20
+
+    " set focus to vim not nerdtree unless no file was opened
+    autocmd VimEnter * if argc() | wincmd p | endif
 
 "===============================================================
 " }}}
