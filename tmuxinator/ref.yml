@@ -39,3 +39,8 @@ windows:
       root: ~/Dropbox/DotFiles
       panes:
         - nvim init.vim
+  - etc:
+      root: ~/
+      panes:
+        - nvim services.txt
+
