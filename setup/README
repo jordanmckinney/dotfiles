@@ -1,0 +1,39 @@
+### Other stuff to do
+
+~~~ Programs
+-chrome
+-sublimetext3
+-gnome tweaktool
+-unity tweak
+
+~~~ Fonts
+default: ubuntu regular 10
+document: sans regular 10
+monospace: source code pro for powerline medium 10
+window title: robot mono for powerline bold 10
+
+~~~ Startup
+( tweak tool )
+-dropbox: dropbox start -i
+-redshift: /usr/bin/redshift
+-chrome
+
+~~~ Media
+-go into `disks`, set sleep
+
+~~~ Etc
+-add new ssh key to github
+-add .env files to ~ and dev:
+```
+if [ -n "$VIRTUAL_ENV" ] ; then
+    deactivate
+fi
+```
+
+~~~ Nvim
+```
+:PlugInstall
+:PlugUpdate
+:UpdateRemotePlugins
+```
+

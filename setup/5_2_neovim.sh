@@ -1,21 +1,5 @@
 #!/bin/bash
 
-pyenv install 2.7.11
-pyenv install 3.4.4
-
-pyenv virtualenv 2.7.11 neovim2
-pyenv virtualenv 3.4.4 neovim3
-
-sudo add-apt-repository ppa:neovim-ppa/stable
-
-pyenv activate neovim2
-pip install neovim
-# pyenv which python  # Note the path
-
-pyenv activate neovim3
-pip install neovim
-# pyenv which python  # Note the path
-
 sudo apt-get install neovim
 sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
 sudo update-alternatives --config vi

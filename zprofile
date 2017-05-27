@@ -16,6 +16,13 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 export PATH=/usr/local/cuda-8.0.61/bin${PATH:+:${PATH}}
 export PATH="/usr/local/cuda/bin:$PATH"
 
+# eth
+export GPU_FORCE_64BIT_PTR=0
+export GPU_MAX_HEAP_SIZE=100
+export GPU_USE_SYNC_OBJECTS=1
+export GPU_MAX_ALLOC_PERCENT=100
+export GPU_SINGLE_ALLOC_PERCENT=100
+
 # autoenv
 source /usr/local/bin/activate.sh
 
