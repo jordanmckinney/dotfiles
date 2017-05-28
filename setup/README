@@ -21,6 +21,13 @@ window title: robot mono for powerline bold 10
 ~~~ Media
 -go into `disks`, set sleep
 
+~~~ Nvim
+```
+:PlugInstall
+:PlugUpdate
+:UpdateRemotePlugins
+```
+
 ~~~ Etc
 -add new ssh key to github
 -add .env files to ~ and dev:
@@ -30,10 +37,6 @@ if [ -n "$VIRTUAL_ENV" ] ; then
 fi
 ```
 
-~~~ Nvim
-```
-:PlugInstall
-:PlugUpdate
-:UpdateRemotePlugins
-```
+-term colors #302F63
+
 

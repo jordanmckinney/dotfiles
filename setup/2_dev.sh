@@ -4,6 +4,9 @@ sudo apt install postgresql
 sudo apt install libpq-d
 pip install --upgrade --user awscli
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+
+echo 'MIGHT NEED TO RESTART'
+
 nvm install node
 
 sudo apt-get install python-pip
