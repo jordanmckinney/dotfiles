@@ -20,6 +20,8 @@
         Plug 'Xuyuanp/nerdtree-git-plugin'
         Plug 'ctrlpvim/ctrlp.vim'
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
+        Plug 'pangloss/vim-javascript'
+        Plug 'JamshedVesuna/vim-markdown-preview'
 
     call plug#end()
     " PlugInstall
@@ -54,8 +56,8 @@
     let NERDTreeMinimalUI = 1
     let NERDTreeDirArrows = 1
 
-    " let NERDTreeShowHidden = 1
-    let NERDTreeIgnore = ['\.pyc$']
+    let NERDTreeShowHidden = 1
+    let NERDTreeIgnore = ['\.pyc$', 'node_modules']
 
     " start nerdtree automatically
     autocmd VimEnter * NERDTree

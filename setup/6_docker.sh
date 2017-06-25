@@ -10,9 +10,11 @@ sudo apt-get update
 sudo apt-get -y install docker-ce
 
 sudo -i
-curl -L https://github.com/docker/compose/releases/download/1.12.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
-exit
+# manually from here
 
-sudo groupadd docker
-sudo usermod -aG docker $USER
+# curl -L https://github.com/docker/compose/releases/download/1.12.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+# chmod +x /usr/local/bin/docker-compose
+# exit
+
+# sudo groupadd docker
+# sudo usermod -aG docker $USER
