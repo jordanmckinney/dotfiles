@@ -20,6 +20,7 @@
         Plug 'Xuyuanp/nerdtree-git-plugin'
         Plug 'ctrlpvim/ctrlp.vim'
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
+        Plug 'pangloss/vim-javascript'
 
     call plug#end()
     " PlugInstall

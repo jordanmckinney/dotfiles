@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-exec $SHELL
 rbenv install 2.3.4
 rbenv global 2.3.4
 gem install bundler
