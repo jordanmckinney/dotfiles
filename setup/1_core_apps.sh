@@ -12,18 +12,23 @@ sudo apt install vlc
 sudo apt install xsel
 sudo apt install silversearcher-ag
 sudo apt install --reinstall hplip
-sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
-
-sudo add-apt-repository ppa:noobslab/themes
-sudo add-apt-repository ppa:snwh/pulp
 
 git clone https://github.com/powerline/fonts ~/.local/share/fonts
 
+sudo add-apt-repository ppa:noobslab/themes
+sudo add-apt-repository ppa:snwh/pulp
+sudo apt-get update
+
+<<<<<<< HEAD
+git clone https://github.com/powerline/fonts ~/.local/share/fonts
+
+=======
+>>>>>>> 0b796f39d7865fcb8606ade13af485ccc92355f7
 sudo apt-get install paper-icon-theme
 sudo apt-get install paper-gtk-theme
 sudo apt-get install paper-cursor-theme
 sudo apt install arc-flatabulous-theme
-sudo apt-get update
+
 sudo apt-get upgrade
 
 git config --global user.email "jordanmmck@gmail.com"

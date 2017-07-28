@@ -1,10 +1,10 @@
 name: site
-root: ~/Development/personal-site
+root: ~/Development/blog
 
 windows:
   - site:
       layout: even-vertical
       panes:
-        - git status
         - yarn start
+        - git status
         - nvim package.json
