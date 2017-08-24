@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# for cpp-ether fork
+sudo apt-get install libjsoncpp-dev
+
 sudo add-apt-repository ppa:ethereum/ethereum
 sudo apt-get update
 sudo apt-get install ethereum geth

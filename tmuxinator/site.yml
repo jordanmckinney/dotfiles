@@ -1,5 +1,5 @@
 name: site
-root: ~/Development/blog
+root: ~/Development/jordanmmck.github.io
 
 windows:
   - site:

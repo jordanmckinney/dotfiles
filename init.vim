@@ -22,6 +22,8 @@
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
         Plug 'pangloss/vim-javascript'
         Plug 'JamshedVesuna/vim-markdown-preview'
+        Plug 'godlygeek/tabular'
+        Plug 'plasticboy/vim-markdown'
 
     call plug#end()
     " PlugInstall

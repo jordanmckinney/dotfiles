@@ -1,0 +1,10 @@
+name: miner
+root: ~/Downloads
+
+windows:
+  - miner:
+      layout: even-vertical
+      panes:
+        - cd bin && ./start.sh
+        - ./gpu_temp.sh
+        - ./gpu_power.sh
