@@ -35,6 +35,10 @@ windows:
       root: ~/Dropbox/REF
       panes:
         - nvim technologies/cmdline.txt
+  - sREF:
+      root: ~/Dropbox/sREF
+      panes:
+        - nvim world/human_timeline.txt
   - Dot:
       root: ~/Dropbox/DotFiles
       panes:

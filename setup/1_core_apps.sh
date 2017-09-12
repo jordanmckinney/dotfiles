@@ -48,3 +48,6 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# printer stuff
+# http://support.brother.com/g/b/downloadhowto.aspx?c=us&lang=en&prod=dcp7065dn_all&os=128&dlid=dlf006893_000&flang=4&type3=625
