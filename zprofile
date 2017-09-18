@@ -18,6 +18,7 @@ export PATH="/home/jordan/anaconda3/bin:$PATH"
 # cuda for tensorflow
 export PATH=/usr/local/cuda-8.0.61/bin${PATH:+:${PATH}}
 export PATH="/usr/local/cuda/bin:$PATH"
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64/
 
 # eth
 export GPU_FORCE_64BIT_PTR=0

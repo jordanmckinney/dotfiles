@@ -19,11 +19,6 @@ sudo add-apt-repository ppa:noobslab/themes
 sudo add-apt-repository ppa:snwh/pulp
 sudo apt-get update
 
-<<<<<<< HEAD
-git clone https://github.com/powerline/fonts ~/.local/share/fonts
-
-=======
->>>>>>> 0b796f39d7865fcb8606ade13af485ccc92355f7
 sudo apt-get install paper-icon-theme
 sudo apt-get install paper-gtk-theme
 sudo apt-get install paper-cursor-theme

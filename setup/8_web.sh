@@ -5,4 +5,4 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update && sudo apt-get install yarn
 
 echo 'RESTART TERM'
-echo 'run: yarn global add create-react-app'
+# echo 'run: yarn global add create-react-app'
