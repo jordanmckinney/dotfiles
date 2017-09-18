@@ -6,5 +6,4 @@ windows:
       layout: even-vertical
       panes:
         - cd bin && ./start.sh
-        - ./gpu_temp.sh
-        - ./gpu_power.sh
+        - watch -n 1 nvidia-smi

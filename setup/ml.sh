@@ -18,14 +18,12 @@ make
 ./nbody
 
 # https://developer.nvidia.com/rdp/cudnn-download
-# download the 3 debs
-cp -r /usr/src/cudnn_samples_v7/ $HOME
-cd $HOME/cudnn_samples_v7/mnistCUDNN
-make clean && make
-./mnistCUDNN
+# download the v6 deb
 
 # TF
 sudo apt-get install libcupti-dev
+# mkvirtualenv tensorflow
+# pip3 install --upgrade tensorflow-gpu
 #https://www.tensorflow.org/install/install_linux
 #https://stackoverflow.com/questions/42013316/after-building-tensorflow-from-source-seeing-libcudart-so-and-libcudnn-errors
 
