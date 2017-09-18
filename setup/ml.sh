@@ -26,4 +26,3 @@ sudo apt-get install libcupti-dev
 # pip3 install --upgrade tensorflow-gpu
 #https://www.tensorflow.org/install/install_linux
 #https://stackoverflow.com/questions/42013316/after-building-tensorflow-from-source-seeing-libcudart-so-and-libcudnn-errors
-
