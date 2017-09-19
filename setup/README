@@ -2,7 +2,6 @@
 
 ~~~ Programs
 -chrome
--sublimetext3
 -gnome tweaktool
 -unity tweak
 
@@ -37,4 +36,8 @@ if [ -n "$VIRTUAL_ENV" ] ; then
 fi
 ```
 
--term colors #302F63
+~~~ Window resizing
+gsettings set org.compiz.resize:/org/compiz/profiles/unity/plugins/resize/ mode 1
+
+~~~ terminal
+#302F63

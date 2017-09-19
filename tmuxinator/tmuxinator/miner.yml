@@ -1,0 +1,9 @@
+name: miner
+root: ~/Downloads
+
+windows:
+  - miner:
+      layout: even-vertical
+      panes:
+        - cd bin && ./start.sh
+        - watch -n 1 nvidia-smi

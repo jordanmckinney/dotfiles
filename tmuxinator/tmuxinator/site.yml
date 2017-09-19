@@ -1,0 +1,10 @@
+name: site
+root: ~/Development/jordanmmck.github.io
+
+windows:
+  - site:
+      layout: even-vertical
+      panes:
+        - yarn start
+        - git status
+        - nvim package.json

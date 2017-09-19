@@ -1,0 +1,8 @@
+name: sref
+root: ~/
+
+windows:
+  - sref:
+      root: ~/Dropbox/sREF
+      panes:
+        - nvim mastery/systems.txt

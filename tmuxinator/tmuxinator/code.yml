@@ -1,0 +1,8 @@
+name: code
+root: ~/
+
+windows:
+  - Code:
+      root: ~/Dropbox/code
+      panes:
+        - nvim

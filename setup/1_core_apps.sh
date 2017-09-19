@@ -1,31 +1,23 @@
 #!/bin/bash
 
-sudo apt install nautilus-dropbox
-sudo apt install curl
-sudo apt install tree
-sudo apt install htop
-sudo apt install tmux
-sudo apt install redshift
-sudo apt install git
-sudo apt install zsh
-sudo apt install vlc
-sudo apt install xsel
-sudo apt install silversearcher-ag
-sudo apt install --reinstall hplip
+# basic stuff
+sudo apt install nautilus-dropbox curl tree \ 
+htop tmux redshift vlc xsel \ 
+silversearcher-ag golang-go \
+trimage git zsh
 
-git clone https://github.com/powerline/fonts ~/.local/share/fonts
+# python stuff
+sudo apt-get install python-pip python3-pip
+pip install --upgrade pip
+pip3 install --upgrade pip
+sudo pip install virtualenv
+sudo pip3 install virtualenv
+sudo pip install virtualenvwrapper
+sudo pip3 install virtualenvwrapper
+sudo pip install autoenv
+sudo pip3 install autoenv
 
-sudo add-apt-repository ppa:noobslab/themes
-sudo add-apt-repository ppa:snwh/pulp
-sudo apt-get update
-
-sudo apt-get install paper-icon-theme
-sudo apt-get install paper-gtk-theme
-sudo apt-get install paper-cursor-theme
-sudo apt install arc-flatabulous-theme
-
-sudo apt-get upgrade
-
+# git
 git config --global user.email "jordanmmck@gmail.com"
 git config --global user.name "Jordan McKinney"
 git config --global push.default simple
@@ -42,7 +34,5 @@ ssh-keygen -t rsa -b 4096 -C "jordanmmck@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# printer stuff
-# http://support.brother.com/g/b/downloadhowto.aspx?c=us&lang=en&prod=dcp7065dn_all&os=128&dlid=dlf006893_000&flang=4&type3=625
