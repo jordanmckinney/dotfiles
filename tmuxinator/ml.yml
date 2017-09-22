@@ -1,9 +1,9 @@
-name: miner
+name: ml
 root: ~/Downloads
 
 windows:
-  - miner:
+  - ml:
       layout: even-vertical
       panes:
-        - cd bin && ./start.sh
+        - cd bin && ./ml.sh
         - watch -n 1 nvidia-smi

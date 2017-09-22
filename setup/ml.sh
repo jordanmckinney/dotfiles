@@ -3,6 +3,10 @@
 conda update conda
 conda update anaconda
 conda update scikit-learn
+conda create -n tensorflow
+source activate tensorflow
+pip install --ignore-installed --upgrade tfBinaryURL
+# get url here ---> https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package
 
 # cuda
 # https://developer.nvidia.com/cuda-downloads

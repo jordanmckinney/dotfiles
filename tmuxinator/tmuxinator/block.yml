@@ -1,9 +1,0 @@
-name: block
-root: ~/Development/blockchain
-
-windows:
-  - site:
-      layout: even-vertical
-      panes:
-        - mkdocs serve
-        - nvim README.md
