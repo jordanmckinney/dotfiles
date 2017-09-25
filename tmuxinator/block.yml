@@ -2,7 +2,7 @@ name: block
 root: ~/Development/blockchain
 
 windows:
-  - site:
+  - block:
       layout: even-vertical
       panes:
         - mkdocs serve
