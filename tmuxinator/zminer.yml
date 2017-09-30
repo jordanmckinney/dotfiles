@@ -1,0 +1,9 @@
+name: z-miner
+root: ~/Downloads
+
+windows:
+  - miner:
+      layout: even-vertical
+      panes:
+        - cd zec && ./start.sh
+        - watch -n 1 nvidia-smi
