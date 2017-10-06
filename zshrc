@@ -76,13 +76,13 @@
 
     alias shutdown='shutdown -h now'
     alias restart='shutdown -r now'
-    alias cddot='cd ~/Dropbox/DotFiles/'
+    alias cddot='cd ~/Development/DotFiles/'
     alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
-    alias cdcode='cd ~/Dropbox/code/'
-    alias cdvim='cd ~/Dropbox/REF/technologies'
-    alias cdref='cd ~/Dropbox/REF'
+    alias cdcode='cd ~/Development/code/'
+    alias cdvim='cd ~/Development/REF/technologies'
+    alias cdref='cd ~/Development/REF'
     alias cdsref='cd ~/Dropbox/sREF'
-    alias cdwork='cd ~/Dropbox/REF/work'
+    alias cdwork='cd ~/Development/REF/work'
     alias cdmast='cd ~/Dropbox/sREF/mastery'
     alias v=nvim
     alias s=ls
