@@ -3,6 +3,6 @@ root: ~/
 
 windows:
   - sref:
-      root: ~/Dropbox/sREF
+      root: ~/Development/sREF
       panes:
         - nvim mastery/systems.txt

@@ -31,15 +31,15 @@ root: ~/
 # post: tmux -CC attach -t ref
 
 windows:
-  - REF:
-      root: ~/Dropbox/REF
-      panes:
-        - nvim technologies/cmdline.txt
-  - sREF:
-      root: ~/Dropbox/sREF
-      panes:
-        - nvim world/human_timeline.txt
   - Dot:
-      root: ~/Dropbox/DotFiles
+      root: ~/Development/DotFiles
       panes:
         - nvim init.vim
+  - REF:
+      root: ~/Development/REF
+      panes:
+        - nvim technologies/cmdline.txt
+  - Code:
+      root: ~/Development/code
+      panes:
+        - nvim README.md
