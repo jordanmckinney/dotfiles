@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ln -s ~/Dropbox/DotFiles/.zsh ~/
-ln -s ~/Dropbox/DotFiles/tmuxinator ~/.tmuxinator
+ln -s ~/Development/DotFiles/.zsh ~/
+ln -s ~/Development/DotFiles/tmuxinator ~/.tmuxinator
 echo "set editing-mode vi" >> ~/.inputrc
 echo "set keymap vi-command" >> ~/.inputrc
 echo "source ~/.bin/tmuxinator.zsh" >> ~/.zshrc
