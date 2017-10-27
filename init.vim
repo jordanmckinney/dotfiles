@@ -36,7 +36,6 @@
 " Ag {{{
 "===============================================================
 
-    " apt-get install silversearcher-ag
     " The Silver Searcher
     if executable('ag')
       " Use ag over grep
@@ -203,7 +202,6 @@
 " Deoplete {{{
 "===============================================================
 
-    " :UpdateRemotePlugins
     " Use Deoplete.
     let g:deoplete#enable_at_startup = 1
 
@@ -270,7 +268,7 @@
 
     set encoding=UTF-8
 
-    " set relativenumber              " show line numbers
+    " set relativenumber              " show relative line numbers
     set number
     set showcmd                     " show command in bottom bar
     set cursorline                  " highlights line number that cursor is on
@@ -423,7 +421,7 @@
     " grep for word under cursor
     :nnoremap <leader>* :silent execute "grep! -R " . shellescape(expand("<cWORD>")) . " ."<cr>:copen<cr>
 
-    " bind \ (backward slash) to grep shortcut
+    " bind \ (backward slash) to ag shortcut
     command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
     nnoremap \ :Ag<SPACE>
 
