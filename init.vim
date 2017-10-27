@@ -24,6 +24,7 @@
         Plug 'JamshedVesuna/vim-markdown-preview'
         Plug 'godlygeek/tabular'
         Plug 'plasticboy/vim-markdown'
+        Plug 'tomlion/vim-solidity'
 
     call plug#end()
     " PlugInstall

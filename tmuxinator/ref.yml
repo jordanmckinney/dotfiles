@@ -35,6 +35,7 @@ windows:
       root: ~/Development/DotFiles
       panes:
         - nvim init.vim
+        - cd ~/Development/DotFiles
   - REF:
       root: ~/Development/REF
       panes:
@@ -42,4 +43,5 @@ windows:
   - Code:
       root: ~/Development/code
       panes:
-        - nvim README.md
+        - nvim ~/Development/code/python/lists.py
+        - cd ~/Development/code/python

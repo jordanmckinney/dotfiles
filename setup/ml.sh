@@ -24,3 +24,13 @@ sudo apt-get install libcupti-dev
 # pip3 install --upgrade tensorflow-gpu
 # https://www.tensorflow.org/install/install_linux
 # https://stackoverflow.com/questions/42013316/after-building-tensorflow-from-source-seeing-libcudart-so-and-libcudnn-errors
+
+
+# https://github.com/merqurio/jupyter_themes
+# Jupyter
+mkdir -p $(jupyter --data-dir)/nbextensions
+cd $(jupyter --data-dir)/nbextensions
+mkdir jupyter_themes && cd jupyter_themes
+wget https://raw.githubusercontent.com/merqurio/jupyter_themes/master/theme_selector.js
+# Activate the extension
+cd ../ && jupyter nbextension enable jupyter_themes/theme_selectorntax highlighting
