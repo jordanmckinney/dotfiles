@@ -40,6 +40,7 @@ windows:
       root: ~/Development/REF
       panes:
         - nvim technologies/cmdline.txt
+        - cd ~/Development/REF
   - Code:
       root: ~/Development/code
       panes:
