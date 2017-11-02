@@ -18,6 +18,7 @@
         Plug 'ctrlpvim/ctrlp.vim'
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
         Plug 'tomlion/vim-solidity'
+        Plug 'airblade/vim-gitgutter'
 
     call plug#end()
     " PlugInstall
@@ -211,7 +212,6 @@
 " Commentary {{{
 "===============================================================
     autocmd FileType py setlocal commentstring=#\ %s
-
     autocmd FileType js setlocal commentstring=//\ %s
     autocmd FileType c setlocal commentstring=//\ %s
     autocmd FileType java setlocal commentstring=//\ %s
