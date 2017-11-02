@@ -26,3 +26,6 @@ run_keybase
 
 # krita
 sudo apt install krita
+
+# mendeley
+# https://www.mendeley.com/download-mendeley-desktop/ubuntu/instructions/
