@@ -62,7 +62,7 @@
 
     " allow closing if only thing left is nerdtree
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-    let g:NERDTreeWinSize = 20
+    let g:NERDTreeWinSize = 16
 
     " set focus to vim not nerdtree unless no file was opened
     autocmd VimEnter * if argc() | wincmd p | endif
@@ -252,7 +252,7 @@
     " set relativenumber              " show relative line numbers
     set number
     set showcmd                     " show command in bottom bar
-    set cursorline                  " highlights line number that cursor is on
+    " set cursorline                  " highlights line number that cursor is on
     set showmatch                   " highlight matching [{()}]
     set t_Co=256                    " use 256 colors
     set laststatus=2                " Always show statusline
