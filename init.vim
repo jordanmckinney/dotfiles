@@ -211,13 +211,13 @@
 
 " General
 "===============================================================
-    syntax enable                   " enable syntax processing
-    set wildmenu                    " visual autocomplete for command menu
-    set lazyredraw                  " redraw only when we need to.
+    syntax enable           " enable syntax processing
+    set wildmenu            " visual autocomplete for command menu
+    set lazyredraw          " redraw only when we need to.
     set hidden
     set history=100
     let mapleader=" "
-    au FocusLost * :wa              " save on losing focus
+    au FocusLost * :wa      " save on losing focus
     " the best feature of neovim
     if has('mouse') | set mouse=a | endif
 "===============================================================
@@ -250,20 +250,6 @@
 
     " cursor is block in normal, line in insert
     :let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
-
-    " no-text area transparent
-    " hi Normal ctermbg=none
-    " highlight Normal ctermbg=none
-    " highlight NonText ctermbg=none
-    " let g:base16_transparent_background = 1
-"===============================================================
-
-" Autocorrect
-"===============================================================
-    :ab teh the
-    :ab recieve receive
-    :ab recieved received
-    :ab syspl System.out.println
 "===============================================================
 
 " Backup
@@ -336,13 +322,13 @@
     " open/close fold
     map <leader>l za<cr>
 
-    " " Copy to clipboard
+    " Copy to clipboard
     vnoremap  <leader>y "+y
     nnoremap  <leader>Y "+yg_
     nnoremap  <leader>y "+y
     nnoremap  <leader>yy "+yy
 
-    " " Paste from clipboard
+    " Paste from clipboard
     nnoremap <leader>p "+p
     nnoremap <leader>P "+P
     vnoremap <leader>p "+p
@@ -353,7 +339,6 @@
     " insert empty line above
     map <leader>k O<esc>cc<esc><cr>
     " open nerdtree
-    " map <leader>t ;NERDTree<cr>
     map <leader>t ;NERDTreeToggle<CR>
 
     " use tab to switch between brace pairs
