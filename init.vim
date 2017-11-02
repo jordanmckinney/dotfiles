@@ -1,15 +1,8 @@
-" Setup {{{
-"===============================================================
-
+" Setup
     let g:python_host_prog = '/home/jordan/.pyenv/versions/neovim2/bin/python'
     let g:python3_host_prog = '/home/jordan/.pyenv/versions/neovim3/bin/python'
 
-"===============================================================
-" }}}
-
-" Vim-Plug {{{
-"===============================================================
-
+" Vim-Plug
     call plug#begin('~/.local/share/nvim/plugged')
 
         Plug 'mhartington/oceanic-next'
@@ -20,22 +13,13 @@
         Plug 'Xuyuanp/nerdtree-git-plugin'
         Plug 'ctrlpvim/ctrlp.vim'
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
-        Plug 'pangloss/vim-javascript'
-        Plug 'JamshedVesuna/vim-markdown-preview'
-        Plug 'godlygeek/tabular'
-        Plug 'plasticboy/vim-markdown'
         Plug 'tomlion/vim-solidity'
 
     call plug#end()
     " PlugInstall
     " PlugUpdate
 
-"===============================================================
-" }}}
-
-" Ag {{{
-"===============================================================
-
+" Ag
     " The Silver Searcher
     if executable('ag')
       " Use ag over grep
@@ -48,12 +32,7 @@
       let g:ctrlp_use_caching = 0
     endif
 
-"===============================================================
-" }}}
-
-" Nerdtree {{{
-"===============================================================
-
+" Nerdtree
     let NERDTreeAutoDeleteBuffer = 1
     let NERDTreeMinimalUI = 1
     let NERDTreeDirArrows = 1
@@ -75,12 +54,7 @@
     " set focus to vim not nerdtree unless no file was opened
     autocmd VimEnter * if argc() | wincmd p | endif
 
-"===============================================================
-" }}}
-
-" Lightline {{{
-"===============================================================
-
+" Lightline
     let g:lightline = {
           \ 'colorscheme': 'wombat',
           \ 'active': {
@@ -196,24 +170,14 @@
     let g:vimfiler_force_overwrite_statusline = 0
     let g:vimshell_force_overwrite_statusline = 0
 
-"===============================================================
-" }}}
-
-" Deoplete {{{
-"===============================================================
-
+" Deoplete
     " Use Deoplete.
     let g:deoplete#enable_at_startup = 1
 
     " Close the documentation window when completion is done
     autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 
-"===============================================================
-" }}}
-
-" Ctrl P {{{
-"===============================================================
-
+" Ctrl P
     let g:ctrlp_working_path_mode = 'ra'
     set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
     let g:ctrlp_custom_ignore = {
@@ -222,24 +186,14 @@
       \ 'link': 'some_bad_symbolic_links',
       \ }
 
-"===============================================================
-" }}}
-
-" Commentary {{{
-"===============================================================
-
+" Commentary
     autocmd FileType py setlocal commentstring=#\ %s
     autocmd FileType js setlocal commentstring=//\ %s
     autocmd FileType c setlocal commentstring=//\ %s
     autocmd FileType java setlocal commentstring=//\ %s
     autocmd FileType txt setlocal commentstring=//\ %s
 
-"===============================================================
-" }}}
-
-" General {{{
-"===============================================================
-
+" General
     syntax enable                   " enable syntax processing
     set wildmenu                    " visual autocomplete for command menu
     set lazyredraw                  " redraw only when we need to.
@@ -250,12 +204,7 @@
     " the best feature of neovim
     if has('mouse') | set mouse=a | endif
 
-"===============================================================
-" }}}
-
-" Appearance {{{
-"===============================================================
-
+" Appearance
     if has('nvim')
         set termguicolors
     endif
@@ -289,56 +238,32 @@
     " highlight NonText ctermbg=none
     " let g:base16_transparent_background = 1
 
-"===============================================================
-" }}}
-
 " Autocorrect {{{
-"===============================================================
-
     :ab teh the
     :ab recieve receive
     :ab recieved received
     :ab syspl System.out.println
-
-"===============================================================
 " }}}
 
-" Backup {{{
-"===============================================================
-
+" Backup
     set nobackup
     set nowb
     set noswapfile
 
-"===============================================================
-" }}}
-
-" Ignore {{{
-"===============================================================
-
+" Ignore
     " Ignore compiled files
     set wildignore=*.o,*~,*.pyc,*.a
     set wildignore=*.bmp,*.gif,*.ico,*.jpg,*.png
     set wildignore=*.git
 
-"===============================================================
-" }}}
-
-" Folding {{{
-"===============================================================
-
+" Folding
     set modelines=1                 " only do this for this file
     set foldenable                  " enable folding
     set foldlevelstart=10           " open most folds by default
     set foldnestmax=10              " 10 nested fold max
     set foldmethod=indent           " fold based on indent level
 
-"===============================================================
-" }}}
-
-" Formatting {{{
-"===============================================================
-
+" Formatting
     filetype plugin indent on       " load filetype-specific indent files
     filetype plugin on
     set expandtab                   " tabs are spaces
@@ -351,12 +276,7 @@
     exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
     set list
 
-"===============================================================
-" }}}
-
-" Remappings {{{
-"===============================================================
-
+" Remappings
     " Swap v and CTRL-V, because Block mode is more useful that Visual mode
     nnoremap    v   <C-V>
     nnoremap <C-V>     v
@@ -425,20 +345,12 @@
     command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
     nnoremap \ :Ag<SPACE>
 
-"===============================================================
-" }}}
-
-" Searching {{{
-"===============================================================
-
+" Searching
     set ignorecase                  " ignore case when searching
     set smartcase
     set incsearch                   " search as characters are entered
     set hlsearch                    " highlight matches
     set magic                       " for regex
     set gdefault                    " find and replace global 
-
-"===============================================================
-" }}}
 
 " vim:foldmethod=marker:foldlevel=0
