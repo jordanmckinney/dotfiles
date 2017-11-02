@@ -252,7 +252,7 @@
     " set relativenumber              " show relative line numbers
     set number
     set showcmd                     " show command in bottom bar
-    " set cursorline                  " highlights line number that cursor is on
+    set cursorline                  " highlights line number that cursor is on
     set showmatch                   " highlight matching [{()}]
     set t_Co=256                    " use 256 colors
     set laststatus=2                " Always show statusline
