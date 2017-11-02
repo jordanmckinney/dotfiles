@@ -1,10 +1,11 @@
-" Setup
+" Setup {{{
 "===============================================================
     let g:python_host_prog = '/home/jordan/.pyenv/versions/neovim2/bin/python'
     let g:python3_host_prog = '/home/jordan/.pyenv/versions/neovim3/bin/python'
 "===============================================================
+" }}}
 
-" Vim-Plug
+" Vim-Plug {{{
 "===============================================================
     call plug#begin('~/.local/share/nvim/plugged')
 
@@ -22,8 +23,9 @@
     " PlugInstall
     " PlugUpdate
 "===============================================================
+" }}}
 
-" Ag
+" Ag {{{
 "===============================================================
     " The Silver Searcher
     if executable('ag')
@@ -37,8 +39,9 @@
       let g:ctrlp_use_caching = 0
     endif
 "===============================================================
+" }}}
 
-" Nerdtree
+" Nerdtree {{{
 "===============================================================
     let NERDTreeAutoDeleteBuffer = 1
     let NERDTreeMinimalUI = 1
@@ -61,8 +64,9 @@
     " set focus to vim not nerdtree unless no file was opened
     autocmd VimEnter * if argc() | wincmd p | endif
 "===============================================================
+" }}}
 
-" Lightline
+" Lightline {{{
 "===============================================================
     let g:lightline = {
           \ 'colorscheme': 'wombat',
@@ -179,8 +183,9 @@
     let g:vimfiler_force_overwrite_statusline = 0
     let g:vimshell_force_overwrite_statusline = 0
 "===============================================================
+" }}}
 
-" Deoplete
+" Deoplete {{{
 "===============================================================
     " Use Deoplete.
     let g:deoplete#enable_at_startup = 1
@@ -188,8 +193,9 @@
     " Close the documentation window when completion is done
     autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 "===============================================================
+" }}}
 
-" Ctrl-P
+" Ctrl-P {{{
 "===============================================================
     let g:ctrlp_working_path_mode = 'ra'
     set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
@@ -199,17 +205,20 @@
       \ 'link': 'some_bad_symbolic_links',
       \ }
 "===============================================================
+" }}}
 
-" Commentary
+" Commentary {{{
 "===============================================================
     autocmd FileType py setlocal commentstring=#\ %s
+
     autocmd FileType js setlocal commentstring=//\ %s
     autocmd FileType c setlocal commentstring=//\ %s
     autocmd FileType java setlocal commentstring=//\ %s
     autocmd FileType txt setlocal commentstring=//\ %s
 "===============================================================
+" }}}
 
-" General
+" General {{{
 "===============================================================
     syntax enable           " enable syntax processing
     set wildmenu            " visual autocomplete for command menu
@@ -221,8 +230,9 @@
     " the best feature of neovim
     if has('mouse') | set mouse=a | endif
 "===============================================================
+" }}}
 
-" Appearance
+" Appearance {{{
 "===============================================================
     if has('nvim')
         set termguicolors
@@ -251,23 +261,26 @@
     " cursor is block in normal, line in insert
     :let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
 "===============================================================
+" }}}
 
-" Backup
+" Backup {{{
 "===============================================================
     set nobackup
     set nowb
     set noswapfile
 "===============================================================
+" }}}
 
-" Ignore
+" Ignore {{{
 "===============================================================
     " Ignore compiled files
     set wildignore=*.o,*~,*.pyc,*.a
     set wildignore=*.bmp,*.gif,*.ico,*.jpg,*.png
     set wildignore=*.git
 "===============================================================
+" }}}
 
-" Folding
+" Folding {{{
 "===============================================================
     set modelines=1                 " only do this for this file
     set foldenable                  " enable folding
@@ -275,8 +288,9 @@
     set foldnestmax=10              " 10 nested fold max
     set foldmethod=indent           " fold based on indent level
 "===============================================================
+" }}}
 
-" Formatting
+" Formatting {{{
 "===============================================================
     filetype plugin indent on       " load filetype-specific indent files
     filetype plugin on
@@ -290,8 +304,9 @@
     exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
     set list
 "===============================================================
+" }}}
 
-" Remappings
+" Remappings {{{
 "===============================================================
     " Swap v and CTRL-V, because Block mode is more useful that Visual mode
     nnoremap    v   <C-V>
@@ -360,8 +375,9 @@
     " command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
     " nnoremap \ :Ag<SPACE>
 "===============================================================
+" }}}
 
-" Searching
+" Searching {{{
 "===============================================================
     set ignorecase                  " ignore case when searching
     set smartcase
@@ -370,5 +386,6 @@
     set magic                       " for regex
     set gdefault                    " find and replace global 
 "===============================================================
+" }}}
 
 " vim:foldmethod=marker:foldlevel=0
