@@ -19,6 +19,7 @@
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
         Plug 'tomlion/vim-solidity'
         Plug 'airblade/vim-gitgutter'
+        Plug 'flazz/vim-colorschemes'
 
     call plug#end()
     " PlugInstall
@@ -240,7 +241,8 @@
     endif
 
     try
-        colorscheme OceanicNext
+        colorscheme Tomorrow-Night-Eighties
+        " colorscheme OceanicNext
     catch
         colorscheme desert
     endtry
