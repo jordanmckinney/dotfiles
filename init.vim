@@ -19,6 +19,7 @@
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
         Plug 'tomlion/vim-solidity'
         Plug 'airblade/vim-gitgutter'
+        Plug 'airblade/vim-rooter'
         Plug 'flazz/vim-colorschemes'
 
     call plug#end()
@@ -375,8 +376,8 @@
     :nnoremap <leader>* :silent execute "grep! -R " . shellescape(expand("<cWORD>")) . " ."<cr>:copen<cr>
 
     " bind \ (backward slash) to ag shortcut
-    " command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
-    " nnoremap \ :Ag<SPACE>
+    command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+    nnoremap \ :Ag<SPACE>
 "===============================================================
 " }}}
 
