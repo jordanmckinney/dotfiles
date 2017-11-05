@@ -36,13 +36,13 @@ windows:
       panes:
         - nvim init.vim
         - cd ~/Development/DotFiles
-  - REF:
-      root: ~/Development/REF
-      panes:
-        - nvim technologies/cmdline.txt
-        - cd ~/Development/REF
   - Code:
       root: ~/Development/code
       panes:
         - nvim ~/Development/code/python/lists.py
         - cd ~/Development/code/python
+  - REF:
+      root: ~/Development/REF
+      panes:
+        - nvim technologies/vim.txt
+        - cd ~/Development/REF
