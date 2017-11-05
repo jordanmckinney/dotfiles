@@ -13,14 +13,16 @@
         Plug 'itchyny/lightline.vim'
         Plug 'tpope/vim-surround'
         Plug 'tpope/vim-commentary'
+        Plug 'tpope/vim-repeat'
         Plug 'scrooloose/nerdtree'
         Plug 'Xuyuanp/nerdtree-git-plugin'
-        Plug 'ctrlpvim/ctrlp.vim'
+        " Plug 'ctrlpvim/ctrlp.vim'
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
         Plug 'tomlion/vim-solidity'
         Plug 'airblade/vim-gitgutter'
         Plug 'airblade/vim-rooter'
         Plug 'flazz/vim-colorschemes'
+        Plug 'svermeulen/vim-easyclip'
 
     call plug#end()
     " PlugInstall
@@ -201,13 +203,13 @@
 
 " Ctrl-P {{{
 "===============================================================
-    let g:ctrlp_working_path_mode = 'ra'
-    set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
-    let g:ctrlp_custom_ignore = {
-      \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-      \ 'file': '\v\.(exe|so|dll)$',
-      \ 'link': 'some_bad_symbolic_links',
-      \ }
+    " let g:ctrlp_working_path_mode = 'ra'
+    " set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+    " let g:ctrlp_custom_ignore = {
+    "   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+    "   \ 'file': '\v\.(exe|so|dll)$',
+    "   \ 'link': 'some_bad_symbolic_links',
+    "   \ }
 "===============================================================
 " }}}
 
