@@ -7,15 +7,22 @@ endif
 "----------------------------------------------------------------/
 " Regex for capitalized words, add your own matches here:
 
-syn match headerTitle1 '^###.*$'
-syn match headerTitle2 '^\~\~\~.*$'
-syn match headerTitle3 '^+++.*$'
-syn match textComment '\/\/.*$'
-syn match commandLine '\$.*$'
-syn match codeLine '`.*`'
-syn match quoteText '".*"'
-syn match keyWord '^\'.*\' '
-syn match keyWord ' \'.*\' '
+" headers
+syn match blue '^###.*$'
+syn match blue '^##.*$'
+syn match blue '^#.*$'
+syn match teal '^\~\~\~.*$'
+
+" comments
+syn match grey '\/\/.*$'
+
+" code
+syntax region pink start=/\v`/ skip=/\v\\./ end=/\v`/
+syn match pink '^\$.*$'
+
+" strings
+syntax region orange start=/\v"/ skip=/\v\\./ end=/\v"/
+" syntax region orange start=/\v'/ skip=/\v\\./ end=/\v'/
 
 "----------------------------------------------------------------------------/
 "  Setup syntax highlighting
@@ -23,21 +30,12 @@ syn match keyWord ' \'.*\' '
 "
 let b:current_syntax = "text"
 
-hi def link headerTitle1        Function
-hi def link headerTitle2        Statement
-hi def link headerTitle3        Constant
-hi def link textComment         Comment
-hi def link commandLine         Keyword
-hi def link codeLine            Keyword
-hi def link quoteText           Special
+hi def link blue        Function 
+hi def link white       Statement
+hi def link orange      Constant
+hi def link grey        Comment
+hi def link teal        Operator
+hi def link pink        PreProc
 
 " Choose other options to get a different colour:
 " Valid options: Comment Constant Function Keyword Operator PreProc Repeat Special Statement Type Typedef
-
-" red: Statement
-" orange: Constant
-" yellow: Repeat
-" green: Special
-" blue: Function
-" purple: Keyword
-" grey: Comment
