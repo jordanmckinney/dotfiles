@@ -35,7 +35,6 @@ windows:
       root: ~/Development/DotFiles
       panes:
         - nvim init.vim
-        - cd ~/Development/DotFiles
   - Code:
       root: ~/Development/code
       panes:
@@ -45,4 +44,3 @@ windows:
       root: ~/Development/REF
       panes:
         - nvim technologies/vim.txt
-        - cd ~/Development/REF
