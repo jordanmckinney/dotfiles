@@ -6,5 +6,3 @@ My dotfiles for Vim, ZSH and Tmux.
 ## VIM
 * Better markdown syntax highlighting
 * Specify directory that Ag searches with \
-* Better copy/pasting
-
