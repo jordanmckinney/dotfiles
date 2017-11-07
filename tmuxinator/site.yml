@@ -6,5 +6,4 @@ windows:
       layout: even-vertical
       panes:
         - yarn start
-        - git status
         - nvim package.json
