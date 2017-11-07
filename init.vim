@@ -360,8 +360,12 @@
     map <leader>j o<esc>cc<esc>kk<cr>
     " insert empty line above
     map <leader>k O<esc>cc<esc><cr>
+
     " open nerdtree
     map <leader>t ;NERDTreeToggle<CR>
+    " use t instead of m to get the file creation menu
+    let NERDTreeMapMenu='t'
+    nmap <Leader>r ;NERDTreeFocus<cr>R<c-w><c-p>
 
     " use tab to switch between brace pairs
     nnoremap <tab> %
