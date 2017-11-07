@@ -43,4 +43,4 @@ windows:
   - REF:
       root: ~/Development/REF
       panes:
-        - nvim technologies/vim.txt
+        - nvim tools/vim.txt
