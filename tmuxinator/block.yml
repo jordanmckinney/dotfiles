@@ -6,5 +6,4 @@ windows:
       layout: even-vertical
       panes:
         - mkdocs serve
-        - git status
         - nvim README.md
