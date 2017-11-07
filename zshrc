@@ -100,7 +100,17 @@
     alias gpom='git push origin master'
     alias gst='git status'
     alias mux='tmuxinator'
-    alias gpull='git -C ~/Development/DotFiles pull && git -C ~/Development/code pull && git -C ~/Development/blockchain pull && git -C ~/Development/REF pull && git -C ~/Development/jordanmmck.github.io pull'
+    alias gpull='
+        echo "========== Dotfiles ==========" &&
+        git -C ~/Development/DotFiles pull &&
+        echo "============ Ref =============" &&
+        git -C ~/Development/REF pull &&
+        echo "=========== Block ============" &&
+        git -C ~/Development/blockchain pull &&
+        echo "========== Jordanmmck ========"  &&
+        git -C ~/Development/jordanmmck.github.io pull &&
+        echo "============ Code ============" &&
+        git -C ~/Development/code pull'
 
 #===============================================================
 # }}}
