@@ -15,6 +15,7 @@
         Plug 'tpope/vim-commentary'
         Plug 'tpope/vim-repeat'
         Plug 'tpope/vim-fugitive'
+        Plug 'plasticboy/vim-markdown'
         Plug 'scrooloose/nerdtree'
         Plug 'Xuyuanp/nerdtree-git-plugin'
         " Plug 'ctrlpvim/ctrlp.vim'
