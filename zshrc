@@ -111,6 +111,17 @@
         git -C ~/Development/jordanmmck.github.io pull &&
         echo "============ Code ============" &&
         git -C ~/Development/code pull'
+    alias gstatus='
+        echo "========== Dotfiles ==========" &&
+        git -C ~/Development/DotFiles status &&
+        echo "============ Ref =============" &&
+        git -C ~/Development/REF status &&
+        echo "=========== Block ============" &&
+        git -C ~/Development/blockchain status &&
+        echo "========== Jordanmmck ========"  &&
+        git -C ~/Development/jordanmmck.github.io status &&
+        echo "============ Code ============" &&
+        git -C ~/Development/code status'
 
 #===============================================================
 # }}}
