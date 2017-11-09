@@ -103,6 +103,8 @@
     alias gpull='
         echo "========== Dotfiles ==========" &&
         git -C ~/Development/DotFiles pull &&
+        echo "========= Etherplace =========" &&
+        git -C ~/Development/etherplace pull &&
         echo "============ Ref =============" &&
         git -C ~/Development/REF pull &&
         echo "=========== Block ============" &&
@@ -114,6 +116,8 @@
     alias gstatus='
         echo "========== Dotfiles ==========" &&
         git -C ~/Development/DotFiles status &&
+        echo "========= Etherplace =========" &&
+        git -C ~/Development/etherplace status &&
         echo "============ Ref =============" &&
         git -C ~/Development/REF status &&
         echo "=========== Block ============" &&
