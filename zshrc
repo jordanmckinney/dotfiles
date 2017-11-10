@@ -103,29 +103,41 @@
     alias gpull='
         echo "========== Dotfiles ==========" &&
         git -C ~/Development/DotFiles pull &&
+        echo "" &&
         echo "========= Etherplace =========" &&
         git -C ~/Development/etherplace pull &&
+        echo "" &&
         echo "============ Ref =============" &&
         git -C ~/Development/REF pull &&
+        echo "" &&
         echo "=========== Block ============" &&
         git -C ~/Development/blockchain pull &&
+        echo "" &&
         echo "========== Jordanmmck ========"  &&
         git -C ~/Development/jordanmmck.github.io pull &&
+        echo "" &&
         echo "============ Code ============" &&
-        git -C ~/Development/code pull'
+        git -C ~/Development/code pull &&
+        echo ""'
     alias gstatus='
         echo "========== Dotfiles ==========" &&
         git -C ~/Development/DotFiles status &&
+        echo "" &&
         echo "========= Etherplace =========" &&
         git -C ~/Development/etherplace status &&
+        echo "" &&
         echo "============ Ref =============" &&
         git -C ~/Development/REF status &&
+        echo "" &&
         echo "=========== Block ============" &&
         git -C ~/Development/blockchain status &&
+        echo "" &&
         echo "========== Jordanmmck ========"  &&
         git -C ~/Development/jordanmmck.github.io status &&
+        echo "" &&
         echo "============ Code ============" &&
-        git -C ~/Development/code status'
+        git -C ~/Development/code status &&
+        echo ""'
 
 #===============================================================
 # }}}
