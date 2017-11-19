@@ -1,0 +1,9 @@
+name: theory
+root: ~/Development/theory
+
+windows:
+  - theory:
+      layout: even-vertical
+      panes:
+        - mkdocs serve
+        - nvim README.md
