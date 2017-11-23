@@ -1,0 +1,22 @@
+name: docs
+root: ~/Development
+
+windows:
+  - block:
+      root: ~/Development/blockchain
+      layout: even-vertical
+      panes:
+        - git status
+        - nvim README.md
+  - theory:
+      root: ~/Development/theory
+      layout: even-vertical
+      panes:
+        - git status
+        - nvim README.md
+  - everything:
+      root: ~/Development/everything
+      layout: even-vertical
+      panes:
+        - git status
+        - nvim README.md
