@@ -139,10 +139,10 @@
         git -C ~/Development/blockchain status &&
         echo "" &&
         echo "=========== Theory ============" &&
-        git -C ~/Development/theory pull &&
+        git -C ~/Development/theory status &&
         echo "" &&
         echo "=========== Everything ============" &&
-        git -C ~/Development/everything pull &&
+        git -C ~/Development/everything status &&
         echo "" &&
         echo "========== Jordanmmck ========"  &&
         git -C ~/Development/jordanmmck.github.io status &&
