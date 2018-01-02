@@ -41,6 +41,6 @@ windows:
         - nvim ~/Development/code/python/lists.py
         - cd ~/Development/code/python
   - REF:
-      root: ~/Development/REF
+      root: ~/Development/reference
       panes:
         - nvim tools/vim.txt
