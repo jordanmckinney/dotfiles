@@ -79,10 +79,10 @@
     alias cddot='cd ~/Development/DotFiles/'
     alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
     alias cdcode='cd ~/Development/code/'
-    alias cdvim='cd ~/Development/REF/technologies'
-    alias cdref='cd ~/Development/REF'
+    alias cdvim='cd ~/Development/reference/technologies'
+    alias cdref='cd ~/Development/reference'
     alias cdsref='cd ~/Dropbox/sREF'
-    alias cdwork='cd ~/Development/REF/work'
+    alias cdwork='cd ~/Development/reference/work'
     alias cdmast='cd ~/Dropbox/sREF/mastery'
     alias v=nvim
     alias s=ls
@@ -105,7 +105,7 @@
         git -C ~/Development/DotFiles pull &&
         echo "" &&
         echo "============ Ref =============" &&
-        git -C ~/Development/REF pull &&
+        git -C ~/Development/reference pull &&
         echo "" &&
         echo "============ Code ============" &&
         git -C ~/Development/code pull &&
@@ -127,7 +127,7 @@
         git -C ~/Development/DotFiles status &&
         echo "" &&
         echo "============ Ref =============" &&
-        git -C ~/Development/REF status &&
+        git -C ~/Development/reference status &&
         echo "" &&
         echo "============ Code ============" &&
         git -C ~/Development/code status &&
