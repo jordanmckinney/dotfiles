@@ -266,6 +266,10 @@
     highlight ColorColumn ctermbg=magenta
     call matchadd('ColorColumn', '\%120v', 100)
 
+    " make background non-transparent
+    highlight Normal ctermbg=Black
+    highlight NonText ctermbg=Black
+
     " cursor is block in normal, line in insert
     :let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
 "===============================================================
