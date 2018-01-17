@@ -315,6 +315,9 @@
     " Make tabs, trailing whitespace, and non-breaking spaces visible
     exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
     set list
+
+    " vimdiff wrap lines
+    autocmd FilterWritePre * if &diff | setlocal wrap< | endif
 "===============================================================
 " }}}
 
