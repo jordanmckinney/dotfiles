@@ -2,8 +2,8 @@ name: docs
 root: ~/Development
 
 windows:
-  - block:
-      root: ~/Development/blockchain
+  - writing:
+      root: ~/Development/writing
       layout: even-vertical
       panes:
         - git status
