@@ -110,14 +110,8 @@
         echo "============ Code ============" &&
         git -C ~/Development/code pull &&
         echo "" &&
-        echo "=========== Block ============" &&
-        git -C ~/Development/blockchain pull &&
-        echo "" &&
-        echo "=========== Theory ============" &&
-        git -C ~/Development/theory pull &&
-        echo "" &&
-        echo "=========== Everything ============" &&
-        git -C ~/Development/everything pull &&
+        echo "=========== Writing ============" &&
+        git -C ~/Development/writing pull &&
         echo "" &&
         echo "========== Jordanmmck ========"  &&
         git -C ~/Development/jordanmmck.github.io pull &&
@@ -132,14 +126,8 @@
         echo "============ Code ============" &&
         git -C ~/Development/code status &&
         echo "" &&
-        echo "=========== Block ============" &&
-        git -C ~/Development/blockchain status &&
-        echo "" &&
-        echo "=========== Theory ============" &&
-        git -C ~/Development/theory status &&
-        echo "" &&
-        echo "=========== Everything ============" &&
-        git -C ~/Development/everything status &&
+        echo "=========== Writing ============" &&
+        git -C ~/Development/writing status &&
         echo "" &&
         echo "========== Jordanmmck ========"  &&
         git -C ~/Development/jordanmmck.github.io status &&
