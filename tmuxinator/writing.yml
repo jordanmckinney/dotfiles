@@ -1,0 +1,10 @@
+name: writing
+root: ~/Development
+
+windows:
+  - writing:
+      root: ~/Development/writing
+      layout: even-vertical
+      panes:
+        - git status
+        - nvim README.md
