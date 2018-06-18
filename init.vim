@@ -18,9 +18,7 @@
         Plug 'plasticboy/vim-markdown'
         Plug 'scrooloose/nerdtree'
         Plug 'Xuyuanp/nerdtree-git-plugin'
-        " Plug 'ctrlpvim/ctrlp.vim'
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
-        Plug 'tomlion/vim-solidity'
         Plug 'airblade/vim-gitgutter'
         Plug 'airblade/vim-rooter'
         Plug 'flazz/vim-colorschemes'
