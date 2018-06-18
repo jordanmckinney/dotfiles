@@ -13,7 +13,7 @@ eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 # anaconda
-export PATH="/home/jordan/anaconda3/bin:$PATH"
+# export PATH="/home/jordan/anaconda3/bin:$PATH"
 
 # cuda for tensorflow
 export PATH=/usr/local/cuda-8.0.61/bin${PATH:+:${PATH}}
