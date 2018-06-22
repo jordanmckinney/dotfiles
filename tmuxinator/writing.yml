@@ -6,5 +6,5 @@ windows:
       root: ~/Development/writing
       layout: even-vertical
       panes:
-        - git status
+        - git pull
         - nvim README.md
