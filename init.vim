@@ -385,6 +385,8 @@
     nnoremap <C-j> 4j
     nnoremap <C-k> 4k
 
+    nnoremap o o<ESC>i
+
     " grep for word under cursor
     :nnoremap <leader>* :silent execute "grep! -R " . shellescape(expand("<cWORD>")) . " ."<cr>:copen<cr>
 
