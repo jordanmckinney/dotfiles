@@ -1,0 +1,4827 @@
+
+  Attribute 'GPUGraphicsClockOffset' (cmdcenter:0[gpu:0]) assigned value 150.
+
+  Attribute 'GPUMemoryTransferRateOffset' (cmdcenter:0[gpu:0]) assigned value
+  1050.
+
+Power limit for GPU 00000000:01:00.0 was set to 120.00 W from 120.00 W.
+
+Warning: persistence mode is disabled on this device. This settings will go back to default as soon as driver unloads (e.g. last application like nvidia-smi or cuda application terminates). Run with [--help | -h] switch to get more information on how to enable persistence mode.
+
+All done.
++-------------------------------------------------+
+|         EWBF's Zcash CUDA miner. 0.3.4b         |
++-------------------------------------------------+
+[36mINFO: Current pool: zec-us-west1.nanopool.org:6666[0m
+[36mINFO: Selected pools: 1[0m
+[36mINFO: Solver: Auto.[0m
+[36mINFO: Devices: All.[0m
+[36mINFO: Temperature limit: 90[0m
+[36mINFO: Api: Disabled[0m
+---------------------------------------------------
+[33mINFO: Target: 00028f5c00000000...[0m
+[33mINFO: Detected new work: 1510037946[0m
+[36mCUDA: Device: 0 GeForce GTX 1070, 8110 MB i:64[0m
+[36mCUDA: Device: 0 Selected solver: 0[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510037947[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 09:15:08: GPU0 Accepted share 213ms [A:1, R:0][0m
+[32mINFO 09:15:14: GPU0 Accepted share 192ms [A:2, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510037948[0m
+[33mINFO: Detected new work: 1510037949[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 09:16:13: GPU0 Accepted share 195ms [A:3, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510037950[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510037951[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 09:18:03: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510037952[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510037953[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 09:20:15: GPU0 Accepted share 192ms [A:4, R:0][0m
+[32mINFO 09:20:19: GPU0 Accepted share 196ms [A:5, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510037954[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 09:21:03: GPU0 Accepted share 199ms [A:6, R:0][0m
+[32mINFO 09:21:05: GPU0 Accepted share 191ms [A:7, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510037955[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[32mINFO 09:22:10: GPU0 Accepted share 192ms [A:8, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510037956[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 09:23:01: GPU0 Accepted share 193ms [A:9, R:0][0m
+[32mINFO 09:23:10: GPU0 Accepted share 201ms [A:10, R:0][0m
+[32mINFO 09:23:12: GPU0 Accepted share 215ms [A:11, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510037957[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510037958[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510037959[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510037960[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510037961[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510037962[0m
+[32mINFO 09:28:24: GPU0 Accepted share 196ms [A:12, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510037963[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510037964[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510037965[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510037966[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 09:31:27: GPU0 Accepted share 191ms [A:13, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510037967[0m
+[32mINFO 09:32:19: GPU0 Accepted share 208ms [A:14, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 09:32:33: GPU0 Accepted share 204ms [A:15, R:0][0m
+[32mINFO 09:32:40: GPU0 Accepted share 192ms [A:16, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510037968[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510037969[0m
+[33mINFO: Detected new work: 1510037970[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510037971[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 09:35:16: GPU0 Accepted share 188ms [A:17, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510037972[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[32mINFO 09:36:28: GPU0 Accepted share 205ms [A:18, R:0][0m
+[33mINFO: Detected new work: 1510037973[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 09:37:02: GPU0 Accepted share 199ms [A:19, R:0][0m
+[32mINFO 09:37:06: GPU0 Accepted share 197ms [A:20, R:0][0m
+[33mINFO: Detected new work: 1510037974[0m
+[32mINFO 09:37:24: GPU0 Accepted share 192ms [A:21, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 09:37:52: GPU0 Accepted share 207ms [A:22, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 452 Sol/s [0m
+[36mTotal speed: 452 Sol/s[0m
+[33mINFO: Detected new work: 1510037975[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510037976[0m
+[32mINFO 09:39:24: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510037977[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510037978[0m
+[33mINFO: Detected new work: 1510037979[0m
+[32mINFO 09:40:41: GPU0 Accepted share 197ms [A:23, R:0][0m
+[32mINFO 09:40:44: GPU0 Accepted share 194ms [A:24, R:0][0m
+[33mINFO: Detected new work: 1510037980[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 09:40:57: GPU0 Accepted share 205ms [A:25, R:0][0m
+[32mINFO 09:41:13: GPU0 Accepted share 190ms [A:26, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 09:41:38: GPU0 Accepted share 198ms [A:27, R:0][0m
+[33mINFO: Detected new work: 1510037981[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 454 Sol/s [0m
+[36mTotal speed: 454 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 09:42:33: GPU0 Accepted share 191ms [A:28, R:0][0m
+[33mINFO: Detected new work: 1510037982[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 09:43:02: GPU0 Accepted share 190ms [A:29, R:0][0m
+[32mINFO 09:43:06: GPU0 Accepted share 193ms [A:30, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[33mINFO: Detected new work: 1510037983[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[32mINFO 09:44:34: GPU0 Accepted share 193ms [A:31, R:0][0m
+[33mINFO: Detected new work: 1510037984[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 09:45:12: GPU0 Accepted share 210ms [A:32, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[33mINFO: Detected new work: 1510037985[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510037986[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510037987[0m
+[32mINFO 09:47:17: GPU0 Accepted share 201ms [A:33, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 09:47:49: GPU0 Accepted share 209ms [A:34, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510037988[0m
+[32mINFO 09:48:27: GPU0 Accepted share 198ms [A:35, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 09:49:06: GPU0 Accepted share 193ms [A:36, R:0][0m
+[33mINFO: Detected new work: 1510037989[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510037990[0m
+[32mINFO 09:50:26: GPU0 Accepted share 191ms [A:37, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510037991[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510037992[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510037993[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[33mINFO: Detected new work: 1510037994[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510037995[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 425 Sol/s [0m
+[36mTotal speed: 425 Sol/s[0m
+[32mINFO 09:54:51: GPU0 Accepted share 198ms [A:38, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510037996[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[33mINFO: Detected new work: 1510037997[0m
+[32mINFO 09:56:27: GPU0 Accepted share 189ms [A:39, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 413 Sol/s [0m
+[36mTotal speed: 413 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[33mINFO: Detected new work: 1510037998[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 418 Sol/s [0m
+[36mTotal speed: 418 Sol/s[0m
+[32mINFO 09:57:39: GPU0 Accepted share 191ms [A:40, R:0][0m
+[32mINFO 09:57:48: GPU0 Accepted share 190ms [A:41, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[33mINFO: Detected new work: 1510037999[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 412 Sol/s [0m
+[36mTotal speed: 412 Sol/s[0m
+[32mINFO 09:58:30: GPU0 Accepted share 198ms [A:42, R:0][0m
+[32mINFO 09:58:32: GPU0 Accepted share 198ms [A:43, R:0][0m
+[32mINFO 09:58:56: GPU0 Accepted share 201ms [A:44, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[33mINFO: Detected new work: 1510038000[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[33mINFO: Detected new work: 1510038001[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[32mINFO 10:00:58: GPU0 Accepted share 195ms [A:45, R:0][0m
+[33mINFO: Detected new work: 1510038002[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[32mINFO 10:02:14: GPU0 Accepted share 194ms [A:46, R:0][0m
+[32mINFO 10:02:16: GPU0 Accepted share 190ms [A:47, R:0][0m
+[33mINFO: Detected new work: 1510038003[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510038004[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 412 Sol/s [0m
+[36mTotal speed: 412 Sol/s[0m
+[33mINFO: Detected new work: 1510038005[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[33mINFO: Detected new work: 1510038006[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[33mINFO: Detected new work: 1510038007[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[32mINFO 10:06:24: GPU0 Accepted share 199ms [A:48, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[33mINFO: Detected new work: 1510038008[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[32mINFO 10:07:05: GPU0 Accepted share 195ms [A:49, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 415 Sol/s [0m
+[36mTotal speed: 415 Sol/s[0m
+[33mINFO: Detected new work: 1510038009[0m
+[33mINFO: Detected new work: 1510038010[0m
+[32mINFO 10:07:40: GPU0 Accepted share 200ms [A:50, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[32mINFO 10:08:05: GPU0 Accepted share 273ms [A:51, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[33mINFO: Detected new work: 1510038011[0m
+[32mINFO 10:08:40: GPU0 Accepted share 197ms [A:52, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[33mINFO: Detected new work: 1510038012[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[32mINFO 10:10:07: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[33mINFO: Detected new work: 1510038013[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 425 Sol/s [0m
+[36mTotal speed: 425 Sol/s[0m
+[32mINFO 10:11:12: GPU0 Accepted share 194ms [A:53, R:0][0m
+[32mINFO 10:11:22: GPU0 Accepted share 199ms [A:54, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[33mINFO: Detected new work: 1510038014[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[33mINFO: Detected new work: 1510038015[0m
+[32mINFO 10:12:40: GPU0 Accepted share 195ms [A:55, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[33mINFO: Detected new work: 1510038016[0m
+[32mINFO 10:13:59: GPU0 Accepted share 204ms [A:56, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[32mINFO 10:14:07: GPU0 Accepted share 189ms [A:57, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[33mINFO: Detected new work: 1510038017[0m
+[32mINFO 10:14:56: GPU0 Accepted share 194ms [A:58, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 414 Sol/s [0m
+[36mTotal speed: 414 Sol/s[0m
+[33mINFO: Detected new work: 1510038018[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[33mINFO: Detected new work: 1510038019[0m
+[33mINFO: Detected new work: 1510038020[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[32mINFO 10:17:18: GPU0 Accepted share 189ms [A:59, R:0][0m
+[33mINFO: Detected new work: 1510038021[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 418 Sol/s [0m
+[36mTotal speed: 418 Sol/s[0m
+[33mINFO: Detected new work: 1510038022[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510038023[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 425 Sol/s [0m
+[36mTotal speed: 425 Sol/s[0m
+[33mINFO: Detected new work: 1510038024[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[33mINFO: Detected new work: 1510038025[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[33mINFO: Detected new work: 1510038026[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[32mINFO 10:21:39: GPU0 Accepted share 201ms [A:60, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[33mINFO: Detected new work: 1510038027[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[33mINFO: Detected new work: 1510038028[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 415 Sol/s [0m
+[36mTotal speed: 415 Sol/s[0m
+[33mINFO: Detected new work: 1510038029[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 413 Sol/s [0m
+[36mTotal speed: 413 Sol/s[0m
+[33mINFO: Detected new work: 1510038030[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[32mINFO 10:25:50: GPU0 Accepted share 200ms [A:61, R:0][0m
+[32mINFO 10:25:52: GPU0 Accepted share 192ms [A:62, R:0][0m
+[33mINFO: Detected new work: 1510038031[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 415 Sol/s [0m
+[36mTotal speed: 415 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[32mINFO 10:26:38: GPU0 Accepted share 195ms [A:63, R:0][0m
+[32mINFO 10:26:55: GPU0 Accepted share 191ms [A:64, R:0][0m
+[33mINFO: Detected new work: 1510038032[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[33mINFO: Detected new work: 1510038033[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 414 Sol/s [0m
+[36mTotal speed: 414 Sol/s[0m
+[33mINFO: Detected new work: 1510038034[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[33mINFO: Detected new work: 1510038035[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 410 Sol/s [0m
+[36mTotal speed: 410 Sol/s[0m
+[33mINFO: Detected new work: 1510038036[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[33mINFO: Detected new work: 1510038037[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 418 Sol/s [0m
+[36mTotal speed: 418 Sol/s[0m
+[32mINFO 10:31:08: GPU0 Accepted share 198ms [A:65, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 415 Sol/s [0m
+[36mTotal speed: 415 Sol/s[0m
+[33mINFO: Detected new work: 1510038038[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[33mINFO: Detected new work: 1510038039[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 418 Sol/s [0m
+[36mTotal speed: 418 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[33mINFO: Detected new work: 1510038040[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 418 Sol/s [0m
+[36mTotal speed: 418 Sol/s[0m
+[33mINFO: Detected new work: 1510038041[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 415 Sol/s [0m
+[36mTotal speed: 415 Sol/s[0m
+[33mINFO: Detected new work: 1510038042[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 414 Sol/s [0m
+[36mTotal speed: 414 Sol/s[0m
+[33mINFO: Detected new work: 1510038043[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[32mINFO 10:36:39: GPU0 Accepted share 194ms [A:66, R:0][0m
+[33mINFO: Detected new work: 1510038044[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[33mINFO: Detected new work: 1510038045[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[32mINFO 10:38:02: GPU0 Accepted share 186ms [A:67, R:0][0m
+[33mINFO: Detected new work: 1510038046[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 408 Sol/s [0m
+[36mTotal speed: 408 Sol/s[0m
+[32mINFO 10:38:58: GPU0 Accepted share 192ms [A:68, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[32mINFO 10:39:19: GPU0 Accepted share 196ms [A:69, R:0][0m
+[33mINFO: Detected new work: 1510038047[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 412 Sol/s [0m
+[36mTotal speed: 412 Sol/s[0m
+[33mINFO: Detected new work: 1510038048[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[33mINFO: Detected new work: 1510038049[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[33mINFO: Detected new work: 1510038050[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 415 Sol/s [0m
+[36mTotal speed: 415 Sol/s[0m
+[32mINFO 10:42:30: GPU0 Accepted share 197ms [A:70, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[32mINFO 10:42:41: GPU0 Accepted share 193ms [A:71, R:0][0m
+[33mINFO: Detected new work: 1510038051[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 411 Sol/s [0m
+[36mTotal speed: 411 Sol/s[0m
+[32mINFO 10:43:13: GPU0 Accepted share 201ms [A:72, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[33mINFO: Detected new work: 1510038052[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[32mINFO 10:44:41: GPU0 Accepted share 191ms [A:73, R:0][0m
+[33mINFO: Detected new work: 1510038053[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 413 Sol/s [0m
+[36mTotal speed: 413 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[33mINFO: Detected new work: 1510038054[0m
+[32mINFO 10:45:45: GPU0 Accepted share 197ms [A:74, R:0][0m
+[33mINFO: Detected new work: 1510038055[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[33mINFO: Detected new work: 1510038056[0m
+[32mINFO 10:46:27: GPU0 Accepted share 201ms [A:75, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[32mINFO 10:46:49: GPU0 Accepted share 203ms [A:76, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 418 Sol/s [0m
+[36mTotal speed: 418 Sol/s[0m
+[33mINFO: Detected new work: 1510038057[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510038058[0m
+[32mINFO 10:48:07: GPU0 Accepted share 225ms [A:77, R:0][0m
+[33mINFO: Detected new work: 1510038059[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[33mINFO: Detected new work: 1510038060[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[32mINFO 10:50:12: GPU0 Accepted share 192ms [A:78, R:0][0m
+[33mINFO: Detected new work: 1510038061[0m
+[32mINFO 10:50:20: GPU0 Accepted share 189ms [A:79, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 413 Sol/s [0m
+[36mTotal speed: 413 Sol/s[0m
+[32mINFO 10:50:35: GPU0 Accepted share 191ms [A:80, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038062[0m
+[32mINFO 10:51:29: GPU0 Accepted share 208ms [A:81, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038063[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 10:52:51: GPU0 Accepted share 190ms [A:82, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038064[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 10:54:02: GPU0 Accepted share 250ms [A:83, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038065[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038066[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 10:55:38: GPU0 Accepted share 189ms [A:84, R:0][0m
+[33mINFO: Detected new work: 1510038067[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038068[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038069[0m
+[32mINFO 10:57:22: GPU0 Accepted share 195ms [A:85, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038070[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038071[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038072[0m
+[33mINFO: Detected new work: 1510038073[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 11:01:17: GPU0 Accepted share 198ms [A:86, R:0][0m
+[33mINFO: Detected new work: 1510038074[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 453 Sol/s [0m
+[36mTotal speed: 453 Sol/s[0m
+[33mINFO: Detected new work: 1510038075[0m
+[33mINFO: Detected new work: 1510038076[0m
+[32mINFO 11:02:34: GPU0 Accepted share 197ms [A:87, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038077[0m
+[33mINFO: Detected new work: 1510038078[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[33mINFO: Detected new work: 1510038079[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[33mINFO: Detected new work: 1510038080[0m
+[32mINFO 11:04:18: GPU0 Accepted share 218ms [A:88, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[33mINFO: Detected new work: 1510038081[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[33mINFO: Detected new work: 1510038082[0m
+[32mINFO 11:06:03: GPU0 Accepted share 196ms [A:89, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[32mINFO 11:06:20: GPU0 Accepted share 206ms [A:90, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[33mINFO: Detected new work: 1510038083[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 419 Sol/s [0m
+[36mTotal speed: 419 Sol/s[0m
+[33mINFO: Detected new work: 1510038084[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510038085[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[32mINFO 11:08:47: GPU0 Accepted share 197ms [A:91, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[33mINFO: Detected new work: 1510038086[0m
+[32mINFO 11:09:34: GPU0 Accepted share 194ms [A:92, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 417 Sol/s [0m
+[36mTotal speed: 417 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[32mINFO 11:10:11: GPU0 Accepted share 204ms [A:93, R:0][0m
+[33mINFO: Detected new work: 1510038087[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 425 Sol/s [0m
+[36mTotal speed: 425 Sol/s[0m
+[32mINFO 11:11:11: GPU0 Accepted share 194ms [A:94, R:0][0m
+[33mINFO: Detected new work: 1510038088[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 415 Sol/s [0m
+[36mTotal speed: 415 Sol/s[0m
+[33mINFO: Detected new work: 1510038089[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[32mINFO 11:12:07: GPU0 Accepted share 678ms [A:95, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510038090[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[32mINFO 11:13:17: GPU0 Accepted share 201ms [A:96, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038091[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 11:14:28: GPU0 Accepted share 203ms [A:97, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038092[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 11:15:26: GPU0 Accepted share 193ms [A:98, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038093[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 11:16:43: GPU0 Accepted share 193ms [A:99, R:0][0m
+[33mINFO: Detected new work: 1510038094[0m
+[32mINFO 11:16:55: GPU0 DevFee Accepted share[0m
+[32mINFO 11:17:02: GPU0 Accepted share 191ms [A:100, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 11:17:07: GPU0 Accepted share 190ms [A:101, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038095[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038096[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 11:19:45: GPU0 Accepted share 193ms [A:102, R:0][0m
+[33mINFO: Detected new work: 1510038097[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038098[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 11:21:10: GPU0 Accepted share 202ms [A:103, R:0][0m
+[32mINFO 11:21:11: GPU0 Accepted share 196ms [A:104, R:0][0m
+[33mINFO: Detected new work: 1510038099[0m
+[32mINFO 11:21:33: GPU0 Accepted share 200ms [A:105, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 11:22:11: GPU0 Accepted share 192ms [A:106, R:0][0m
+[33mINFO: Detected new work: 1510038100[0m
+[33mINFO: Detected new work: 1510038101[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 11:23:10: GPU0 Accepted share 192ms [A:107, R:0][0m
+[33mINFO: Detected new work: 1510038102[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 11:23:44: GPU0 Accepted share 196ms [A:108, R:0][0m
+[33mINFO: Detected new work: 1510038103[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 11:24:08: GPU0 Accepted share 290ms [A:109, R:0][0m
+[32mINFO 11:24:09: GPU0 Accepted share 224ms [A:110, R:0][0m
+[32mINFO 11:24:26: GPU0 Accepted share 192ms [A:111, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038104[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 11:25:28: GPU0 Accepted share 191ms [A:112, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038105[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038106[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 11:27:26: GPU0 Accepted share 194ms [A:113, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038107[0m
+[33mINFO: Detected new work: 1510038108[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[33mINFO: Detected new work: 1510038109[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 11:29:15: GPU0 Accepted share 197ms [A:114, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 11:29:48: GPU0 Accepted share 206ms [A:115, R:0][0m
+[33mINFO: Detected new work: 1510038110[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038111[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[32mINFO 11:31:37: GPU0 Accepted share 196ms [A:116, R:0][0m
+[32mINFO 11:31:42: GPU0 Accepted share 191ms [A:117, R:0][0m
+[33mINFO: Detected new work: 1510038112[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038113[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 11:34:01: GPU0 Accepted share 197ms [A:118, R:0][0m
+[33mINFO: Detected new work: 1510038114[0m
+[32mINFO 11:34:05: GPU0 Accepted share 191ms [A:119, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 11:34:52: GPU0 Accepted share 216ms [A:120, R:0][0m
+[33mINFO: Detected new work: 1510038115[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038116[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 11:36:12: GPU0 Accepted share 190ms [A:121, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 11:36:48: GPU0 Accepted share 197ms [A:122, R:0][0m
+[33mINFO: Detected new work: 1510038117[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038118[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 11:38:12: GPU0 Accepted share 193ms [A:123, R:0][0m
+[33mINFO: Detected new work: 1510038119[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038120[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 453 Sol/s [0m
+[36mTotal speed: 453 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038121[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 11:40:56: GPU0 Accepted share 438ms [A:124, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038122[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038123[0m
+[32mINFO 11:41:39: GPU0 Accepted share 206ms [A:125, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 451 Sol/s [0m
+[36mTotal speed: 451 Sol/s[0m
+[32mINFO 11:42:33: GPU0 Accepted share 192ms [A:126, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038124[0m
+[32mINFO 11:42:44: GPU0 Accepted share 196ms [A:127, R:0][0m
+[32mINFO 11:42:48: GPU0 Accepted share 204ms [A:128, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038125[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038126[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038127[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038128[0m
+[32mINFO 11:45:45: GPU0 Accepted share 187ms [A:129, R:0][0m
+[32mINFO 11:45:51: GPU0 Accepted share 433ms [A:130, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 451 Sol/s [0m
+[36mTotal speed: 451 Sol/s[0m
+[32mINFO 11:46:10: GPU0 Accepted share 189ms [A:131, R:0][0m
+[32mINFO 11:46:15: GPU0 Accepted share 197ms [A:132, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038129[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 11:47:15: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038130[0m
+[32mINFO 11:47:57: GPU0 Accepted share 197ms [A:133, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038131[0m
+[32mINFO 11:48:43: GPU0 Accepted share 185ms [A:134, R:0][0m
+[33mINFO: Detected new work: 1510038132[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 11:49:22: GPU0 Accepted share 189ms [A:135, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038133[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 11:50:52: GPU0 Accepted share 196ms [A:136, R:0][0m
+[33mINFO: Detected new work: 1510038134[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 11:51:35: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038135[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038136[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038137[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 11:54:30: GPU0 Accepted share 196ms [A:137, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 11:54:41: GPU0 Accepted share 197ms [A:138, R:0][0m
+[33mINFO: Detected new work: 1510038138[0m
+[33mINFO: Detected new work: 1510038139[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 11:55:30: GPU0 Accepted share 201ms [A:139, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038140[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 11:56:27: GPU0 Accepted share 193ms [A:140, R:0][0m
+[32mINFO 11:56:36: GPU0 Accepted share 192ms [A:141, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 11:56:47: GPU0 Accepted share 191ms [A:142, R:0][0m
+[33mINFO: Detected new work: 1510038141[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 11:57:23: GPU0 Accepted share 189ms [A:143, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038142[0m
+[32mINFO 11:58:08: GPU0 Accepted share 312ms [A:144, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 11:58:47: GPU0 Accepted share 191ms [A:145, R:0][0m
+[33mINFO: Detected new work: 1510038143[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038144[0m
+[32mINFO 12:00:00: GPU0 Accepted share 208ms [A:146, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 12:00:14: GPU0 DevFee Accepted share[0m
+[32mINFO 12:00:17: GPU0 Accepted share 211ms [A:147, R:0][0m
+[32mINFO 12:00:27: GPU0 Accepted share 209ms [A:148, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038145[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038146[0m
+[32mINFO 12:02:01: GPU0 Accepted share 195ms [A:149, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038147[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 12:03:26: GPU0 Accepted share 201ms [A:150, R:0][0m
+[32mINFO 12:03:38: GPU0 Accepted share 214ms [A:151, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038148[0m
+[32mINFO 12:04:01: GPU0 Accepted share 202ms [A:152, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038149[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038150[0m
+[32mINFO 12:06:00: GPU0 Accepted share 199ms [A:153, R:0][0m
+[32mINFO 12:06:04: GPU0 Accepted share 280ms [A:154, R:0][0m
+[32mINFO 12:06:06: GPU0 Accepted share 246ms [A:155, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 12:06:29: GPU0 Accepted share 200ms [A:156, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038151[0m
+[32mINFO 12:07:01: GPU0 Accepted share 187ms [A:157, R:0][0m
+[32mINFO 12:07:04: GPU0 Accepted share 195ms [A:158, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 12:07:21: GPU0 Accepted share 441ms [A:159, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038152[0m
+[33mINFO: Detected new work: 1510038153[0m
+[33mINFO: Detected new work: 1510038154[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038155[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 12:09:39: GPU0 Accepted share 194ms [A:160, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038156[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 12:10:43: GPU0 Accepted share 192ms [A:161, R:0][0m
+[32mINFO 12:10:48: GPU0 Accepted share 200ms [A:162, R:0][0m
+[32mINFO 12:10:57: GPU0 Accepted share 196ms [A:163, R:0][0m
+[33mINFO: Detected new work: 1510038157[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 12:11:19: GPU0 Accepted share 189ms [A:164, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 12:11:59: GPU0 Accepted share 193ms [A:165, R:0][0m
+[33mINFO: Detected new work: 1510038158[0m
+[33mINFO: Detected new work: 1510038159[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 12:12:11: GPU0 Accepted share 201ms [A:166, R:0][0m
+[32mINFO 12:12:21: GPU0 Accepted share 194ms [A:167, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038160[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038161[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038162[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038163[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 12:15:46: GPU0 Accepted share 204ms [A:168, R:0][0m
+[32mINFO 12:16:04: GPU0 Accepted share 439ms [A:169, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038164[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 12:17:27: GPU0 Accepted share 211ms [A:170, R:0][0m
+[33mINFO: Detected new work: 1510038165[0m
+[32mINFO 12:17:37: GPU0 DevFee Accepted share[0m
+[32mINFO 12:17:37: GPU0 Accepted share 194ms [A:171, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038166[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038167[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038168[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038169[0m
+[32mINFO 12:20:48: GPU0 Accepted share 188ms [A:172, R:0][0m
+[32mINFO 12:20:48: GPU0 Accepted share 193ms [A:173, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 12:21:35: GPU0 Accepted share 188ms [A:174, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038170[0m
+[33mINFO: Detected new work: 1510038171[0m
+[33mINFO: Detected new work: 1510038172[0m
+[32mINFO 12:22:05: GPU0 Accepted share 285ms [A:175, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038173[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038174[0m
+[32mINFO 12:23:58: GPU0 Accepted share 194ms [A:176, R:0][0m
+[32mINFO 12:24:04: GPU0 Accepted share 211ms [A:177, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038175[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 12:25:29: GPU0 Accepted share 197ms [A:178, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038176[0m
+[32mINFO 12:25:51: GPU0 Accepted share 189ms [A:179, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038177[0m
+[33mINFO: Detected new work: 1510038178[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 12:27:42: GPU0 Accepted share 203ms [A:180, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038179[0m
+[32mINFO 12:28:04: GPU0 Accepted share 195ms [A:181, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038180[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038181[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038182[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038183[0m
+[32mINFO 12:32:10: GPU0 Accepted share 264ms [A:182, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038184[0m
+[33mINFO: Detected new work: 1510038185[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 12:32:51: GPU0 Accepted share 193ms [A:183, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038186[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 12:34:04: GPU0 Accepted share 194ms [A:184, R:0][0m
+[32mINFO 12:34:12: GPU0 Accepted share 192ms [A:185, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038187[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038188[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038189[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038190[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 12:37:23: GPU0 Accepted share 196ms [A:186, R:0][0m
+[33mINFO: Detected new work: 1510038191[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 451 Sol/s [0m
+[36mTotal speed: 451 Sol/s[0m
+[32mINFO 12:37:53: GPU0 Accepted share 192ms [A:187, R:0][0m
+[32mINFO 12:38:01: GPU0 Accepted share 199ms [A:188, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038192[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038193[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038194[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038195[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038196[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038197[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 12:43:32: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038198[0m
+[32mINFO 12:44:05: GPU0 Accepted share 231ms [A:189, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 12:44:20: GPU0 Accepted share 200ms [A:190, R:0][0m
+[32mINFO 12:44:30: GPU0 Accepted share 191ms [A:191, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038199[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038200[0m
+[33mINFO: Detected new work: 1510038201[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 12:45:57: GPU0 Accepted share 197ms [A:192, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 12:46:16: GPU0 Accepted share 193ms [A:193, R:0][0m
+[33mINFO: Detected new work: 1510038202[0m
+[32mINFO 12:46:30: GPU0 Accepted share 451ms [A:194, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038203[0m
+[32mINFO 12:46:57: GPU0 Accepted share 207ms [A:195, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038204[0m
+[32mINFO 12:48:03: GPU0 Accepted share 194ms [A:196, R:0][0m
+[33mINFO: Detected new work: 1510038205[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038206[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038207[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038208[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 12:51:23: GPU0 Accepted share 194ms [A:197, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 12:52:03: GPU0 Accepted share 222ms [A:198, R:0][0m
+[33mINFO: Detected new work: 1510038209[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038210[0m
+[32mINFO 12:53:12: GPU0 Accepted share 197ms [A:199, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 12:53:41: GPU0 Accepted share 189ms [A:200, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[33mINFO: Detected new work: 1510038211[0m
+[32mINFO 12:54:03: GPU0 Accepted share 283ms [A:201, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 12:54:45: GPU0 Accepted share 204ms [A:202, R:0][0m
+[33mINFO: Detected new work: 1510038212[0m
+[33mINFO: Detected new work: 1510038213[0m
+[32mINFO 12:54:59: GPU0 Accepted share 198ms [A:203, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038214[0m
+[32mINFO 12:56:10: GPU0 Accepted share 197ms [A:204, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 12:56:30: GPU0 Accepted share 194ms [A:205, R:0][0m
+[32mINFO 12:56:35: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038215[0m
+[32mINFO 12:57:06: GPU0 Accepted share 194ms [A:206, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038216[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 452 Sol/s [0m
+[36mTotal speed: 452 Sol/s[0m
+[33mINFO: Detected new work: 1510038217[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 12:59:56: GPU0 Accepted share 190ms [A:207, R:0][0m
+[33mINFO: Detected new work: 1510038218[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038219[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038220[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 13:02:16: GPU0 Accepted share 202ms [A:208, R:0][0m
+[32mINFO 13:02:39: GPU0 Accepted share 203ms [A:209, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038221[0m
+[32mINFO 13:03:15: GPU0 Accepted share 196ms [A:210, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 452 Sol/s [0m
+[36mTotal speed: 452 Sol/s[0m
+[33mINFO: Detected new work: 1510038222[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038223[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 452 Sol/s [0m
+[36mTotal speed: 452 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[32mINFO 13:05:57: GPU0 Accepted share 204ms [A:211, R:0][0m
+[33mINFO: Detected new work: 1510038224[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038225[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 13:07:17: GPU0 Accepted share 209ms [A:212, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038226[0m
+[32mINFO 13:08:10: GPU0 Accepted share 190ms [A:213, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 13:08:54: GPU0 Accepted share 195ms [A:214, R:0][0m
+[33mINFO: Detected new work: 1510038227[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038228[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 13:10:29: GPU0 Accepted share 195ms [A:215, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 13:10:57: GPU0 Accepted share 199ms [A:216, R:0][0m
+[33mINFO: Detected new work: 1510038229[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038230[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038231[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 13:13:09: GPU0 Accepted share 197ms [A:217, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 454 Sol/s [0m
+[36mTotal speed: 454 Sol/s[0m
+[33mINFO: Detected new work: 1510038232[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 13:14:25: GPU0 Accepted share 194ms [A:218, R:0][0m
+[33mINFO: Detected new work: 1510038233[0m
+[33mINFO: Detected new work: 1510038234[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038235[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 13:16:16: GPU0 Accepted share 199ms [A:219, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 13:16:18: GPU0 Accepted share 213ms [A:220, R:0][0m
+[33mINFO: Detected new work: 1510038236[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038237[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 13:18:12: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038238[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 13:19:13: GPU0 Accepted share 191ms [A:221, R:0][0m
+[32mINFO 13:19:17: GPU0 Accepted share 188ms [A:222, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038239[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 13:20:02: GPU0 Accepted share 454ms [A:223, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038240[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 13:21:05: GPU0 Accepted share 195ms [A:224, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038241[0m
+[32mINFO 13:21:46: GPU0 Accepted share 197ms [A:225, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038242[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 453 Sol/s [0m
+[36mTotal speed: 453 Sol/s[0m
+[32mINFO 13:23:09: GPU0 Accepted share 197ms [A:226, R:0][0m
+[33mINFO: Detected new work: 1510038243[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 13:24:09: GPU0 Accepted share 309ms [A:227, R:0][0m
+[33mINFO: Detected new work: 1510038244[0m
+[32mINFO 13:24:16: GPU0 Accepted share 209ms [A:228, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 13:24:31: GPU0 Accepted share 200ms [A:229, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038245[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 13:26:08: GPU0 Accepted share 313ms [A:230, R:0][0m
+[33mINFO: Detected new work: 1510038246[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038247[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038248[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038249[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 13:29:00: GPU0 Accepted share 199ms [A:231, R:0][0m
+[33mINFO: Detected new work: 1510038250[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 13:29:41: GPU0 Accepted share 190ms [A:232, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038251[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 454 Sol/s [0m
+[36mTotal speed: 454 Sol/s[0m
+[32mINFO 13:30:26: GPU0 Accepted share 193ms [A:233, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038252[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038253[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 13:32:26: GPU0 Accepted share 217ms [A:234, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038254[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038255[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 13:34:49: GPU0 Accepted share 202ms [A:235, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038256[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 13:36:00: GPU0 Accepted share 191ms [A:236, R:0][0m
+[33mINFO: Detected new work: 1510038257[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 13:36:33: GPU0 Accepted share 190ms [A:237, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038258[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038259[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038260[0m
+[32mINFO 13:39:14: GPU0 Accepted share 205ms [A:238, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 13:40:10: GPU0 Accepted share 193ms [A:239, R:0][0m
+[33mINFO: Detected new work: 1510038261[0m
+[32mINFO 13:40:12: GPU0 Accepted share 204ms [A:240, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 13:40:28: GPU0 Accepted share 191ms [A:241, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038262[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 13:41:25: GPU0 Accepted share 194ms [A:242, R:0][0m
+[33mINFO: Detected new work: 1510038263[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038264[0m
+[33mINFO: Detected new work: 1510038265[0m
+[32mINFO 13:42:42: GPU0 Accepted share 437ms [A:243, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038266[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 13:44:29: GPU0 Accepted share 195ms [A:244, R:0][0m
+[33mINFO: Detected new work: 1510038267[0m
+[32mINFO 13:44:46: GPU0 Accepted share 210ms [A:245, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 13:45:34: GPU0 Accepted share 200ms [A:246, R:0][0m
+[33mINFO: Detected new work: 1510038268[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038269[0m
+[32mINFO 13:46:38: GPU0 Accepted share 214ms [A:247, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 13:47:05: GPU0 Accepted share 194ms [A:248, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038270[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038271[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 13:49:17: GPU0 Accepted share 198ms [A:249, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038272[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038273[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038274[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 13:51:26: GPU0 Accepted share 194ms [A:250, R:0][0m
+[32mINFO 13:51:37: GPU0 Accepted share 201ms [A:251, R:0][0m
+[32mINFO 13:51:49: GPU0 Accepted share 187ms [A:252, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038275[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 13:52:32: GPU0 Accepted share 193ms [A:253, R:0][0m
+[32mINFO 13:52:35: GPU0 Accepted share 195ms [A:254, R:0][0m
+[32mINFO 13:52:41: GPU0 Accepted share 188ms [A:255, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 13:53:18: GPU0 Accepted share 191ms [A:256, R:0][0m
+[33mINFO: Detected new work: 1510038276[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 13:53:49: GPU0 Accepted share 201ms [A:257, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038277[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 13:54:26: GPU0 Accepted share 192ms [A:258, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 13:54:56: GPU0 Accepted share 195ms [A:259, R:0][0m
+[33mINFO: Detected new work: 1510038278[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 13:56:01: GPU0 Accepted share 189ms [A:260, R:0][0m
+[32mINFO 13:56:12: GPU0 Accepted share 194ms [A:261, R:0][0m
+[33mINFO: Detected new work: 1510038279[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038280[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038281[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038282[0m
+[33mINFO: Detected new work: 1510038283[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 13:59:01: GPU0 Accepted share 188ms [A:262, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038284[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 13:59:57: GPU0 Accepted share 199ms [A:263, R:0][0m
+[33mINFO: Detected new work: 1510038285[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 14:00:23: GPU0 Accepted share 194ms [A:264, R:0][0m
+[32mINFO 14:00:33: GPU0 Accepted share 195ms [A:265, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 451 Sol/s [0m
+[36mTotal speed: 451 Sol/s[0m
+[33mINFO: Detected new work: 1510038286[0m
+[32mINFO 14:01:21: GPU0 Accepted share 200ms [A:266, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038287[0m
+[32mINFO 14:02:02: GPU0 Accepted share 213ms [A:267, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038288[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 14:03:32: GPU0 Accepted share 192ms [A:268, R:0][0m
+[32mINFO 14:03:44: GPU0 Accepted share 192ms [A:269, R:0][0m
+[33mINFO: Detected new work: 1510038289[0m
+[32mINFO 14:03:51: GPU0 Accepted share 202ms [A:270, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038290[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038291[0m
+[32mINFO 14:04:41: GPU0 Accepted share 205ms [A:271, R:0][0m
+[33mINFO: Detected new work: 1510038292[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038293[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 14:05:57: GPU0 Accepted share 186ms [A:272, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 14:06:31: GPU0 Accepted share 192ms [A:273, R:0][0m
+[33mINFO: Detected new work: 1510038294[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 14:07:10: GPU0 Accepted share 197ms [A:274, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 14:07:37: GPU0 Accepted share 192ms [A:275, R:0][0m
+[33mINFO: Detected new work: 1510038295[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038296[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[33mINFO: Detected new work: 1510038297[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038298[0m
+[33mINFO: Detected new work: 1510038299[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038300[0m
+[32mINFO 14:11:36: GPU0 Accepted share 193ms [A:276, R:0][0m
+[33mINFO: Detected new work: 1510038301[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038302[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 14:12:35: GPU0 Accepted share 195ms [A:277, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 14:13:04: GPU0 Accepted share 202ms [A:278, R:0][0m
+[33mINFO: Detected new work: 1510038303[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038304[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038305[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 14:14:57: GPU0 Accepted share 197ms [A:279, R:0][0m
+[33mINFO: Detected new work: 1510038306[0m
+[32mINFO 14:15:15: GPU0 Accepted share 193ms [A:280, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 14:15:58: GPU0 Accepted share 194ms [A:281, R:0][0m
+[33mINFO: Detected new work: 1510038307[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038308[0m
+[32mINFO 14:16:32: GPU0 Accepted share 196ms [A:282, R:0][0m
+[33mINFO: Detected new work: 1510038309[0m
+[32mINFO 14:16:52: GPU0 Accepted share 198ms [A:283, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038310[0m
+[32mINFO 14:17:37: GPU0 Accepted share 191ms [A:284, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038311[0m
+[32mINFO 14:18:10: GPU0 Accepted share 317ms [A:285, R:0][0m
+[32mINFO 14:18:12: GPU0 Accepted share 192ms [A:286, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038312[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 14:19:20: GPU0 Accepted share 189ms [A:287, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038313[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038314[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 14:21:11: GPU0 Accepted share 191ms [A:288, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 14:21:26: GPU0 Accepted share 205ms [A:289, R:0][0m
+[33mINFO: Detected new work: 1510038315[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038316[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 14:23:29: GPU0 Accepted share 191ms [A:290, R:0][0m
+[33mINFO: Detected new work: 1510038317[0m
+[33mINFO: Detected new work: 1510038318[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 14:24:29: GPU0 Accepted share 453ms [A:291, R:0][0m
+[33mINFO: Detected new work: 1510038319[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[32mINFO 14:25:26: GPU0 Accepted share 200ms [A:292, R:0][0m
+[32mINFO 14:25:43: GPU0 Accepted share 194ms [A:293, R:0][0m
+[32mINFO 14:25:43: GPU0 Accepted share 337ms [A:294, R:0][0m
+[33mINFO: Detected new work: 1510038320[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 14:26:18: GPU0 Accepted share 194ms [A:295, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 14:26:31: GPU0 Accepted share 198ms [A:296, R:0][0m
+[32mINFO 14:26:39: GPU0 Accepted share 198ms [A:297, R:0][0m
+[33mINFO: Detected new work: 1510038321[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 14:27:22: GPU0 Accepted share 193ms [A:298, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[33mINFO: Detected new work: 1510038322[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038323[0m
+[32mINFO 14:28:50: GPU0 Accepted share 198ms [A:299, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038324[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038325[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038326[0m
+[32mINFO 14:31:53: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 453 Sol/s [0m
+[36mTotal speed: 453 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038327[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 14:33:09: GPU0 Accepted share 189ms [A:300, R:0][0m
+[33mINFO: Detected new work: 1510038328[0m
+[33mINFO: Detected new work: 1510038329[0m
+[32mINFO 14:33:20: GPU0 Accepted share 201ms [A:301, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 14:33:36: GPU0 Accepted share 197ms [A:302, R:0][0m
+[33mINFO: Detected new work: 1510038330[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038331[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 14:35:23: GPU0 Accepted share 194ms [A:303, R:0][0m
+[33mINFO: Detected new work: 1510038332[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 14:36:12: GPU0 DevFee Accepted share[0m
+[32mINFO 14:36:16: GPU0 Accepted share 196ms [A:304, R:0][0m
+[32mINFO 14:36:20: GPU0 Accepted share 193ms [A:305, R:0][0m
+[33mINFO: Detected new work: 1510038333[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 14:36:42: GPU0 Accepted share 195ms [A:306, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038334[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038335[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038336[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 451 Sol/s [0m
+[36mTotal speed: 451 Sol/s[0m
+[32mINFO 14:40:14: GPU0 Accepted share 212ms [A:307, R:0][0m
+[33mINFO: Detected new work: 1510038337[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038338[0m
+[32mINFO 14:40:43: GPU0 Accepted share 186ms [A:308, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038339[0m
+[32mINFO 14:41:28: GPU0 Accepted share 192ms [A:309, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038340[0m
+[32mINFO 14:42:55: GPU0 Accepted share 197ms [A:310, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038341[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038342[0m
+[32mINFO 14:44:50: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038343[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[33mINFO: Detected new work: 1510038344[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038345[0m
+[33mINFO: Detected new work: 1510038346[0m
+[33mINFO: Detected new work: 1510038347[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 14:47:38: GPU0 Accepted share 190ms [A:311, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038348[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038349[0m
+[32mINFO 14:48:40: GPU0 Accepted share 192ms [A:312, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 14:49:12: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 454 Sol/s [0m
+[36mTotal speed: 454 Sol/s[0m
+[32mINFO 14:49:39: GPU0 Accepted share 199ms [A:313, R:0][0m
+[33mINFO: Detected new work: 1510038350[0m
+[33mINFO: Detected new work: 1510038351[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038352[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038353[0m
+[32mINFO 14:50:42: GPU0 Accepted share 196ms [A:314, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 452 Sol/s [0m
+[36mTotal speed: 452 Sol/s[0m
+[33mINFO: Detected new work: 1510038354[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 14:51:57: GPU0 Accepted share 192ms [A:315, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 14:52:35: GPU0 Accepted share 444ms [A:316, R:0][0m
+[33mINFO: Detected new work: 1510038355[0m
+[33mINFO: Detected new work: 1510038356[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 14:53:54: GPU0 Accepted share 193ms [A:317, R:0][0m
+[33mINFO: Detected new work: 1510038357[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 14:54:46: GPU0 Accepted share 199ms [A:318, R:0][0m
+[33mINFO: Detected new work: 1510038358[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038359[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[33mINFO: Detected new work: 1510038360[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038361[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038362[0m
+[32mINFO 14:58:02: GPU0 Accepted share 297ms [A:319, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 14:58:35: GPU0 Accepted share 200ms [A:320, R:0][0m
+[32mINFO 14:58:37: GPU0 Accepted share 189ms [A:321, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038363[0m
+[32mINFO 14:59:04: GPU0 Accepted share 195ms [A:322, R:0][0m
+[32mINFO 14:59:15: GPU0 Accepted share 204ms [A:323, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038364[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 15:00:17: GPU0 Accepted share 191ms [A:324, R:0][0m
+[32mINFO 15:00:25: GPU0 Accepted share 198ms [A:325, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038365[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 15:01:31: GPU0 Accepted share 199ms [A:326, R:0][0m
+[32mINFO 15:01:32: GPU0 Accepted share 185ms [A:327, R:0][0m
+[33mINFO: Detected new work: 1510038366[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 15:02:12: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038367[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038368[0m
+[32mINFO 15:03:41: GPU0 Accepted share 184ms [A:328, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038369[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038370[0m
+[32mINFO 15:05:43: GPU0 Accepted share 211ms [A:329, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[32mINFO 15:06:30: GPU0 DevFee Accepted share[0m
+[33mINFO: Detected new work: 1510038371[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 15:07:01: GPU0 Accepted share 190ms [A:330, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038372[0m
+[32mINFO 15:07:44: GPU0 Accepted share 195ms [A:331, R:0][0m
+[32mINFO 15:07:53: GPU0 Accepted share 193ms [A:332, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038373[0m
+[32mINFO 15:08:50: GPU0 Accepted share 191ms [A:333, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 15:09:04: GPU0 Accepted share 190ms [A:334, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038374[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 15:10:16: GPU0 Accepted share 205ms [A:335, R:0][0m
+[32mINFO 15:10:19: GPU0 Accepted share 207ms [A:336, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038375[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 15:11:09: GPU0 Accepted share 191ms [A:337, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038376[0m
+[32mINFO 15:11:52: GPU0 Accepted share 202ms [A:338, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[33mINFO: Detected new work: 1510038377[0m
+[32mINFO 15:12:44: GPU0 Accepted share 200ms [A:339, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038378[0m
+[33mINFO: Detected new work: 1510038379[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038380[0m
+[32mINFO 15:14:58: GPU0 Accepted share 192ms [A:340, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 15:15:08: GPU0 Accepted share 205ms [A:341, R:0][0m
+[32mINFO 15:15:22: GPU0 Accepted share 215ms [A:342, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[33mINFO: Detected new work: 1510038381[0m
+[32mINFO 15:15:51: GPU0 Accepted share 193ms [A:343, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[32mINFO 15:16:44: GPU0 Accepted share 202ms [A:344, R:0][0m
+[33mINFO: Detected new work: 1510038382[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038383[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 454 Sol/s [0m
+[36mTotal speed: 454 Sol/s[0m
+[33mINFO: Detected new work: 1510038384[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 15:18:12: GPU0 Accepted share 203ms [A:345, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 15:18:31: GPU0 Accepted share 198ms [A:346, R:0][0m
+[33mINFO: Detected new work: 1510038385[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038386[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 451 Sol/s [0m
+[36mTotal speed: 451 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038387[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038388[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 15:21:48: GPU0 Accepted share 199ms [A:347, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038389[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038390[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 15:23:35: GPU0 Accepted share 203ms [A:348, R:0][0m
+[32mINFO 15:23:59: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038391[0m
+[32mINFO 15:24:04: GPU0 Accepted share 193ms [A:349, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038392[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[33mINFO: Detected new work: 1510038393[0m
+[32mINFO 15:26:04: GPU0 Accepted share 190ms [A:350, R:0][0m
+[33mINFO: Detected new work: 1510038394[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 15:26:46: GPU0 Accepted share 194ms [A:351, R:0][0m
+[32mINFO 15:26:47: GPU0 Accepted share 192ms [A:352, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038395[0m
+[33mINFO: Detected new work: 1510038396[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 15:28:20: GPU0 DevFee Accepted share[0m
+[32mINFO 15:28:21: GPU0 DevFee Accepted share[0m
+[33mINFO: Detected new work: 1510038397[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 451 Sol/s [0m
+[36mTotal speed: 451 Sol/s[0m
+[32mINFO 15:28:55: GPU0 Accepted share 203ms [A:353, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038398[0m
+[32mINFO 15:29:29: GPU0 Accepted share 196ms [A:354, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038399[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 15:30:45: GPU0 Accepted share 197ms [A:355, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038400[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 15:32:10: GPU0 Accepted share 192ms [A:356, R:0][0m
+[33mINFO: Detected new work: 1510038401[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038402[0m
+[32mINFO 15:33:29: GPU0 Accepted share 187ms [A:357, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 15:33:40: GPU0 Accepted share 200ms [A:358, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038403[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[33mINFO: Detected new work: 1510038404[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 421 Sol/s [0m
+[36mTotal speed: 421 Sol/s[0m
+[32mINFO 15:35:31: GPU0 Accepted share 195ms [A:359, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038405[0m
+[32mINFO 15:36:30: GPU0 Accepted share 198ms [A:360, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 416 Sol/s [0m
+[36mTotal speed: 416 Sol/s[0m
+[33mINFO: Detected new work: 1510038406[0m
+[32mINFO 15:36:46: GPU0 Accepted share 199ms [A:361, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 413 Sol/s [0m
+[36mTotal speed: 413 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 407 Sol/s [0m
+[36mTotal speed: 407 Sol/s[0m
+[32mINFO 15:37:35: GPU0 Accepted share 204ms [A:362, R:0][0m
+[33mINFO: Detected new work: 1510038407[0m
+[32mINFO 15:37:47: GPU0 Accepted share 190ms [A:363, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 410 Sol/s [0m
+[36mTotal speed: 410 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[33mINFO: Detected new work: 1510038408[0m
+[32mINFO 15:38:54: GPU0 Accepted share 203ms [A:364, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038409[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038410[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 15:41:02: GPU0 Accepted share 198ms [A:365, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038411[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038412[0m
+[32mINFO 15:42:50: GPU0 Accepted share 193ms [A:366, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 15:43:37: GPU0 Accepted share 201ms [A:367, R:0][0m
+[33mINFO: Detected new work: 1510038413[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038414[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 15:45:18: GPU0 Accepted share 193ms [A:368, R:0][0m
+[33mINFO: Detected new work: 1510038415[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 15:46:00: GPU0 Accepted share 196ms [A:369, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 15:46:15: GPU0 Accepted share 197ms [A:370, R:0][0m
+[33mINFO: Detected new work: 1510038416[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 15:47:07: GPU0 Accepted share 194ms [A:371, R:0][0m
+[32mINFO 15:47:13: GPU0 Accepted share 189ms [A:372, R:0][0m
+[33mINFO: Detected new work: 1510038417[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 15:47:32: GPU0 Accepted share 197ms [A:373, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[32mINFO 15:48:16: GPU0 Accepted share 199ms [A:374, R:0][0m
+[33mINFO: Detected new work: 1510038418[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 15:48:56: GPU0 Accepted share 197ms [A:375, R:0][0m
+[32mINFO 15:48:58: GPU0 Accepted share 200ms [A:376, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 15:49:19: GPU0 Accepted share 199ms [A:377, R:0][0m
+[33mINFO: Detected new work: 1510038419[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 15:49:37: GPU0 Accepted share 192ms [A:378, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038420[0m
+[36mTemp: [0m[36mGPU0: [0m[32m66C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 15:51:01: GPU0 Accepted share 191ms [A:379, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038421[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038422[0m
+[32mINFO 15:52:23: GPU0 Accepted share 193ms [A:380, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038423[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038424[0m
+[32mINFO 15:53:58: GPU0 Accepted share 195ms [A:381, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 15:54:12: GPU0 Accepted share 200ms [A:382, R:0][0m
+[32mINFO 15:54:19: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038425[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 15:55:25: GPU0 Accepted share 201ms [A:383, R:0][0m
+[32mINFO 15:55:32: GPU0 Accepted share 189ms [A:384, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038426[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 15:56:10: GPU0 Accepted share 203ms [A:385, R:0][0m
+[33mINFO: Detected new work: 1510038427[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038428[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[32mINFO 15:58:27: GPU0 Accepted share 197ms [A:386, R:0][0m
+[33mINFO: Detected new work: 1510038429[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[32mINFO 15:59:10: GPU0 Accepted share 201ms [A:387, R:0][0m
+[32mINFO 15:59:29: GPU0 Accepted share 196ms [A:388, R:0][0m
+[33mINFO: Detected new work: 1510038430[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[32mINFO 15:59:55: GPU0 Accepted share 206ms [A:389, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038431[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038432[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[32mINFO 16:01:40: GPU0 Accepted share 207ms [A:390, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038433[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 16:02:44: GPU0 Accepted share 202ms [A:391, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[32mINFO 16:03:06: GPU0 Accepted share 194ms [A:392, R:0][0m
+[33mINFO: Detected new work: 1510038434[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[33mINFO: Detected new work: 1510038435[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038436[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 16:06:03: GPU0 Accepted share 243ms [A:393, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038437[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038438[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 16:08:20: GPU0 Accepted share 196ms [A:394, R:0][0m
+[33mINFO: Detected new work: 1510038439[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038440[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 16:09:38: GPU0 Accepted share 192ms [A:395, R:0][0m
+[32mINFO 16:09:43: GPU0 Accepted share 196ms [A:396, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038441[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 16:11:04: GPU0 Accepted share 205ms [A:397, R:0][0m
+[32mINFO 16:11:12: GPU0 Accepted share 193ms [A:398, R:0][0m
+[33mINFO: Detected new work: 1510038442[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 16:11:43: GPU0 Accepted share 201ms [A:399, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038443[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 16:13:04: GPU0 Accepted share 196ms [A:400, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[33mINFO: Detected new work: 1510038444[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038445[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 16:14:57: GPU0 Accepted share 197ms [A:401, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 16:15:12: GPU0 Accepted share 190ms [A:402, R:0][0m
+[33mINFO: Detected new work: 1510038446[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038447[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 16:16:15: GPU0 Accepted share 205ms [A:403, R:0][0m
+[32mINFO 16:16:29: GPU0 Accepted share 196ms [A:404, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038448[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 16:17:27: GPU0 Accepted share 199ms [A:405, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038449[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 16:18:26: GPU0 Accepted share 206ms [A:406, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038450[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[32mINFO 16:19:13: GPU0 Accepted share 198ms [A:407, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038451[0m
+[32mINFO 16:20:02: GPU0 Accepted share 262ms [A:408, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 16:20:31: GPU0 Accepted share 197ms [A:409, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038452[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 16:21:13: GPU0 Accepted share 192ms [A:410, R:0][0m
+[32mINFO 16:21:15: GPU0 Accepted share 198ms [A:411, R:0][0m
+[33mINFO: Detected new work: 1510038453[0m
+[32mINFO 16:21:19: GPU0 Accepted share 198ms [A:412, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[32mINFO 16:21:46: GPU0 Accepted share 194ms [A:413, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038454[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 16:22:36: GPU0 Accepted share 192ms [A:414, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038455[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 16:23:46: GPU0 Accepted share 189ms [A:415, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038456[0m
+[32mINFO 16:24:17: GPU0 Accepted share 199ms [A:416, R:0][0m
+[33mINFO: Detected new work: 1510038457[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[32mINFO 16:25:20: GPU0 Accepted share 199ms [A:417, R:0][0m
+[33mINFO: Detected new work: 1510038458[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038459[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038460[0m
+[32mINFO 16:26:22: GPU0 Accepted share 194ms [A:418, R:0][0m
+[33mINFO: Detected new work: 1510038461[0m
+[32mINFO 16:26:32: GPU0 Accepted share 192ms [A:419, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038462[0m
+[32mINFO 16:27:27: GPU0 Accepted share 199ms [A:420, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 16:27:42: GPU0 Accepted share 193ms [A:421, R:0][0m
+[32mINFO 16:27:53: GPU0 Accepted share 190ms [A:422, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038463[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 16:28:56: GPU0 Accepted share 198ms [A:423, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038464[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038465[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 16:30:43: GPU0 Accepted share 205ms [A:424, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038466[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038467[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 16:32:47: GPU0 Accepted share 187ms [A:425, R:0][0m
+[32mINFO 16:33:03: GPU0 DevFee Accepted share[0m
+[32mINFO 16:33:05: GPU0 Accepted share 202ms [A:426, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 16:33:16: GPU0 Accepted share 441ms [A:427, R:0][0m
+[32mINFO 16:33:23: GPU0 Accepted share 193ms [A:428, R:0][0m
+[33mINFO: Detected new work: 1510038468[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038469[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 16:35:23: GPU0 Accepted share 192ms [A:429, R:0][0m
+[33mINFO: Detected new work: 1510038470[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 16:35:49: GPU0 Accepted share 201ms [A:430, R:0][0m
+[33mINFO: Detected new work: 1510038471[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[32mINFO 16:36:07: GPU0 Accepted share 289ms [A:431, R:0][0m
+[32mINFO 16:36:21: GPU0 Accepted share 194ms [A:432, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038472[0m
+[32mINFO 16:36:55: GPU0 Accepted share 205ms [A:433, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[32mINFO 16:37:25: GPU0 Accepted share 192ms [A:434, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038473[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 16:38:31: GPU0 Accepted share 200ms [A:435, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038474[0m
+[32mINFO 16:38:59: GPU0 Accepted share 204ms [A:436, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 16:39:23: GPU0 Accepted share 195ms [A:437, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038475[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038476[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 16:41:26: GPU0 Accepted share 197ms [A:438, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038477[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[32mINFO 16:42:14: GPU0 Accepted share 191ms [A:439, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 16:42:47: GPU0 Accepted share 196ms [A:440, R:0][0m
+[33mINFO: Detected new work: 1510038478[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[32mINFO 16:43:31: GPU0 Accepted share 192ms [A:441, R:0][0m
+[32mINFO 16:43:35: GPU0 Accepted share 208ms [A:442, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038479[0m
+[32mINFO 16:43:55: GPU0 Accepted share 199ms [A:443, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038480[0m
+[33mINFO: Detected new work: 1510038481[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 16:45:26: GPU0 Accepted share 199ms [A:444, R:0][0m
+[32mINFO 16:45:28: GPU0 Accepted share 203ms [A:445, R:0][0m
+[33mINFO: Detected new work: 1510038482[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038483[0m
+[32mINFO 16:45:54: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038484[0m
+[33mINFO: Detected new work: 1510038485[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 16:47:13: GPU0 Accepted share 198ms [A:446, R:0][0m
+[32mINFO 16:47:22: GPU0 Accepted share 209ms [A:447, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[32mINFO 16:47:42: GPU0 Accepted share 193ms [A:448, R:0][0m
+[33mINFO: Detected new work: 1510038486[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038487[0m
+[33mINFO: Detected new work: 1510038488[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[32mINFO 16:49:40: GPU0 Accepted share 193ms [A:449, R:0][0m
+[32mINFO 16:49:41: GPU0 Accepted share 189ms [A:450, R:0][0m
+[32mINFO 16:49:57: GPU0 Accepted share 205ms [A:451, R:0][0m
+[33mINFO: Detected new work: 1510038489[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038490[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 16:51:02: GPU0 Accepted share 192ms [A:452, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038491[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[32mINFO 16:51:45: GPU0 Accepted share 195ms [A:453, R:0][0m
+[32mINFO 16:52:06: GPU0 Accepted share 197ms [A:454, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038492[0m
+[32mINFO 16:52:34: GPU0 Accepted share 199ms [A:455, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038493[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 16:53:49: GPU0 Accepted share 193ms [A:456, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038494[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 16:54:47: GPU0 Accepted share 207ms [A:457, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038495[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038496[0m
+[32mINFO 16:56:15: GPU0 Accepted share 199ms [A:458, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[33mINFO: Detected new work: 1510038497[0m
+[33mINFO: Detected new work: 1510038498[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038499[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038500[0m
+[32mINFO 16:58:56: GPU0 Accepted share 198ms [A:459, R:0][0m
+[32mINFO 16:59:02: GPU0 Accepted share 190ms [A:460, R:0][0m
+[32mINFO 16:59:04: GPU0 Accepted share 196ms [A:461, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038501[0m
+[33mINFO: Detected new work: 1510038502[0m
+[32mINFO 16:59:34: GPU0 Accepted share 199ms [A:462, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 17:00:04: GPU0 Accepted share 300ms [A:463, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 17:00:09: GPU0 Accepted share 203ms [A:464, R:0][0m
+[33mINFO: Detected new work: 1510038503[0m
+[32mINFO 17:00:23: GPU0 Accepted share 438ms [A:465, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[33mINFO: Detected new work: 1510038504[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 17:01:16: GPU0 Accepted share 196ms [A:466, R:0][0m
+[32mINFO 17:01:17: GPU0 Accepted share 193ms [A:467, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 17:01:48: GPU0 Accepted share 193ms [A:468, R:0][0m
+[33mINFO: Detected new work: 1510038505[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[32mINFO 17:02:11: GPU0 Accepted share 194ms [A:469, R:0][0m
+[32mINFO 17:02:22: GPU0 Accepted share 198ms [A:470, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038506[0m
+[33mINFO: Detected new work: 1510038507[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 17:03:11: GPU0 DevFee Accepted share[0m
+[32mINFO 17:03:16: GPU0 Accepted share 212ms [A:471, R:0][0m
+[32mINFO 17:03:25: GPU0 Accepted share 207ms [A:472, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038508[0m
+[32mINFO 17:03:58: GPU0 Accepted share 191ms [A:473, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038509[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038510[0m
+[32mINFO 17:06:09: GPU0 Accepted share 221ms [A:474, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038511[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038512[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 17:08:27: GPU0 Accepted share 201ms [A:475, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038513[0m
+[33mINFO: Detected new work: 1510038514[0m
+[32mINFO 17:08:59: GPU0 Accepted share 192ms [A:476, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038515[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038516[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038517[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038518[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 17:13:55: GPU0 Accepted share 191ms [A:477, R:0][0m
+[33mINFO: Detected new work: 1510038519[0m
+[32mINFO 17:14:03: GPU0 Accepted share 285ms [A:478, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038520[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 17:15:10: GPU0 Accepted share 195ms [A:479, R:0][0m
+[32mINFO 17:15:30: GPU0 Accepted share 211ms [A:480, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038521[0m
+[32mINFO 17:16:06: GPU0 Accepted share 226ms [A:481, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 17:16:33: GPU0 Accepted share 203ms [A:482, R:0][0m
+[32mINFO 17:16:36: GPU0 Accepted share 195ms [A:483, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[33mINFO: Detected new work: 1510038522[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038523[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 17:18:21: GPU0 Accepted share 192ms [A:484, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 17:18:57: GPU0 Accepted share 196ms [A:485, R:0][0m
+[33mINFO: Detected new work: 1510038524[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 17:19:13: GPU0 Accepted share 191ms [A:486, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038525[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 450 Sol/s [0m
+[36mTotal speed: 450 Sol/s[0m
+[32mINFO 17:20:23: GPU0 DevFee Accepted share[0m
+[32mINFO 17:20:33: GPU0 Accepted share 197ms [A:487, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038526[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038527[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 17:22:50: GPU0 Accepted share 203ms [A:488, R:0][0m
+[33mINFO: Detected new work: 1510038528[0m
+[32mINFO 17:23:06: GPU0 Accepted share 195ms [A:489, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[32mINFO 17:23:35: GPU0 Accepted share 191ms [A:490, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038529[0m
+[33mINFO: Detected new work: 1510038530[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038531[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 17:25:21: GPU0 Accepted share 191ms [A:491, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038532[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038533[0m
+[32mINFO 17:27:08: GPU0 Accepted share 189ms [A:492, R:0][0m
+[32mINFO 17:27:11: GPU0 Accepted share 199ms [A:493, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038534[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038535[0m
+[32mINFO 17:28:57: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038536[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 17:30:25: GPU0 Accepted share 190ms [A:494, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038537[0m
+[32mINFO 17:31:09: GPU0 Accepted share 191ms [A:495, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038538[0m
+[33mINFO: Detected new work: 1510038539[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[32mINFO 17:32:26: GPU0 Accepted share 199ms [A:496, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038540[0m
+[32mINFO 17:33:11: GPU0 Accepted share 194ms [A:497, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038541[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 17:34:07: GPU0 Accepted share 195ms [A:498, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038542[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038543[0m
+[33mINFO: Detected new work: 1510038544[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 17:35:32: GPU0 Accepted share 193ms [A:499, R:0][0m
+[32mINFO 17:35:40: GPU0 Accepted share 204ms [A:500, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 17:35:56: GPU0 Accepted share 201ms [A:501, R:0][0m
+[33mINFO: Detected new work: 1510038545[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038546[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038547[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[33mINFO: Detected new work: 1510038548[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038549[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 17:39:51: GPU0 Accepted share 198ms [A:502, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038550[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 17:41:26: GPU0 Accepted share 200ms [A:503, R:0][0m
+[33mINFO: Detected new work: 1510038551[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038552[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038553[0m
+[32mINFO 17:42:58: GPU0 Accepted share 196ms [A:504, R:0][0m
+[33mINFO: Detected new work: 1510038554[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 17:43:15: GPU0 Accepted share 194ms [A:505, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038555[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038556[0m
+[32mINFO 17:45:04: GPU0 Accepted share 197ms [A:506, R:0][0m
+[33mINFO: Detected new work: 1510038557[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[32mINFO 17:45:52: GPU0 Accepted share 190ms [A:507, R:0][0m
+[33mINFO: Detected new work: 1510038558[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[32mINFO 17:46:30: GPU0 Accepted share 201ms [A:508, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 17:46:48: GPU0 Accepted share 220ms [A:509, R:0][0m
+[33mINFO: Detected new work: 1510038559[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[32mINFO 17:47:34: GPU0 Accepted share 444ms [A:510, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038560[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 17:48:20: GPU0 Accepted share 189ms [A:511, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038561[0m
+[33mINFO: Detected new work: 1510038562[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 17:49:15: GPU0 Accepted share 194ms [A:512, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038563[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 17:50:14: GPU0 Accepted share 218ms [A:513, R:0][0m
+[32mINFO 17:50:23: GPU0 Accepted share 203ms [A:514, R:0][0m
+[33mINFO: Detected new work: 1510038564[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[32mINFO 17:51:19: GPU0 Accepted share 195ms [A:515, R:0][0m
+[33mINFO: Detected new work: 1510038565[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038566[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038567[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510038568[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 17:54:57: GPU0 Accepted share 197ms [A:516, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 17:55:23: GPU0 Accepted share 208ms [A:517, R:0][0m
+[33mINFO: Detected new work: 1510038569[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[33mINFO: Detected new work: 1510038570[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 17:57:19: GPU0 Accepted share 196ms [A:518, R:0][0m
+[33mINFO: Detected new work: 1510038571[0m
+[33mINFO: Detected new work: 1510038572[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 17:58:26: GPU0 Accepted share 208ms [A:519, R:0][0m
+[33mINFO: Detected new work: 1510038573[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038574[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 17:59:38: GPU0 Accepted share 195ms [A:520, R:0][0m
+[32mINFO 17:59:38: GPU0 Accepted share 187ms [A:521, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 17:59:46: GPU0 Accepted share 186ms [A:522, R:0][0m
+[33mINFO: Detected new work: 1510038575[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038576[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038577[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 445 Sol/s [0m
+[36mTotal speed: 445 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038578[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 18:03:01: GPU0 Accepted share 202ms [A:523, R:0][0m
+[33mINFO: Detected new work: 1510038579[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 18:03:46: GPU0 Accepted share 191ms [A:524, R:0][0m
+[32mINFO 18:04:08: GPU0 Accepted share 196ms [A:525, R:0][0m
+[33mINFO: Detected new work: 1510038580[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 18:04:33: GPU0 Accepted share 196ms [A:526, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038581[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038582[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 444 Sol/s [0m
+[36mTotal speed: 444 Sol/s[0m
+[33mINFO: Detected new work: 1510038583[0m
+[32mINFO 18:06:27: GPU0 Accepted share 196ms [A:527, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038584[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[32mINFO 18:08:02: GPU0 Accepted share 295ms [A:528, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[33mINFO: Detected new work: 1510038585[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 422 Sol/s [0m
+[36mTotal speed: 422 Sol/s[0m
+[33mINFO: Detected new work: 1510038586[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 418 Sol/s [0m
+[36mTotal speed: 418 Sol/s[0m
+[33mINFO: Detected new work: 1510038587[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[32mINFO 18:10:39: GPU0 Accepted share 206ms [A:529, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[33mINFO: Detected new work: 1510038588[0m
+[32mINFO 18:11:00: GPU0 Accepted share 198ms [A:530, R:0][0m
+[33mINFO: Detected new work: 1510038589[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[32mINFO 18:11:36: GPU0 Accepted share 193ms [A:531, R:0][0m
+[32mINFO 18:11:45: GPU0 Accepted share 197ms [A:532, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038590[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[33mINFO: Detected new work: 1510038591[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[33mINFO: Detected new work: 1510038592[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[32mINFO 18:14:11: GPU0 Accepted share 191ms [A:533, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 424 Sol/s [0m
+[36mTotal speed: 424 Sol/s[0m
+[33mINFO: Detected new work: 1510038593[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038594[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038595[0m
+[32mINFO 18:15:52: GPU0 Accepted share 193ms [A:534, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 18:16:26: GPU0 Accepted share 195ms [A:535, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038596[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[32mINFO 18:17:39: GPU0 Accepted share 194ms [A:536, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038597[0m
+[33mINFO: Detected new work: 1510038598[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[33mINFO: Detected new work: 1510038599[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038600[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 425 Sol/s [0m
+[36mTotal speed: 425 Sol/s[0m
+[32mINFO 18:20:42: GPU0 Accepted share 202ms [A:537, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[32mINFO 18:20:59: GPU0 Accepted share 226ms [A:538, R:0][0m
+[32mINFO 18:21:06: GPU0 Accepted share 207ms [A:539, R:0][0m
+[33mINFO: Detected new work: 1510038601[0m
+[32mINFO 18:21:12: GPU0 Accepted share 192ms [A:540, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 425 Sol/s [0m
+[36mTotal speed: 425 Sol/s[0m
+[33mINFO: Detected new work: 1510038602[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 399 Sol/s [0m
+[36mTotal speed: 399 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 407 Sol/s [0m
+[36mTotal speed: 407 Sol/s[0m
+[33mINFO: Detected new work: 1510038603[0m
+[32mINFO 18:22:56: GPU0 Accepted share 191ms [A:541, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 405 Sol/s [0m
+[36mTotal speed: 405 Sol/s[0m
+[32mINFO 18:23:37: GPU0 Accepted share 195ms [A:542, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 401 Sol/s [0m
+[36mTotal speed: 401 Sol/s[0m
+[33mINFO: Detected new work: 1510038604[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 420 Sol/s [0m
+[36mTotal speed: 420 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[33mINFO: Detected new work: 1510038605[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[33mINFO: Detected new work: 1510038606[0m
+[32mINFO 18:26:09: GPU0 Accepted share 272ms [A:543, R:0][0m
+[32mINFO 18:26:11: GPU0 Accepted share 194ms [A:544, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 18:26:35: GPU0 Accepted share 191ms [A:545, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 18:26:48: GPU0 Accepted share 192ms [A:546, R:0][0m
+[33mINFO: Detected new work: 1510038607[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038608[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038609[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 428 Sol/s [0m
+[36mTotal speed: 428 Sol/s[0m
+[32mINFO 18:29:01: GPU0 Accepted share 196ms [A:547, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 423 Sol/s [0m
+[36mTotal speed: 423 Sol/s[0m
+[33mINFO: Detected new work: 1510038610[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 427 Sol/s [0m
+[36mTotal speed: 427 Sol/s[0m
+[33mINFO: Detected new work: 1510038611[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[33mINFO: Detected new work: 1510038612[0m
+[33mINFO: Detected new work: 1510038613[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 426 Sol/s [0m
+[36mTotal speed: 426 Sol/s[0m
+[33mINFO: Detected new work: 1510038614[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 452 Sol/s [0m
+[36mTotal speed: 452 Sol/s[0m
+[33mINFO: Detected new work: 1510038615[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[32mINFO 18:33:40: GPU0 Accepted share 207ms [A:548, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[32mINFO 18:33:52: GPU0 DevFee Accepted share[0m
+[33mINFO: Detected new work: 1510038616[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 452 Sol/s [0m
+[36mTotal speed: 452 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 18:34:59: GPU0 Accepted share 189ms [A:549, R:0][0m
+[33mINFO: Detected new work: 1510038617[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 454 Sol/s [0m
+[36mTotal speed: 454 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 452 Sol/s [0m
+[36mTotal speed: 452 Sol/s[0m
+[33mINFO: Detected new work: 1510038618[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 449 Sol/s [0m
+[36mTotal speed: 449 Sol/s[0m
+[32mINFO 18:36:41: GPU0 Accepted share 195ms [A:550, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 447 Sol/s [0m
+[36mTotal speed: 447 Sol/s[0m
+[33mINFO: Detected new work: 1510038619[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[32mINFO 18:37:30: GPU0 Accepted share 194ms [A:551, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 18:38:12: GPU0 Accepted share 201ms [A:552, R:0][0m
+[33mINFO: Detected new work: 1510038620[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[32mINFO 18:38:24: GPU0 Accepted share 206ms [A:553, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[33mINFO: Detected new work: 1510038621[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[33mINFO: Detected new work: 1510038622[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038623[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 429 Sol/s [0m
+[36mTotal speed: 429 Sol/s[0m
+[33mINFO: Detected new work: 1510038624[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 434 Sol/s [0m
+[36mTotal speed: 434 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038625[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 18:43:14: GPU0 Accepted share 193ms [A:554, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 18:43:21: GPU0 Accepted share 214ms [A:555, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 443 Sol/s [0m
+[36mTotal speed: 443 Sol/s[0m
+[33mINFO: Detected new work: 1510038626[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 18:44:21: GPU0 Accepted share 200ms [A:556, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038627[0m
+[32mINFO 18:45:11: GPU0 Accepted share 191ms [A:557, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 440 Sol/s [0m
+[36mTotal speed: 440 Sol/s[0m
+[33mINFO: Detected new work: 1510038628[0m
+[32mINFO 18:46:05: GPU0 Accepted share 203ms [A:558, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[32mINFO 18:46:40: GPU0 Accepted share 196ms [A:559, R:0][0m
+[32mINFO 18:46:47: GPU0 DevFee Accepted share[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038629[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 448 Sol/s [0m
+[36mTotal speed: 448 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[33mINFO: Detected new work: 1510038630[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 18:48:36: GPU0 Accepted share 197ms [A:560, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[32mINFO 18:48:49: GPU0 Accepted share 198ms [A:561, R:0][0m
+[33mINFO: Detected new work: 1510038631[0m
+[32mINFO 18:49:00: GPU0 Accepted share 198ms [A:562, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 18:49:25: GPU0 Accepted share 191ms [A:563, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[33mINFO: Detected new work: 1510038632[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038633[0m
+[32mINFO 18:50:47: GPU0 Accepted share 194ms [A:564, R:0][0m
+[32mINFO 18:50:48: GPU0 Accepted share 189ms [A:565, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038634[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 437 Sol/s [0m
+[36mTotal speed: 437 Sol/s[0m
+[32mINFO 18:51:54: GPU0 Accepted share 202ms [A:566, R:0][0m
+[32mINFO 18:52:06: GPU0 Accepted share 193ms [A:567, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 431 Sol/s [0m
+[36mTotal speed: 431 Sol/s[0m
+[32mINFO 18:52:26: GPU0 Accepted share 193ms [A:568, R:0][0m
+[33mINFO: Detected new work: 1510038635[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 435 Sol/s [0m
+[36mTotal speed: 435 Sol/s[0m
+[33mINFO: Detected new work: 1510038636[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[33mINFO: Detected new work: 1510038637[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 438 Sol/s [0m
+[36mTotal speed: 438 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[33mINFO: Detected new work: 1510038638[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 436 Sol/s [0m
+[36mTotal speed: 436 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 446 Sol/s [0m
+[36mTotal speed: 446 Sol/s[0m
+[33mINFO: Detected new work: 1510038639[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 442 Sol/s [0m
+[36mTotal speed: 442 Sol/s[0m
+[32mINFO 18:57:18: GPU0 Accepted share 195ms [A:569, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 441 Sol/s [0m
+[36mTotal speed: 441 Sol/s[0m
+[33mINFO: Detected new work: 1510038640[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 430 Sol/s [0m
+[36mTotal speed: 430 Sol/s[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 432 Sol/s [0m
+[36mTotal speed: 432 Sol/s[0m
+[33mINFO: Detected new work: 1510038641[0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 439 Sol/s [0m
+[36mTotal speed: 439 Sol/s[0m
+[32mINFO 18:59:19: GPU0 Accepted share 277ms [A:570, R:0][0m
+[36mTemp: [0m[36mGPU0: [0m[32m67C [0m
+[36mGPU0: 433 Sol/s [0m
+[36mTotal speed: 433 Sol/s[0m
+[33mINFO: Detected new work: 1510038642[0m
+[33mINFO: Dete
