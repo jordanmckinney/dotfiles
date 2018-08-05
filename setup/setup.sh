@@ -133,5 +133,5 @@ gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
 # add new ssh key to github
 # go into disks, make harddrive sleep
 # Set terminal to theme colours, transparency
-# set lock screen
+# set lock screen (settings)
 # search "dock" to set dock to hide
