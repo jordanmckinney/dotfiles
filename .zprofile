@@ -1,1 +1,1 @@
-source ~/Dropbox/DotFiles/zprofile
+source ~/Development/DotFiles/zprofile

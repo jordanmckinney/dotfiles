@@ -1,26 +1,17 @@
 export PATH="$PATH:/home/jordan/.local/bin"
-export PATH="$PATH:/opt"
-export TERM="xterm-256color"
 
 # pyenv
-export PYENV_ROOT="$HOME/.pyenv"
+#export PYENV_ROOT="$HOME/.pyenv"
+#eval "$(pyenv init -)"
 export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="/home/jordan/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-
-# anaconda
-export PATH="/home/jordan/anaconda3/bin:$PATH"
-
-# cuda for tensorflow
-export PATH=/usr/local/cuda-8.0.61/bin${PATH:+:${PATH}}
-export PATH="/usr/local/cuda/bin:$PATH"
-export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64
-export CUDA_HOME=/usr/local/cuda-8.0
+eval "$(rbenv init -)"
 
 # eth
 export GPU_FORCE_64BIT_PTR=0
@@ -30,10 +21,10 @@ export GPU_MAX_ALLOC_PERCENT=100
 export GPU_SINGLE_ALLOC_PERCENT=100
 
 # autoenv
-source /usr/local/bin/activate.sh
+source /home/jordan/.local/bin/activate.sh
 
 # virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Development
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-source /usr/local/bin/virtualenvwrapper.sh
+source /home/jordan/.local/bin/virtualenvwrapper.sh

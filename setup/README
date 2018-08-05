@@ -1,8 +1,5 @@
 ### Other stuff to do
 
-~~~ Programs
--chrome
-
 ~~~ Fonts
 default: ubuntu regular 10
 document: sans regular 10
@@ -12,8 +9,6 @@ window title: robot mono for powerline bold 10
 ~~~ Startup
 ( tweak tool )
 -dropbox: dropbox start -i
--redshift: /usr/bin/redshift
--chrome
 
 ~~~ Media
 -go into `disks`, set sleep
