@@ -6,6 +6,7 @@
 # slack
 # dropbox
 # gnome tweak
+# calibre
 
 # settings >
 # keyboard shortcuts
