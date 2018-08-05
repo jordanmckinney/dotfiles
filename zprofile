@@ -1,13 +1,5 @@
 export PATH="$PATH:/home/jordan/.local/bin"
 
-# pyenv
-#export PYENV_ROOT="$HOME/.pyenv"
-#eval "$(pyenv init -)"
-export PATH="$PYENV_ROOT/bin:$PATH"
-export PATH="/home/jordan/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
