@@ -1,15 +1,21 @@
 #!/bin/bash
 
+# SOFTWARE CENTER
+# spotify
+# brave
+# sublime
+# slack
+# dropbox
+
+# settings > keyboard shortcuts
+
 # basic stuff
-sudo apt install nautilus-dropbox curl tree \ 
-htop tmux redshift vlc xsel \ 
-silversearcher-ag golang-go \
-trimage git zsh
+sudo apt install curl tree htop tmux zsh xsel silversearcher-ag trimage git
 
 # python stuff
-sudo apt-get install python-pip python3-pip
-pip install --upgrade pip
-pip3 install --upgrade pip
+sudo apt install python-pip python3-pip
+#pip install --upgrade pip
+#pip3 install --upgrade pip
 pip install virtualenv
 pip3 install virtualenv
 pip install virtualenvwrapper
@@ -22,7 +28,6 @@ git config --global user.email "jordanmmck@gmail.com"
 git config --global user.name "Jordan McKinney"
 git config --global push.default simple
 
-rm ~/examples.desktop
 rmdir ~/Music
 rmdir ~/Public
 rmdir ~/Videos
@@ -40,8 +45,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ########################
 
 sudo apt update
+sudo apt install libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
 
-sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
+ln -s ~/Development/DotFiles/.zsh ~/
+ln -s ~/Development/DotFiles/tmuxinator ~/.tmuxinator
+echo "source ~/.bin/tmuxinator.zsh" >> ~/.zshrc
+echo "source ~/Development/DotFiles/zshrc" >> ~/.zshrc
+echo "source ~/Development/DotFiles/tmux.conf" >> ~/.tmux.conf
+cp ~/Development/DotFiles/.zprofile ~/.zprofile
+
 curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -
 
 # Check zprofile
