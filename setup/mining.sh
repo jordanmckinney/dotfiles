@@ -1,11 +1,17 @@
 #!/bin/bash
 
-# https://github.com/ethereum-mining/ethminer/releases
-sudo update-grub
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+sudo ubuntu-drivers autoinstall
+sudo apt install nvidia-cuda-toolkit gcc-6
+nvcc --version
+
 sudo nvidia-xconfig -a --cool-bits=28 --allow-empty-initial-configuration
 
-# start.sh
-# nvidia-settings -a "[gpu:0]/GPUGraphicsClockOffset[3]=-100" \
-#                -a "[gpu:0]/GPUMemoryTransferRateOffset[3]=1000"
+# edit /etc/X11/xorg.conf
+# Under Section "Device"
+# add:
+# Option "Coolbits" "1"
+# http://www.upubuntu.com/2011/09/how-to-overclock-nvidia-graphics-cards.html
 
-# sudo nvidia-smi -i 0 -pl 105
+# sudo update-grub

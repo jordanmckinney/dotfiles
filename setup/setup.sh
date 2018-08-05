@@ -11,7 +11,7 @@
 # keyboard shortcuts
 # remap caps lock
 
-sudo apt install curl tree htop tmux zsh xsel silversearcher-ag trimage git
+sudo apt install curl tree htop tmux zsh xsel silversearcher-ag trimage git libpng-dev
 
 git config --global user.email "jordanmmck@gmail.com" && \
 git config --global user.name "Jordan McKinney" && \
