@@ -131,8 +131,9 @@ gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
 
 # Set font to Source Code Pro for Powerline in system 
 # Also set other fonts
-# add new ssh key to github
-# go into disks, make harddrive sleep
+# Add new ssh key to github
+# Go into disks, make harddrive sleep
 # Set terminal to theme colours, transparency
-# set lock screen (settings)
-# search "dock" to set dock to hide
+# Set lock screen background (it's in settings)
+# Search "dock" to set dock to hide
+# Turn on night light
