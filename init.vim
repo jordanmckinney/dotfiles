@@ -393,6 +393,10 @@
     " bind \ (backward slash) to ag shortcut
     command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
     nnoremap \ :Ag<SPACE>
+
+    " jump to end of line without hitting shift
+    nnoremap 2 $
+
 "===============================================================
 " }}}
 
