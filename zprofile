@@ -1,4 +1,5 @@
 export PATH="$PATH:/home/jordan/.local/bin"
+export PATH="$HOME/anaconda3/bin:$PATH"
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
