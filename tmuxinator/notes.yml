@@ -6,5 +6,5 @@ windows:
       root: ~/Development/notes
       layout: even-vertical
       panes:
-        - git pull && mkdocs serve
+        - git pull
         - nvim README.md
