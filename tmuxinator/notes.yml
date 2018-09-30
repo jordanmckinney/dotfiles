@@ -1,9 +1,9 @@
-name: writing
+name: notes
 root: ~/Development
 
 windows:
-  - writing:
-      root: ~/Development/writing
+  - notes:
+      root: ~/Development/notes
       layout: even-vertical
       panes:
         - git pull && mkdocs serve

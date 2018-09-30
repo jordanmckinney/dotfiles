@@ -110,8 +110,8 @@
         echo "============ Code ============" &&
         git -C ~/Development/code pull &&
         echo "" &&
-        echo "=========== Writing ============" &&
-        git -C ~/Development/writing pull &&
+        echo "=========== Notes ============" &&
+        git -C ~/Development/notes pull &&
         echo "" &&
         echo "========== Jordanmmck ========"  &&
         git -C ~/Development/jordanmmck.github.io pull &&
