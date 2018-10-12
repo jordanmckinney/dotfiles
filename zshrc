@@ -100,6 +100,10 @@
     alias gpom='git push origin master'
     alias gst='git status'
     alias mux='tmuxinator'
+    alias gpush='
+        git add . &&
+        git commit -m "..." &&
+        git push'
     alias gpull='
         echo "========== Dotfiles ==========" &&
         git -C ~/Development/DotFiles pull &&
