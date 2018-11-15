@@ -173,3 +173,5 @@
 # }}}
 
 # vim:foldmethod=marker:foldlevel=0
+PATH=$PATH:/Users/jordan/Library/Python/2.7/bin
+PATH=$PATH:/Users/jordan/Library/Python/3.7/bin

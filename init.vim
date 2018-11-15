@@ -18,7 +18,7 @@
         Plug 'plasticboy/vim-markdown'
         Plug 'scrooloose/nerdtree'
         Plug 'Xuyuanp/nerdtree-git-plugin'
-        Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
+        " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
         Plug 'airblade/vim-gitgutter'
         Plug 'airblade/vim-rooter'
         Plug 'flazz/vim-colorschemes'
@@ -194,7 +194,7 @@
 " Deoplete {{{
 "===============================================================
     " Use Deoplete.
-    let g:deoplete#enable_at_startup = 1
+    " let g:deoplete#enable_at_startup = 1
 
     " Close the documentation window when completion is done
     autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
