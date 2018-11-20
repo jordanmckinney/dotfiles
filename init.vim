@@ -18,7 +18,13 @@
         Plug 'plasticboy/vim-markdown'
         Plug 'scrooloose/nerdtree'
         Plug 'Xuyuanp/nerdtree-git-plugin'
-        Plug '/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
+        if has('nvim')
+          Plug '/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
+        else
+          Plug 'Shougo/deoplete.nvim'
+          Plug 'roxma/nvim-yarp'
+          Plug 'roxma/vim-hug-neovim-rpc'
+        endif
         Plug 'airblade/vim-gitgutter'
         Plug 'airblade/vim-rooter'
         Plug 'flazz/vim-colorschemes'
