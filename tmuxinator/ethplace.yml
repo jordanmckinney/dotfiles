@@ -1,9 +1,0 @@
-name: eth
-root: ~/Development/etherplace
-
-windows:
-  - block:
-      layout: even-vertical
-      panes:
-        - npm run dev
-        - nvim README.md

@@ -77,27 +77,18 @@
     alias shutdown='shutdown -h now'
     alias restart='shutdown -r now'
     alias cddot='cd ~/Development/DotFiles/'
-    alias cdjordan='cd ~/Git/jordanmckinney.github.io/'
     alias cdcode='cd ~/Development/code/'
     alias cdvim='cd ~/Development/reference/technologies'
     alias cdref='cd ~/Development/reference'
-    alias cdsref='cd ~/Dropbox/sREF'
-    alias cdwork='cd ~/Development/reference/work'
-    alias cdmast='cd ~/Dropbox/sREF/mastery'
     alias v=nvim
     alias s=ls
     alias zz=exit
-    alias dbu='docker-compose build'
-    alias dup='docker-compose up -d'
-    alias pmrun='python3 manage.py runserver'
     alias t='tree'
-    alias pi='ssh pi@192.168.0.200'
     alias dac='deactivate'
     alias serv='python manage.py runserver'
 
     # git stuff
     alias gadd='git add .'
-    alias gpom='git push origin master'
     alias gst='git status'
     alias mux='tmuxinator'
     alias gpush='

@@ -18,13 +18,6 @@
         Plug 'plasticboy/vim-markdown'
         Plug 'scrooloose/nerdtree'
         Plug 'Xuyuanp/nerdtree-git-plugin'
-        if has('nvim')
-          Plug '/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
-        else
-          Plug 'Shougo/deoplete.nvim'
-          Plug 'roxma/nvim-yarp'
-          Plug 'roxma/vim-hug-neovim-rpc'
-        endif
         Plug 'airblade/vim-gitgutter'
         Plug 'airblade/vim-rooter'
         Plug 'flazz/vim-colorschemes'
@@ -267,7 +260,7 @@
     set laststatus=2                " Always show statusline
 
     " highlight 80th column of wide lines
-    " highlight ColorColumn ctermbg=magenta
+    highlight ColorColumn ctermbg=magenta
     " call matchadd('ColorColumn', '\%81v', 81)
 
     " make background non-transparent

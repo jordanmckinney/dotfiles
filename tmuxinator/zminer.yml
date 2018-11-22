@@ -1,7 +1,0 @@
-name: zminer
-root: ~/Downloads
-
-windows:
-  - miner:
-      panes:
-        - cd zec && ./start.sh

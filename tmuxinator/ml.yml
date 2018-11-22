@@ -1,9 +1,0 @@
-name: ml
-root: ~/Downloads
-
-windows:
-  - ml:
-      layout: even-vertical
-      panes:
-        - cd bin && ./ml.sh
-        - watch -n 1 nvidia-smi
