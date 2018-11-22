@@ -9,19 +9,19 @@
 * set up timemachine backups
 
 # Applications
-* Firefox
+* Firefox (sign in, pin tabs, remove pocket, dark theme, etc)
 * iterm2
 * dropbox
 * ledger live
-* matlab
+* matlab (jordanmm@uvic.ca)
 * sublime text
 `brew cask install slack`
 ## Mouse
-* logitech gaming software
+* logitech gaming software (if needed)
 * mos (smooth scrolling)
 * reverse scrolling (reverse all but trackpad)
 
-# Preferences
+# System preferences
 * dark mode
 * general > use font smoothing
 * dock > auto hide, minimize into icon
