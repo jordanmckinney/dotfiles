@@ -67,6 +67,8 @@ git clone ~/.config/nvim/https://github.com/Shougo/deoplete.nvim.git
 ### :UpdateRemotePlugins, etc. make sure using brew python providers!
 
 ## ZSH
+### pure https://github.com/sindresorhus/pure
+npm install --global pure-prompt
 ### clone into ~/.oh-my-zsh/custom/plugins
 ### zsh-autosuggestions 
 rvm install ruby-2.5.3

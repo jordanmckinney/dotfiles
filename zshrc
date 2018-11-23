@@ -13,7 +13,7 @@
         git 
         vi-mode 
         autosuggestions 
-        # zsh-syntax-highlighting
+        zsh-syntax-highlighting
     )
 
 #===============================================================
@@ -155,7 +155,10 @@
     source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
     # zsh syntax highlighting
-    # source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+    autoload -U promptinit; promptinit
+    prompt pure
 
 #===============================================================
 # }}}
