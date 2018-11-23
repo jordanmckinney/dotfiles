@@ -16,7 +16,6 @@
         Plug 'tpope/vim-commentary'
         Plug 'tpope/vim-repeat'
         Plug 'tpope/vim-fugitive'
-        Plug 'plasticboy/vim-markdown'
         Plug 'scrooloose/nerdtree'
         Plug 'Xuyuanp/nerdtree-git-plugin'
         Plug 'airblade/vim-gitgutter'
@@ -36,9 +35,9 @@
     call plug#end()
     " PlugInstall
     " PlugUpdate
+    " PlugClean
     " UpdateRemotePlugins
     " checkhealth
-
 "===============================================================
 " }}}
 
@@ -204,23 +203,8 @@
 
 " Deoplete {{{
 "===============================================================
-    " Use Deoplete.
-    let g:deoplete#enable_at_startup = 1
-
     " Close the documentation window when completion is done
     autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
-"===============================================================
-" }}}
-
-" Ctrl-P {{{
-"===============================================================
-    " let g:ctrlp_working_path_mode = 'ra'
-    " set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
-    " let g:ctrlp_custom_ignore = {
-    "   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-    "   \ 'file': '\v\.(exe|so|dll)$',
-    "   \ 'link': 'some_bad_symbolic_links',
-    "   \ }
 "===============================================================
 " }}}
 
@@ -230,7 +214,6 @@
     autocmd FileType js setlocal commentstring=//\ %s
     autocmd FileType c setlocal commentstring=//\ %s
     autocmd FileType java setlocal commentstring=//\ %s
-    autocmd FileType txt setlocal commentstring=//\ %s
 "===============================================================
 " }}}
 
@@ -242,9 +225,19 @@
     set hidden
     set history=100
     let mapleader=" "
-    au FocusLost * :wa      " save on losing focus
-    " the best feature of neovim
+
+    " mouse support
     if has('mouse') | set mouse=a | endif
+
+    " ignore swp files
+    set nobackup
+    set nowb
+    set noswapfile
+
+    " Ignore compiled files
+    set wildignore=*.o,*~,*.pyc,*.a
+    set wildignore=*.bmp,*.gif,*.ico,*.jpg,*.png
+    set wildignore=*.git
 "===============================================================
 " }}}
 
@@ -274,30 +267,6 @@
     " highlight 80th column of wide lines
     highlight ColorColumn ctermbg=magenta
     call matchadd('ColorColumn', '\%81v', 81)
-
-    " make background non-transparent
-    " highlight Normal ctermbg=Black
-    " highlight NonText ctermbg=Black
-
-    " cursor is block in normal, line in insert
-    " :let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
-"===============================================================
-" }}}
-
-" Backup {{{
-"===============================================================
-    set nobackup
-    set nowb
-    set noswapfile
-"===============================================================
-" }}}
-
-" Ignore {{{
-"===============================================================
-    " Ignore compiled files
-    set wildignore=*.o,*~,*.pyc,*.a
-    set wildignore=*.bmp,*.gif,*.ico,*.jpg,*.png
-    set wildignore=*.git
 "===============================================================
 " }}}
 
@@ -318,7 +287,7 @@
     set expandtab                   " tabs are spaces
     set shiftwidth=4                " number of spaces inserted per tab
     set softtabstop=4               " number of spaces in tab when editing
-    set autoindent                  " copies indentation from prev line
+    " set autoindent                  " copies indentation from prev line
     set wrap
 
     " Make tabs, trailing whitespace, and non-breaking spaces visible
@@ -352,8 +321,6 @@
     " remove search highlights
     nnoremap <silent> <C-l> :nohl<CR><C-l>
 
-    " toggle spellcheck
-    map <leader>ss ;setlocal spell!<cr>
     " save
     map <leader>w ;w<cr>
     " save and quit
@@ -396,7 +363,7 @@
     nnoremap <C-j> 4j
     nnoremap <C-k> 4k
 
-    nnoremap o o<ESC>i
+    " nnoremap o o<ESC>i
 
     " grep for word under cursor
     :nnoremap <leader>* :silent execute "grep! -R " . shellescape(expand("<cWORD>")) . " ."<cr>:copen<cr>
