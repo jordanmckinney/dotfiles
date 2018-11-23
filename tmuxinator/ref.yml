@@ -10,8 +10,8 @@ windows:
       root: ~/Development/code
       panes:
         - nvim ~/Development/code/python/lists.py
-        - cd ~/Development/code/python
+        - cd ~/Development/code/python && clear
   - REF:
       root: ~/Development/reference
       panes:
-        - nvim tools/vim.txt
+        - nvim vim.txt
