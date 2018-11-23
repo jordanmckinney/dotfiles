@@ -78,6 +78,9 @@ git clone ~/.config/nvim/https://github.com/Shougo/deoplete.nvim.git
 # check if already in ~/.oh-my-zsh/plugins
 # if not clone it in there
 
+# terminal theme
+https://draculatheme.com/iterm/
+
 
 # ln -s ~/Development/DotFiles/.zsh ~/
 # echo "source ~/.bin/tmuxinator.zsh" >> ~/.zshrc
