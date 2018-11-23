@@ -30,7 +30,7 @@ syntax region orange start=/\v"/ skip=/\v\\./ end=/\v"/
 "
 let b:current_syntax = "text"
 
-hi def link blue        Function 
+hi def link blue        Function
 hi def link white       Statement
 hi def link orange      Constant
 hi def link grey        Comment

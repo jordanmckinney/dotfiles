@@ -139,26 +139,25 @@
 #===============================================================
 # }}}
 
-# Etc {{{
+# Source plugins {{{
 #===============================================================
 
     # disable ctrl-s scroll lock
     stty -ixon
 
+    # tmux completion
+    source ~/.bin/tmuxinator.zsh
+
+    # vi mode
+    source /Users/jordan/.oh-my-zsh/plugins/vi-mode/vi-mode.plugin.zsh
+
+    # zsh autosuggestions
+    source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+    # zsh syntax highlighting
+    # source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 #===============================================================
 # }}}
-
-# tmux completion
-# source ~/.bin/tmuxinator.zsh
-source /Users/jordan/.oh-my-zsh/plugins/tmuxinator/tmuxinator.plugin.zsh
-
-# vi mode
-source /Users/jordan/.oh-my-zsh/plugins/vi-mode/vi-mode.plugin.zsh
-
-# zsh autosuggestions
-source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# zsh syntax highlighting
-# source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # vim:foldmethod=marker:foldlevel=0

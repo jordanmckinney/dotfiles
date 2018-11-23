@@ -18,21 +18,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## git
 brew install git
-git config --global user.name "jordanmmck"
-git config --global user.email "jordanmmck@gmail.com"
-git config --global push.default simple
-git config --global color.ui auto
 cp ~/Development/DotFiles/.gitconfig ~
 
 ## ssh
 ssh-keygen -t rsa -b 4096 -C "jordanmmck@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
-
-## Python
-brew install python3 pipenv
-brew install python2
-# :checkhealth
 
 ## Ruby
 brew install autoconf automake gdbm gmp libksba libtool libyaml openssl pkg-config readline
@@ -43,12 +34,6 @@ mkdir ~/.bin
 git clone https://github.com/tmuxinator/tmuxinator.git
 mv ~/.bin/tmuxinator/completion/tmuxinator.zsh ~/.bin/
 rm -rf ~/.bin/tmuxinator
-
-# clone zsh-autosuggestions into ~/.oh-my-zsh/custom/plugins
-rvm install ruby-2.5.3
-
-## VSCode
-brew cask install visual-studio-code
 
 ## dotfile stuff
 echo "source ~/Development/DotFiles/zshrc" >> ~/.zshrc
@@ -65,23 +50,27 @@ pip install neovim
 pip3 install neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+## Python
+brew install python3 pipenv
+brew install python2
+# :checkhealth
+
 ## Lightline Fonts
-# clone
 git clone https://github.com/powerline/fonts.git --depth=1
-# install
 cd fonts
 ./install.sh
-# clean-up a bit
 cd ..
 rm -rf fonts
 
 ## Deoplete
 git clone ~/.config/nvim/https://github.com/Shougo/deoplete.nvim.git
-# :UpdateRemotePlugins, etc. make sure using brew python providers!
+### :UpdateRemotePlugins, etc. make sure using brew python providers!
 
-## zsh-syntax-highlighting
-## zsh-autosuggestions
-# clone to ~/.oh-my-zsh/custom/plugins
+## ZSH
+### clone into ~/.oh-my-zsh/custom/plugins
+### zsh-autosuggestions 
+rvm install ruby-2.5.3
 
-# iterm theme, clone into development, source theme in iterm settings
+## iterm
+### theme, clone into development, source theme in iterm settings
 https://draculatheme.com/iterm/
