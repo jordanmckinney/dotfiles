@@ -13,6 +13,8 @@
         git 
         vi-mode 
         autosuggestions 
+        python
+        yarn
         zsh-syntax-highlighting
     )
 
