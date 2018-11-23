@@ -9,7 +9,7 @@
 # Plugins {{{
 #===============================================================
 
-    plugins=(git vi-mode autoenv autosuggestions)
+    plugins=(git vi-mode autoenv autosuggestions zsh-syntax-highlighting)
 
 #===============================================================
 # }}}
@@ -164,5 +164,13 @@
 # }}}
 
 # vim:foldmethod=marker:foldlevel=0
-PATH=$PATH:/Users/jordan/Library/Python/2.7/bin
-PATH=$PATH:/Users/jordan/Library/Python/3.7/bin
+# PATH=$PATH:/Users/jordan/Library/Python/2.7/bin
+# PATH=$PATH:/Users/jordan/Library/Python/3.7/bin
+
+# tmux completion
+source ~/.bin/tmuxinator.zsh
+
+# zsh syntax highlighting
+source /Users/jordan/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
