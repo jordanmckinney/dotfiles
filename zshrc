@@ -9,7 +9,7 @@
 # Plugins {{{
 #===============================================================
 
-    plugins=(git vi-mode autoenv autosuggestions zsh-syntax-highlighting)
+    plugins=(vi-mode autoenv autosuggestions zsh-syntax-highlighting)
 
 #===============================================================
 # }}}
