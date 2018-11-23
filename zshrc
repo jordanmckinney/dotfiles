@@ -7,9 +7,14 @@
 # }}}
 
 # Plugins {{{
-    #===============================================================
+#===============================================================
 
-    plugins=(git vi-mode autoenv autosuggestions zsh-syntax-highlighting)
+    plugins=(
+        git 
+        vi-mode 
+        autosuggestions 
+        # zsh-syntax-highlighting
+    )
 
 #===============================================================
 # }}}
@@ -17,16 +22,10 @@
 # Appearance {{{
 #===============================================================
 
-    BASE16_SHELL=$HOME/.config/base16-shell/
-    [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+    # BASE16_SHELL=$HOME/.config/base16-shell/
+    # [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
     ZSH_THEME="robbyrussell"
-
-    # Uncomment the following line to disable colors in ls.
-    # DISABLE_LS_COLORS="true"
-
-    # Uncomment the following line to disable auto-setting terminal title.
-    # DISABLE_AUTO_TITLE="true"
 
 #===============================================================
 # }}}
@@ -41,27 +40,21 @@
       export EDITOR='nvim'
     fi
 
-    # docker completion path
-    fpath=(~/.zsh/completion $fpath)
-    autoload -Uz compinit && compinit -i
-
 #===============================================================
 # }}}
 
 # Completion {{{
 #===============================================================
 
-    # Uncomment the following line to use hyphen-insensitive completion. Case
+    # Hyphen-insensitive completion. Case
     # sensitive completion must be off. _ and - will be interchangeable.
     HYPHEN_INSENSITIVE="true"
 
-    # Uncomment the following line to enable command auto-correction.
+    # Enable command auto-correction.
     ENABLE_CORRECTION="true"
-    # Uncomment the following line to display red dots whilst waiting for completion.
-    COMPLETION_WAITING_DOTS="true"
 
-    # Uncomment the following line to use case-sensitive completion.
-    # CASE_SENSITIVE="true"
+    # Display red dots whilst waiting for completion.
+    COMPLETION_WAITING_DOTS="true"
 
 #===============================================================
 # }}}
@@ -84,8 +77,6 @@
     alias s=ls
     alias zz=exit
     alias t='tree'
-    alias dac='deactivate'
-    alias serv='python manage.py runserver'
 
     # git stuff
     alias gadd='git add .'
@@ -154,24 +145,20 @@
     # disable ctrl-s scroll lock
     stty -ixon
 
-    # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-    # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-    # Example format: plugins=(rails git textmate ruby lighthouse)
-    # Add wisely, as too many plugins slow down shell startup.
-    plugins=(git)
-
 #===============================================================
 # }}}
 
-# vim:foldmethod=marker:foldlevel=0
-# PATH=$PATH:/Users/jordan/Library/Python/2.7/bin
-# PATH=$PATH:/Users/jordan/Library/Python/3.7/bin
-
 # tmux completion
-source ~/.bin/tmuxinator.zsh
+# source ~/.bin/tmuxinator.zsh
+source /Users/jordan/.oh-my-zsh/plugins/tmuxinator/tmuxinator.plugin.zsh
 
-# zsh syntax highlighting
-source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# vi mode
+source /Users/jordan/.oh-my-zsh/plugins/vi-mode/vi-mode.plugin.zsh
 
 # zsh autosuggestions
 source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# zsh syntax highlighting
+# source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# vim:foldmethod=marker:foldlevel=0
