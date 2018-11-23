@@ -172,5 +172,3 @@ source ~/.bin/tmuxinator.zsh
 
 # zsh syntax highlighting
 source /Users/jordan/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
