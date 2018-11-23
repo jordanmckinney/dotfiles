@@ -15,7 +15,6 @@ brew install the_silver_searcher
 ## set zsh as default
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-brew install zsh-syntax-highlighting
 
 ## git
 brew install git
@@ -23,6 +22,7 @@ git config --global user.name "jordanmmck"
 git config --global user.email "jordanmmck@gmail.com"
 git config --global push.default simple
 git config --global color.ui auto
+cp ~/Development/DotFiles/.gitconfig ~
 
 ## ssh
 ssh-keygen -t rsa -b 4096 -C "jordanmmck@gmail.com"
@@ -44,6 +44,9 @@ git clone https://github.com/tmuxinator/tmuxinator.git
 mv ~/.bin/tmuxinator/completion/tmuxinator.zsh ~/.bin/
 rm -rf ~/.bin/tmuxinator
 
+# clone zsh-autosuggestions into ~/.oh-my-zsh/custom/plugins
+rvm install ruby-2.5.3
+
 ## VSCode
 brew cask install visual-studio-code
 
@@ -53,6 +56,9 @@ ln -s ~/Development/DotFiles/tmux.conf ~/.tmux.conf
 ln -s ~/Development/DotFiles/zprofile ~/.zprofile
 ln -s ~/Development/DotFiles/tmuxinator ~/.tmuxinator
 ln -s ~/Development/DotFiles/gemrc ~/.gemrc
+mkdir ~/.config/nvim
+ln -s ~/Development/DotFiles/vim/after ~/.config/nvim/ && \
+ln -s ~/Development/DotFiles/vim/syntax ~/.config/nvim/
 
 ## neovim
 pip install neovim
@@ -70,27 +76,12 @@ cd ..
 rm -rf fonts
 
 ## Deoplete
-mkdir ~/.config/nvim
 git clone ~/.config/nvim/https://github.com/Shougo/deoplete.nvim.git
 # :UpdateRemotePlugins, etc. make sure using brew python providers!
 
-## zsh syntax highlighting
-# check if already in ~/.oh-my-zsh/plugins
-# if not clone it in there
+## zsh-syntax-highlighting
+## zsh-autosuggestions
+# clone to ~/.oh-my-zsh/custom/plugins
 
-# terminal theme
+# iterm theme, clone into development, source theme in iterm settings
 https://draculatheme.com/iterm/
-
-
-# ln -s ~/Development/DotFiles/.zsh ~/
-# echo "source ~/.bin/tmuxinator.zsh" >> ~/.zshrc
-
-# mkdir ~/.config/nvim
-# ln -s ~/Development/DotFiles/init.vim ~/.config/nvim/ && \
-# ln -s ~/Development/DotFiles/vim/after ~/.config/nvim/ && \
-# ln -s ~/Development/DotFiles/vim/colors ~/.config/nvim/ && \
-# ln -s ~/Development/DotFiles/vim/syntax ~/.config/nvim/
-
-# curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-# cd ~/.config/nvim
-# git clone https://github.com/Shougo/deoplete.nvim.git

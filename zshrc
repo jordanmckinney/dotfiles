@@ -7,7 +7,7 @@
 # }}}
 
 # Plugins {{{
-#===============================================================
+    #===============================================================
 
     plugins=(git vi-mode autoenv autosuggestions zsh-syntax-highlighting)
 
@@ -171,4 +171,7 @@
 source ~/.bin/tmuxinator.zsh
 
 # zsh syntax highlighting
-source /Users/jordan/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# zsh autosuggestions
+source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

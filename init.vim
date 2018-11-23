@@ -273,7 +273,7 @@
 
     " highlight 80th column of wide lines
     highlight ColorColumn ctermbg=magenta
-    " call matchadd('ColorColumn', '\%81v', 81)
+    call matchadd('ColorColumn', '\%81v', 81)
 
     " make background non-transparent
     " highlight Normal ctermbg=Black

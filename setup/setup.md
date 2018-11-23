@@ -8,7 +8,7 @@
 * matlab (jordanmm@uvic.ca)
 * sublime text
 * slack
-* alfred
+* alfred (cmd + j)
 ## Mouse
 * logitech gaming software (if needed)
 * mos (smooth scrolling)
