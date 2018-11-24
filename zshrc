@@ -124,19 +124,10 @@
 #===============================================================
 # }}}
 
-# vi mode {{{
+# tricks {{{
 #===============================================================
-
-    # enable vi mode!
-    # bindkey -v
-    # export KEYTIMEOUT=1
-
-    # function zle-line-init zle-keymap-select {
-    #     VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]% %{$reset_color%}"
-    #     RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/} $(git_custom_status) $EPS1"
-    #     zle reset-prompt
-    # }
-    # RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_custom_status) $EPS1"
+    # run `peek file.txt` to peek it
+    peek() { tmux split-window -p 33 $EDITOR $@ || exit; }
 
 #===============================================================
 # }}}
@@ -164,5 +155,6 @@
 
 #===============================================================
 # }}}
+
 
 # vim:foldmethod=marker:foldlevel=0
