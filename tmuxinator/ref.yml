@@ -6,10 +6,11 @@ windows:
       root: ~/Development/DotFiles
       panes:
         - nvim init.vim
+        - cd ~/Development/DotFiles && clear
   - Code:
       root: ~/Development/code
       panes:
-        - nvim ~/Development/code/python/lists.py
+        - nvim python/lists.py
         - cd ~/Development/code/python && clear
   - REF:
       root: ~/Development/reference
