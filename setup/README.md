@@ -9,6 +9,8 @@
 * sublime text
 * slack
 * alfred (cmd + j)
+* magnet
+* amphetamine
 ## Mouse
 * logitech gaming software (if needed)
 * mos (smooth scrolling)
