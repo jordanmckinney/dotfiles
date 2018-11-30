@@ -76,3 +76,6 @@ rvm install ruby-2.5.3
 ## iterm
 ### theme, clone into development, source theme in iterm settings
 https://draculatheme.com/iterm/
+
+## Ethereum
+npm install -g truffle

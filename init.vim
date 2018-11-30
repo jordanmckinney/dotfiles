@@ -11,6 +11,7 @@
     call plug#begin('~/.local/share/nvim/plugged')
 
         Plug 'mhartington/oceanic-next'
+        Plug 'tomlion/vim-solidity'
         Plug 'drewtempelmeyer/palenight.vim'
         Plug 'itchyny/lightline.vim'
         Plug 'tpope/vim-surround'

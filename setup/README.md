@@ -28,3 +28,11 @@
 ## VSCode
 * preferences > settings: "telemetry.enableTelemetry": false, "telemetry.enableCrashReporter": false
 * VSCodeVIM extension
+
+## Go
+* https://golang.org/doc/install
+
+## Ethereum 
+* dd0321932534a7c8ed8f2c9bc95f641bd127bf09
+* https://ethereum.org/cli
+* https://truffleframework.com/ganache
