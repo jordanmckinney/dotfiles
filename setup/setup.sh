@@ -53,6 +53,8 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 ## Python
 brew install python3 pipenv
 brew install python2
+### fancy python interpreter
+pip install bpython
 # :checkhealth
 
 ## Lightline Fonts
@@ -79,3 +81,6 @@ https://draculatheme.com/iterm/
 
 ## Ethereum
 npm install -g truffle
+
+## Typescript
+npm install -g typescript

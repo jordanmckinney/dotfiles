@@ -12,6 +12,7 @@
 
         Plug 'mhartington/oceanic-next'
         Plug 'tomlion/vim-solidity'
+        Plug 'leafgarland/typescript-vim'
         Plug 'drewtempelmeyer/palenight.vim'
         Plug 'itchyny/lightline.vim'
         Plug 'tpope/vim-surround'
