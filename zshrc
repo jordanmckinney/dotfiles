@@ -69,6 +69,7 @@
     # For a full list of active aliases, run `alias`.
 
     alias python='bpython'
+    alias ctags='/usr/local/bin/ctags'
 
     alias shutdown='shutdown -h now'
     alias restart='shutdown -r now'

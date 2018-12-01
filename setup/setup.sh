@@ -84,3 +84,6 @@ npm install -g truffle
 
 ## Typescript
 npm install -g typescript
+
+## Vim ctags
+brew install ctags
