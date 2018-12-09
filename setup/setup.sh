@@ -81,6 +81,12 @@ https://draculatheme.com/iterm/
 
 ## Ethereum
 npm install -g truffle
+npm install -g solc
+npm install -g ganache-cli
+brew update
+brew upgrade
+brew tap ethereum/ethereum
+brew install solidity
 
 ## Typescript
 npm install -g typescript
