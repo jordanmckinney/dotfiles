@@ -57,12 +57,8 @@ brew install python2
 pip install bpython
 # :checkhealth
 
-## Lightline Fonts
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
-cd ..
-rm -rf fonts
+## FireCode Font
+https://github.com/tonsky/FiraCode
 
 ## Deoplete
 git clone ~/.config/nvim/https://github.com/Shougo/deoplete.nvim.git
