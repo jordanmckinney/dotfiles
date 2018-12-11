@@ -306,7 +306,7 @@
     filetype plugin indent on       " load filetype-specific indent files
     filetype plugin on
     set expandtab                   " tabs are spaces
-    set shiftwidth=4                " number of spaces inserted per tab
+    set shiftwidth=4                " number of spaces per tab
     set softtabstop=4               " number of spaces in tab when editing
     " set autoindent                  " copies indentation from prev line
     set wrap
@@ -317,6 +317,12 @@
 
     " vimdiff wrap lines
     autocmd FilterWritePre * if &diff | setlocal wrap< | endif
+
+    autocmd FileType html setlocal ts=2 sts=2 sw=2
+    autocmd FileType javascript setlocal ts=2 sts=2 sw=2
+    autocmd FileType json setlocal ts=2 sts=2 sw=2
+    autocmd FileType markdown setlocal ts=2 sts=2 sw=2
+    autocmd FileType txt setlocal ts=2 sts=2 sw=2
 "===============================================================
 " }}}
 
