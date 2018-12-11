@@ -282,6 +282,8 @@
     set t_Co=256                    " use 256 colors
     set laststatus=2                " Always show statusline
 
+    highlight Normal ctermbg=None
+
     " highlight 80th column of wide lines
     highlight ColorColumn ctermbg=magenta
     call matchadd('ColorColumn', '\%81v', 81)

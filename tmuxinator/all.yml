@@ -1,0 +1,28 @@
+name: all
+root: ~/Development
+
+windows:
+  - Notes:
+      root: ~/Development/notes
+      layout: even-vertical
+      panes:
+        - clear
+        - nvim dev/eth/overview.md
+  - Code:
+      root: ~/Development/code
+      layout: even-vertical
+      panes:
+        - clear
+        - nvim python/input.py
+  - Dotfiles:
+      root: ~/Development/DotFiles
+      layout: even-vertical
+      panes:
+        - clear
+        - nvim init.vim
+  - Reference:
+      root: ~/Development/reference
+      layout: even-vertical
+      panes:
+        - clear
+        - nvim vim.txt

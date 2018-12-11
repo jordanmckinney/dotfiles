@@ -27,6 +27,7 @@
     # pure theme
     autoload -U promptinit; promptinit
     prompt pure
+    export TERM="xterm-256color"
 
 #===============================================================
 # }}}
@@ -68,6 +69,7 @@
     # users are encouraged to define aliases within the ZSH_CUSTOM folder.
     # For a full list of active aliases, run `alias`.
 
+    alias tmux='tmux -2'
     alias python='bpython'
     alias ctags='/usr/local/bin/ctags'
 

@@ -5,5 +5,5 @@ windows:
   - site:
       layout: even-vertical
       panes:
-        - git pull && yarn start
+        - yarn start
         - nvim package.json
