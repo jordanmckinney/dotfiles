@@ -11,9 +11,13 @@
     call plug#begin('~/.local/share/nvim/plugged')
 
         Plug 'mhartington/oceanic-next'
+        Plug 'drewtempelmeyer/palenight.vim'
+        Plug 'flazz/vim-colorschemes'
+
         Plug 'tomlion/vim-solidity'
         Plug 'leafgarland/typescript-vim'
-        Plug 'drewtempelmeyer/palenight.vim'
+        Plug 'pangloss/vim-javascript'
+
         Plug 'itchyny/lightline.vim'
         Plug 'tpope/vim-surround'
         Plug 'tpope/vim-commentary'
@@ -23,7 +27,6 @@
         Plug 'Xuyuanp/nerdtree-git-plugin'
         Plug 'airblade/vim-gitgutter'
         Plug 'airblade/vim-rooter'
-        Plug 'flazz/vim-colorschemes'
         Plug 'svermeulen/vim-easyclip'
         Plug 'Shougo/deoplete.nvim'
         if has('nvim')
