@@ -1,13 +1,16 @@
 " Setup {{{
 "===============================================================
+
     let g:python_host_prog = '/usr/local/bin/python'
     let g:python2_host_prog = '/usr/local/bin/python2'
     let g:python3_host_prog = '/usr/local/bin/python3'
+
 "===============================================================
 " }}}"
 
 " Vim-Plug {{{
 "===============================================================
+
     call plug#begin('~/.local/share/nvim/plugged')
 
         Plug 'mhartington/oceanic-next'
@@ -44,11 +47,13 @@
     " PlugClean
     " UpdateRemotePlugins
     " checkhealth
+
 "===============================================================
 " }}}
 
 " Ag {{{
 "===============================================================
+
     " The Silver Searcher
     if executable('ag')
       " Use ag over grep
@@ -60,11 +65,13 @@
       " ag is fast enough that CtrlP doesn't need to cache
       let g:ctrlp_use_caching = 0
     endif
+
 "===============================================================
 " }}}
 
 " Nerdtree {{{
 "===============================================================
+
     let NERDTreeAutoDeleteBuffer = 1
     let NERDTreeMinimalUI = 1
     let NERDTreeDirArrows = 1
@@ -85,11 +92,13 @@
 
     " set focus to vim not nerdtree unless no file was opened
     autocmd VimEnter * if argc() | wincmd p | endif
+
 "===============================================================
 " }}}
 
 " Lightline {{{
 "===============================================================
+
     let g:lightline = {
           \ 'colorscheme': 'wombat',
           \ 'active': {
@@ -204,27 +213,33 @@
     let g:unite_force_overwrite_statusline = 0
     let g:vimfiler_force_overwrite_statusline = 0
     let g:vimshell_force_overwrite_statusline = 0
+
 "===============================================================
 " }}}
 
 " Deoplete {{{
 "===============================================================
+
     " Close the documentation window when completion is done
     autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+
 "===============================================================
 " }}}
 
 " Commentary {{{
 "===============================================================
+
     autocmd FileType py setlocal commentstring=#\ %s
     autocmd FileType js setlocal commentstring=//\ %s
     autocmd FileType c setlocal commentstring=//\ %s
     autocmd FileType java setlocal commentstring=//\ %s
+
 "===============================================================
 " }}}
 
 " General {{{
 "===============================================================
+
     syntax enable           " enable syntax processing
     set wildmenu            " visual autocomplete for command menu
     set lazyredraw          " redraw only when we need to.
@@ -244,6 +259,7 @@
     set wildignore=*.o,*~,*.pyc,*.a
     set wildignore=*.bmp,*.gif,*.ico,*.jpg,*.png
     set wildignore=*.git
+
 "===============================================================
 " }}}
 
@@ -251,13 +267,10 @@
 "===============================================================
 
     if (has("nvim"))
-      "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
       let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+      let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
     endif
 
-    "For Neovim > 0.1.5 and Vim > patch 7.4.1799 < https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162 >
-    "Based on Vim patch 7.4.1770 (`guicolors` option) < https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd >
-    " < https://github.com/neovim/neovim/wiki/Following-HEAD#20160511 >
     if (has("termguicolors"))
       set termguicolors
     endif
@@ -287,27 +300,33 @@
     " highlight 80th column of wide lines
     highlight ColorColumn ctermbg=magenta
     call matchadd('ColorColumn', '\%81v', 81)
+
 "===============================================================
 " }}}
 
 " Folding {{{
 "===============================================================
+
     set modelines=1                 " only do this for this file
     set foldenable                  " enable folding
     set foldlevelstart=10           " open most folds by default
     set foldnestmax=10              " 10 nested fold max
     set foldmethod=indent           " fold based on indent level
+
 "===============================================================
 " }}}
 
 " Tags {{{
 "===============================================================
+
     " set tags=./tags,tags;$HOME
+
 "===============================================================
 " }}}
 
 " Formatting {{{
 "===============================================================
+
     filetype plugin indent on       " load filetype-specific indent files
     filetype plugin on
     set expandtab                   " tabs are spaces
@@ -328,11 +347,13 @@
     autocmd FileType json setlocal ts=2 sts=2 sw=2
     autocmd FileType markdown setlocal ts=2 sts=2 sw=2
     autocmd FileType txt setlocal ts=2 sts=2 sw=2
+
 "===============================================================
 " }}}
 
 " Remappings {{{
 "===============================================================
+
     " Swap v and CTRL-V, because Block mode is more useful that Visual mode
     nnoremap    v   <C-V>
     nnoremap <C-V>     v
@@ -412,12 +433,14 @@
 
 " Searching {{{
 "===============================================================
+
     set ignorecase                  " ignore case when searching
     set smartcase
     set incsearch                   " search as characters are entered
     set hlsearch                    " highlight matches
     set magic                       " for regex
     set gdefault                    " find and replace global 
+
 "===============================================================
 " }}}
 
