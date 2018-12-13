@@ -1,0 +1,16 @@
+name: lrn
+root: ~/Development
+
+windows:
+  - Web Dev:
+      root: ~/Development/web_dev_bootcamp
+      layout: even-vertical
+      panes:
+        - clear
+        - nvim firstPage.html
+  - Complete JS:
+      root: ~/Development/complete-javascript-course
+      layout: even-vertical
+      panes:
+        - clear
+        - nvim README.md
