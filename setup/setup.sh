@@ -89,3 +89,8 @@ npm install -g typescript
 
 ## Vim ctags
 brew install ctags
+
+## markdown viewer
+brew cask install macdown
+
+brew cask install insomnia
