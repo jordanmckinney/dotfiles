@@ -94,3 +94,6 @@ brew install ctags
 brew cask install macdown
 
 brew cask install insomnia
+
+## VSCode key repeat
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
