@@ -38,12 +38,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sudo apt update
 sudo apt install libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
 
-ln -s ~/Development/DotFiles/.zsh ~/
-ln -s ~/Development/DotFiles/tmuxinator ~/.tmuxinator
+ln -s ~/Development/dotfiles/.zsh ~/
+ln -s ~/Development/dotfiles/tmuxinator ~/.tmuxinator
 echo "source ~/.bin/tmuxinator.zsh" >> ~/.zshrc
-echo "source ~/Development/DotFiles/zshrc" >> ~/.zshrc
-echo "source ~/Development/DotFiles/tmux.conf" >> ~/.tmux.conf
-cp ~/Development/DotFiles/.zprofile ~/.zprofile
+echo "source ~/Development/dotfiles/zshrc" >> ~/.zshrc
+echo "source ~/Development/dotfiles/tmux.conf" >> ~/.tmux.conf
+cp ~/Development/dotfiles/.zprofile ~/.zprofile
 
 curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -
 
@@ -77,10 +77,10 @@ gem install neovim
 git clone https://github.com/powerline/fonts ~/.local/share/fonts
 
 mkdir ~/.config/nvim
-ln -s ~/Development/DotFiles/init.vim ~/.config/nvim/ && \
-ln -s ~/Development/DotFiles/vim/after ~/.config/nvim/ && \
-ln -s ~/Development/DotFiles/vim/colors ~/.config/nvim/ && \
-ln -s ~/Development/DotFiles/vim/syntax ~/.config/nvim/
+ln -s ~/Development/dotfiles/init.vim ~/.config/nvim/ && \
+ln -s ~/Development/dotfiles/vim/after ~/.config/nvim/ && \
+ln -s ~/Development/dotfiles/vim/colors ~/.config/nvim/ && \
+ln -s ~/Development/dotfiles/vim/syntax ~/.config/nvim/
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cd ~/.config/nvim

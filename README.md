@@ -1,4 +1,4 @@
-# DotFiles
+# dotfiles
 
 My dotfiles for Vim, ZSH, Tmux, etc.
 

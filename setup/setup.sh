@@ -19,7 +19,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ## git
 brew install git
 # all this does is point to the gitconfig (no dot!)
-cp ~/Development/DotFiles/.gitconfig ~
+cp ~/Development/dotfiles/.gitconfig ~
 
 ## ssh
 ssh-keygen -t rsa -b 4096 -C "jordanmmck@gmail.com"
@@ -28,7 +28,7 @@ ssh-add ~/.ssh/id_rsa
 
 ## Ruby
 brew install autoconf automake gdbm gmp libksba libtool libyaml openssl pkg-config readline
-ln -s ~/Development/DotFiles/.gemrc ~/.gemrc
+ln -s ~/Development/dotfiles/.gemrc ~/.gemrc
 curl -L https://get.rvm.io | bash -s stable --ruby
 gem install tmuxinator
 mkdir ~/.bin
@@ -37,19 +37,19 @@ mv ~/.bin/tmuxinator/completion/tmuxinator.zsh ~/.bin/
 rm -rf ~/.bin/tmuxinator
 
 ## zsh, tmux, nvim dotfiles
-echo "source ~/Development/DotFiles/.zshrc" >> ~/.zshrc
-ln -s ~/Development/DotFiles/.tmux.conf ~/.tmux.conf
-ln -s ~/Development/DotFiles/.zprofile ~/.zprofile
-ln -s ~/Development/DotFiles/.tmuxinator ~/.tmuxinator
-ln -s ~/Development/DotFiles/.gemrc ~/.gemrc
+echo "source ~/Development/dotfiles/.zshrc" >> ~/.zshrc
+ln -s ~/Development/dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/Development/dotfiles/.zprofile ~/.zprofile
+ln -s ~/Development/dotfiles/.tmuxinator ~/.tmuxinator
+ln -s ~/Development/dotfiles/.gemrc ~/.gemrc
 mkdir ~/.config/nvim
-ln -s ~/Development/DotFiles/vim/after ~/.config/nvim/ && \
-ln -s ~/Development/DotFiles/vim/syntax ~/.config/nvim/
+ln -s ~/Development/dotfiles/vim/after ~/.config/nvim/ && \
+ln -s ~/Development/dotfiles/vim/syntax ~/.config/nvim/
 
 ## VSCode dotfiles/settings
-ln -s /Users/jordan/Development/DotFiles/VSCode/settings.json /Users/jordan/Library/Application\ Support/Code/User/settings.json
-ln -s /Users/jordan/Development/DotFiles/VSCode/keybindings.json /Users/jordan/Library/Application\ Support/Code/User/keybindings.json
-ln -s /Users/jordan/Development/DotFiles/VSCode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
+ln -s /Users/jordan/Development/dotfiles/VSCode/settings.json /Users/jordan/Library/Application\ Support/Code/User/settings.json
+ln -s /Users/jordan/Development/dotfiles/VSCode/keybindings.json /Users/jordan/Library/Application\ Support/Code/User/keybindings.json
+ln -s /Users/jordan/Development/dotfiles/VSCode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
 
 ## neovim
 pip install neovim

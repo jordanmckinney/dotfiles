@@ -75,7 +75,7 @@
 
     alias shutdown='shutdown -h now'
     alias restart='shutdown -r now'
-    alias cddot='cd ~/Development/DotFiles/'
+    alias cddot='cd ~/Development/dotfiles/'
     alias cdcode='cd ~/Development/code/'
     alias cdvim='cd ~/Development/reference/technologies'
     alias cdref='cd ~/Development/reference'
@@ -93,8 +93,8 @@
         git commit -m "..." &&
         git push'
     alias gpull='
-        echo "========== Dotfiles ==========" &&
-        git -C ~/Development/DotFiles pull &&
+        echo "========== dotfiles ==========" &&
+        git -C ~/Development/dotfiles pull &&
         echo "" &&
         echo "============ Ref =============" &&
         git -C ~/Development/reference pull &&
@@ -109,8 +109,8 @@
         git -C ~/Development/jordanmmck.github.io pull &&
         echo ""'
     alias gstatus='
-        echo "========== Dotfiles ==========" &&
-        git -C ~/Development/DotFiles status &&
+        echo "========== dotfiles ==========" &&
+        git -C ~/Development/dotfiles status &&
         echo "" &&
         echo "============ Ref =============" &&
         git -C ~/Development/reference status &&

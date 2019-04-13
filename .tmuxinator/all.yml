@@ -14,8 +14,8 @@ windows:
       panes:
         - clear
         - nvim python/input.py
-  - Dotfiles:
-      root: ~/Development/DotFiles
+  - dotfiles:
+      root: ~/Development/dotfiles
       layout: even-vertical
       panes:
         - clear
