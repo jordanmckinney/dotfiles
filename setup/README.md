@@ -1,6 +1,7 @@
-* software update, restart
+# Setup
 
-# Applications
+## Applications
+
 * Firefox (sign in, pin tabs, remove pocket, dark-arc theme)
 * iterm2
 * dropbox
@@ -11,11 +12,15 @@
 * alfred (cmd + j)
 * magnet
 * amphetamine
+
 ## Mouse
+
 * logitech gaming software (if needed)
 * mos (smooth scrolling)
 
-# System preferences
+## System preferences
+
+* software update, restart
 * dark mode
 * general > use font smoothing
 * dock > auto hide, minimize into icon
@@ -24,15 +29,3 @@
 * mouse > natural scrolling
 * trackpad > tap to click
 * printers > register printer
-
-## VSCode
-* preferences > settings: "telemetry.enableTelemetry": false, "telemetry.enableCrashReporter": false
-* VSCodeVIM extension
-
-## Go
-* https://golang.org/doc/install
-
-## Ethereum 
-* dd0321932534a7c8ed8f2c9bc95f641bd127bf09
-* https://ethereum.org/cli
-* https://truffleframework.com/ganache

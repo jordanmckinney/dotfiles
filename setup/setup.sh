@@ -41,10 +41,9 @@ echo "source ~/Development/dotfiles/.zshrc" >> ~/.zshrc
 ln -s ~/Development/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/Development/dotfiles/.zprofile ~/.zprofile
 ln -s ~/Development/dotfiles/.tmuxinator ~/.tmuxinator
-ln -s ~/Development/dotfiles/.gemrc ~/.gemrc
 mkdir ~/.config/nvim
-ln -s ~/Development/dotfiles/vim/after ~/.config/nvim/ && \
 ln -s ~/Development/dotfiles/vim/syntax ~/.config/nvim/
+ln -s ~/Development/dotfiles/vim/init.vim ~/.config/nvim/
 
 ## VSCode dotfiles/settings
 ln -s /Users/jordan/Development/dotfiles/VSCode/settings.json /Users/jordan/Library/Application\ Support/Code/User/settings.json
