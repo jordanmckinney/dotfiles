@@ -19,10 +19,10 @@ windows:
       layout: even-vertical
       panes:
         - clear
-        - nvim init.vim
+        - nvim vim/init.vim
   - Reference:
       root: ~/Development/reference
       layout: even-vertical
       panes:
         - clear
-        - nvim vim.txt
+        - nvim vim.md

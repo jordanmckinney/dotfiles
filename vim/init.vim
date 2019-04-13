@@ -76,7 +76,7 @@
     let NERDTreeMinimalUI = 1
     let NERDTreeDirArrows = 1
 
-    let NERDTreeShowHidden = 0
+    let NERDTreeShowHidden = 1
     let NERDTreeIgnore = ['\.pyc$', 'node_modules']
 
     " start nerdtree automatically
