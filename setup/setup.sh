@@ -18,6 +18,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## git
 brew install git
+# all this does is point to the gitconfig (no dot!)
 cp ~/Development/DotFiles/.gitconfig ~
 
 ## ssh
@@ -35,7 +36,7 @@ git clone https://github.com/tmuxinator/tmuxinator.git
 mv ~/.bin/tmuxinator/completion/tmuxinator.zsh ~/.bin/
 rm -rf ~/.bin/tmuxinator
 
-## dotfile stuff
+## zsh, tmux, nvim dotfiles
 echo "source ~/Development/DotFiles/.zshrc" >> ~/.zshrc
 ln -s ~/Development/DotFiles/.tmux.conf ~/.tmux.conf
 ln -s ~/Development/DotFiles/.zprofile ~/.zprofile
@@ -44,6 +45,11 @@ ln -s ~/Development/DotFiles/.gemrc ~/.gemrc
 mkdir ~/.config/nvim
 ln -s ~/Development/DotFiles/vim/after ~/.config/nvim/ && \
 ln -s ~/Development/DotFiles/vim/syntax ~/.config/nvim/
+
+## VSCode dotfiles/settings
+ln -s /Users/jordan/Development/DotFiles/VSCode/settings.json /Users/jordan/Library/Application\ Support/Code/User/settings.json
+ln -s /Users/jordan/Development/DotFiles/VSCode/keybindings.json /Users/jordan/Library/Application\ Support/Code/User/keybindings.json
+ln -s /Users/jordan/Development/DotFiles/VSCode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
 
 ## neovim
 pip install neovim
