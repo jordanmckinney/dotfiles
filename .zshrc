@@ -70,7 +70,7 @@
     # For a full list of active aliases, run `alias`.
 
     alias tmux='tmux -2'
-    alias python='bpython'
+    alias pythons='bpython'
     alias ctags='/usr/local/bin/ctags'
 
     alias shutdown='shutdown -h now'

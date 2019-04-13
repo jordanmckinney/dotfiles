@@ -27,7 +27,7 @@ ssh-add ~/.ssh/id_rsa
 
 ## Ruby
 brew install autoconf automake gdbm gmp libksba libtool libyaml openssl pkg-config readline
-ln -s ~/Development/DotFiles/gemrc ~/.gemrc
+ln -s ~/Development/DotFiles/.gemrc ~/.gemrc
 curl -L https://get.rvm.io | bash -s stable --ruby
 gem install tmuxinator
 mkdir ~/.bin
@@ -36,11 +36,11 @@ mv ~/.bin/tmuxinator/completion/tmuxinator.zsh ~/.bin/
 rm -rf ~/.bin/tmuxinator
 
 ## dotfile stuff
-echo "source ~/Development/DotFiles/zshrc" >> ~/.zshrc
-ln -s ~/Development/DotFiles/tmux.conf ~/.tmux.conf
-ln -s ~/Development/DotFiles/zprofile ~/.zprofile
-ln -s ~/Development/DotFiles/tmuxinator ~/.tmuxinator
-ln -s ~/Development/DotFiles/gemrc ~/.gemrc
+echo "source ~/Development/DotFiles/.zshrc" >> ~/.zshrc
+ln -s ~/Development/DotFiles/.tmux.conf ~/.tmux.conf
+ln -s ~/Development/DotFiles/.zprofile ~/.zprofile
+ln -s ~/Development/DotFiles/.tmuxinator ~/.tmuxinator
+ln -s ~/Development/DotFiles/.gemrc ~/.gemrc
 mkdir ~/.config/nvim
 ln -s ~/Development/DotFiles/vim/after ~/.config/nvim/ && \
 ln -s ~/Development/DotFiles/vim/syntax ~/.config/nvim/
@@ -86,12 +86,6 @@ brew install solidity
 
 ## Typescript
 npm install -g typescript
-
-## Vim ctags
-brew install ctags
-
-## markdown viewer
-brew cask install macdown
 
 brew cask install insomnia
 

@@ -1,5 +1,5 @@
 # DotFiles
 
-My dotfiles for Vim, ZSH and Tmux.
+My dotfiles for Vim, ZSH, Tmux, etc.
 
 ![terminal screen](screenshots/vimtmux.png)
