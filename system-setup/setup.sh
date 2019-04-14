@@ -46,9 +46,9 @@ ln -s ~/Development/dotfiles/vim/syntax ~/.config/nvim/
 ln -s ~/Development/dotfiles/vim/init.vim ~/.config/nvim/
 
 ## VSCode dotfiles/settings
-ln -s /Users/jordan/Development/dotfiles/VSCode/settings.json /Users/jordan/Library/Application\ Support/Code/User/settings.json
-ln -s /Users/jordan/Development/dotfiles/VSCode/keybindings.json /Users/jordan/Library/Application\ Support/Code/User/keybindings.json
-ln -s /Users/jordan/Development/dotfiles/VSCode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
+ln -s /Users/jordan/Development/dotfiles/vscode/settings.json /Users/jordan/Library/Application\ Support/Code/User/settings.json
+ln -s /Users/jordan/Development/dotfiles/vscode/keybindings.json /Users/jordan/Library/Application\ Support/Code/User/keybindings.json
+ln -s /Users/jordan/Development/dotfiles/vscode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
 
 ## neovim
 pip install neovim

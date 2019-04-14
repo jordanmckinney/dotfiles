@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -54,5 +53,6 @@
       "before": ["leader", "w"],
       "commands": ["workbench.action.files.save"]
     }
-  ]
+  ],
+  "workbench.colorTheme": "Material Theme Palenight High Contrast"
 }
