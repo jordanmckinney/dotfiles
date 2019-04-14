@@ -36,6 +36,12 @@ echo
 # done
 # echo
 
+# Checks for existing package.json
+if [ -f "package.json"]; then
+  echo -e "${RED}Existing package.json found"
+  skip_packagejson_setup="true"
+fi
+
 # Checks for existing eslintrc files
 if [ -f ".eslintrc.js" -o -f ".eslintrc.yaml" -o -f ".eslintrc.yml" -o -f ".eslintrc.json" -o -f ".eslintrc" ]; then
   echo -e "${RED}Existing ESLint config file(s) found:${NC}"
@@ -99,7 +105,14 @@ fi
 # ----------------------
 echo
 echo -e "${GREEN}Configuring your development environment... ${NC}"
-$pkg_cmd init --yes
+
+if [ "$skip_packagejson_setup" == "true" ]; then
+  break
+else
+  echo
+  echo -e "0/5 ${YELLOW}Building your package.json file...${NC}"
+  $pkg_cmd init --yes
+fi
 
 echo
 echo -e "1/5 ${LCYAN}ESLint & Prettier Installation... ${NC}"
@@ -130,6 +143,8 @@ fi
 if [ "$skip_prettier_setup" == "true" ]; then
   break
 else
+  echo
+  echo -e "5/5 ${YELLOW}Building your .prettierrc${config_extension} file...${NC}"
   cp ~/Development/dotfiles/js/.prettierrc.json .
 fi
 

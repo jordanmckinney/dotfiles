@@ -50,6 +50,9 @@ ln -s /Users/jordan/Development/dotfiles/vscode/settings.json /Users/jordan/Libr
 ln -s /Users/jordan/Development/dotfiles/vscode/keybindings.json /Users/jordan/Library/Application\ Support/Code/User/keybindings.json
 ln -s /Users/jordan/Development/dotfiles/vscode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
 
+## eslint, etc
+npm install -g create-react-app eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react ganache-cli neovim npm npx prettier pure-prompt truffle typescript webpack webpack-dev-server 
+
 ## neovim
 pip install neovim
 pip3 install neovim
