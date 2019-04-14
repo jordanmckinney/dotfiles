@@ -99,6 +99,7 @@ fi
 # ----------------------
 echo
 echo -e "${GREEN}Configuring your development environment... ${NC}"
+$pkg_cmd init --yes
 
 echo
 echo -e "1/5 ${LCYAN}ESLint & Prettier Installation... ${NC}"
