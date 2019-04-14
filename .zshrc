@@ -69,6 +69,8 @@
     # users are encouraged to define aliases within the ZSH_CUSTOM folder.
     # For a full list of active aliases, run `alias`.
 
+    alias setup='sh ~/Development/dotfiles/eslint-prettier-config.sh'
+
     alias tmux='tmux -2'
     alias pythons='bpython'
     alias ctags='/usr/local/bin/ctags'
