@@ -6,6 +6,7 @@
   "files.exclude": {
     "node_modules": true
   },
+  "python.pythonPath": "/usr/local/bin/python3",
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.hover.delay": 500,
@@ -34,7 +35,13 @@
     "editor.tabSize": 2
   },
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-  "bracket-pair-colorizer-2.colors": ["#87a5ff", "#b087ff", "#f187ff", "#ff8787", "#87ffd3"],
+  "bracket-pair-colorizer-2.colors": [
+    "#87a5ff",
+    "#b087ff",
+    "#f187ff",
+    "#ff8787",
+    "#87ffd3"
+  ],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.wordWrap": "on",
   "vim.leader": "<space>",
