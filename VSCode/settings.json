@@ -1,13 +1,14 @@
 {
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontWeight": "500",
-  "files.exclude": {
-    "node_modules": true
-  },
   "python.pythonPath": "/usr/local/bin/python3",
+  "python.linting.pep8Enabled": true,
+  "html.suggest.html5": true,
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": true,
   "editor.insertSpaces": true,
   "editor.hover.delay": 500,
   "editor.lightbulb.enabled": false,
@@ -25,6 +26,13 @@
   "breadcrumbs.filePath": "off",
   "workbench.editor.closeOnFileDelete": true,
   "terminal.integrated.fontWeight": "500",
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "bracket-pair-colorizer-2.colors": ["#87a5ff", "#b087ff", "#f187ff", "#ff8787", "#87ffd3"],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "node_modules": true
+  },
   "[javascript]": {
     "editor.tabSize": 2
   },
@@ -34,16 +42,6 @@
   "[css]": {
     "editor.tabSize": 2
   },
-  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-  "bracket-pair-colorizer-2.colors": [
-    "#87a5ff",
-    "#b087ff",
-    "#f187ff",
-    "#ff8787",
-    "#87ffd3"
-  ],
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.wordWrap": "on",
   "vim.leader": "<space>",
   "vim.insertModeKeyBindings": [
     {
@@ -61,5 +59,49 @@
       "commands": ["workbench.action.files.save"]
     }
   ],
-  "workbench.colorTheme": "Material Theme Palenight High Contrast"
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python3",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runhaskell",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run"
+  }
 }

@@ -1,10 +1,6 @@
 # Brew
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 
-# hyperledger
-export PATH="$PATH:/Users/jordan/Development/hyperledger/fabric-samples/bin"
-export FABRIC_CFG_PATH="/Users/jordan/Development/hyperledger/fabric-samples/first-network"
-
 export PATH="$PATH:$HOME/.nvm"
 
 export NVM_DIR="$HOME/.nvm"

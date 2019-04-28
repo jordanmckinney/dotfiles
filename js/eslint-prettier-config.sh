@@ -69,7 +69,7 @@ fi
 #   fi
 # done
 
-max_len_val=80
+max_len_val=100
 
 # Trailing Commas Prompt
 # echo "What style of trailing commas do you want to enforce with Prettier?"
