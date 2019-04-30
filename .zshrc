@@ -52,7 +52,6 @@ alias setup='sh ~/Development/dotfiles/js/eslint-prettier-config.sh'
 alias tmux='tmux -2'
 alias pythons='bpython'
 alias python='python3'
-alias ctags='/usr/local/bin/ctags'
 
 alias shutdown='shutdown -h now'
 alias restart='shutdown -r now'
