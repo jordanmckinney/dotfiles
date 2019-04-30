@@ -103,5 +103,7 @@
     "nim": "nim compile --verbosity:0 --hints:off --run",
     "lisp": "sbcl --script",
     "kit": "kitc --run"
-  }
+  },
+  "git.autofetch": true,
+  "workbench.startupEditor": "welcomePage"
 }
