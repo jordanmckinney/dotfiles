@@ -2,14 +2,12 @@ xcode-select --install
 
 ## homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install postgresql
 brew install zsh
 brew install yarn
 brew install tree
 brew install htop
 brew install neovim
 brew install zsh zsh-completions
-brew install neovim
 brew install the_silver_searcher
 
 ## set zsh as default
@@ -51,7 +49,7 @@ ln -s /Users/jordan/Development/dotfiles/vscode/keybindings.json /Users/jordan/L
 ln -s /Users/jordan/Development/dotfiles/vscode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
 
 ## eslint, etc
-npm install -g create-react-app eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react ganache-cli neovim npm npx prettier pure-prompt truffle typescript webpack webpack-dev-server 
+npm install -g create-react-app eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react neovim npm npx prettier pure-prompt webpack webpack-dev-server 
 
 ## neovim
 pip install neovim
@@ -82,18 +80,6 @@ rvm install ruby-2.5.3
 ## iterm
 ### theme, clone into development, source theme in iterm settings
 https://draculatheme.com/iterm/
-
-## Ethereum
-npm install -g truffle
-npm install -g solc
-npm install -g ganache-cli
-brew update
-brew upgrade
-brew tap ethereum/ethereum
-brew install solidity
-
-## Typescript
-npm install -g typescript
 
 brew cask install insomnia
 
