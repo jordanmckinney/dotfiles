@@ -1,6 +1,6 @@
 """ Setup 
 
-let g:python_host_prog = '/usr/local/bin/python'
+let g:python_host_prog = '/usr/local/bin/python2'
 let g:python2_host_prog = '/usr/local/bin/python2'
 let g:python3_host_prog = '/usr/local/bin/python3'
 
@@ -100,8 +100,8 @@ let g:lightline = {
       \ 'component_type': {
       \   'syntastic': 'error',
       \ },
-      \ 'separator': { 'left': '', 'right': '' },
-      \ 'subseparator': { 'left': '', 'right': '' },
+      \ 'separator': { 'left': '', 'right': '' },
+      \ 'subseparator': { 'left': '', 'right': '' },
       \ }
 
 function! LightlineModified()
@@ -235,7 +235,6 @@ set wildignore=*.git
 
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-  let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 endif
 
 if (has("termguicolors"))

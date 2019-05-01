@@ -16,7 +16,6 @@ plugins=(
 # pure theme
 autoload -U promptinit; promptinit
 prompt pure
-export TERM="xterm-256color"
 
 ### Exports
 
@@ -53,15 +52,12 @@ alias tmux='tmux -2'
 alias pythons='bpython'
 alias python='python3'
 
-alias shutdown='shutdown -h now'
-alias restart='shutdown -r now'
 alias cddot='cd ~/Development/dotfiles/'
 alias cdcode='cd ~/Development/code/'
 alias cdvim='cd ~/Development/reference/technologies'
 alias cdref='cd ~/Development/reference'
 alias v=nvim
 alias s=ls
-alias zz=exit
 alias t='tree'
 
 # git stuff
@@ -117,7 +113,7 @@ source ~/.bin/tmuxinator.zsh
 source /Users/jordan/.oh-my-zsh/plugins/vi-mode/vi-mode.plugin.zsh
 
 # zsh autosuggestions
-source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # zsh syntax highlighting
 source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
