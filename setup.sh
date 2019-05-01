@@ -15,7 +15,6 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ## git
-# brew install git
 # all this does is point to the gitconfig (no dot!)
 cp ~/Development/dotfiles/.gitconfig ~
 
@@ -34,7 +33,7 @@ git clone https://github.com/tmuxinator/tmuxinator.git
 mv ~/.bin/tmuxinator/completion/tmuxinator.zsh ~/.bin/
 rm -rf ~/.bin/tmuxinator
 
-## zsh, tmux, nvim dotfiles
+## link zsh, tmux, nvim dotfiles
 echo "source ~/Development/dotfiles/.zshrc" >> ~/.zshrc
 ln -s ~/Development/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/Development/dotfiles/.zprofile ~/.zprofile
@@ -54,7 +53,7 @@ npm install -g create-react-app eslint eslint-config-airbnb eslint-config-pretti
 ## Python
 brew install python3 pipenv
 brew install python@2
-pip install bpython neovim
+pip install neovim
 pip3 install bpython neovim
 pip3 install pylint
 pip3 install autopep8
@@ -76,7 +75,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 npm install --global pure-prompt
-# rvm install ruby-2.5.3
 
 ## iterm
 https://draculatheme.com/iterm/
