@@ -1,11 +1,11 @@
 {
   "workbench.iconTheme": "material-icon-theme",
+  "explorer.sortOrder": "type",
+  "workbench.editor.highlightModifiedTabs": true,
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontWeight": "500",
-  "python.pythonPath": "/usr/local/bin/python3",
-  "python.linting.pep8Enabled": true,
   "html.suggest.html5": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": true,
@@ -27,9 +27,26 @@
   "workbench.editor.closeOnFileDelete": true,
   "terminal.integrated.fontWeight": "500",
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-  "bracket-pair-colorizer-2.colors": ["#87a5ff", "#b087ff", "#f187ff", "#ff8787", "#87ffd3"],
+  "bracket-pair-colorizer-2.colors": [
+    "#87a5ff",
+    "#b087ff",
+    "#f187ff",
+    "#ff8787",
+    "#87ffd3"
+  ],
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "workbench.startupEditor": "welcomePage",
+  "python.pythonPath": "/usr/local/bin/python3",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "/usr/local/bin/pylint",
+  "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
+  "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
   "editor.wordWrap": "on",
+  "files.trimFinalNewlines": true,
+  "files.autoSave": "onFocusChange",
   "files.exclude": {
     "node_modules": true
   },
@@ -103,7 +120,5 @@
     "nim": "nim compile --verbosity:0 --hints:off --run",
     "lisp": "sbcl --script",
     "kit": "kitc --run"
-  },
-  "git.autofetch": true,
-  "workbench.startupEditor": "welcomePage"
+  }
 }

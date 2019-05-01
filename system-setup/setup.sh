@@ -49,13 +49,15 @@ ln -s /Users/jordan/Development/dotfiles/vscode/keybindings.json /Users/jordan/L
 ln -s /Users/jordan/Development/dotfiles/vscode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
 
 ## eslint, etc
-npm install -g create-react-app eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react neovim npm npx prettier pure-prompt webpack webpack-dev-server 
+npm install -g create-react-app eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react neovim npm npx prettier pure-prompt webpack webpack-dev-server babel-eslint
 
 ## Python
 brew install python3 pipenv
 brew install python@2
 pip install bpython neovim
 pip3 install bpython neovim
+pip3 install pylint
+pip3 install autopep8
 
 ## neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
