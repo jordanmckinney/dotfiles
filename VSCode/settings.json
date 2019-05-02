@@ -27,13 +27,7 @@
   "workbench.editor.closeOnFileDelete": true,
   "terminal.integrated.fontWeight": "500",
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-  "bracket-pair-colorizer-2.colors": [
-    "#87a5ff",
-    "#b087ff",
-    "#f187ff",
-    "#ff8787",
-    "#87ffd3"
-  ],
+  "bracket-pair-colorizer-2.colors": ["#87a5ff", "#b087ff", "#f187ff", "#ff8787", "#87ffd3"],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
   "workbench.startupEditor": "welcomePage",
@@ -120,5 +114,7 @@
     "nim": "nim compile --verbosity:0 --hints:off --run",
     "lisp": "sbcl --script",
     "kit": "kitc --run"
-  }
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 5
 }
