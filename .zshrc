@@ -47,15 +47,15 @@ COMPLETION_WAITING_DOTS="true"
 # For a full list of active aliases, run `alias`.
 
 alias setup='sh ~/Development/dotfiles/js/eslint-prettier-config.sh'
+alias dot='code ~/Development/dotfiles'
+alias notes='code ~/Development/notes'
+alias codes='code ~/Development/code'
+alias react='code ~/Development/react-course'
 
 alias tmux='tmux -2'
 alias pythons='bpython'
 alias python='python3'
 
-alias cddot='cd ~/Development/dotfiles/'
-alias cdcode='cd ~/Development/code/'
-alias cdvim='cd ~/Development/reference/technologies'
-alias cdref='cd ~/Development/reference'
 alias v=nvim
 alias s=ls
 alias t='tree'
@@ -68,38 +68,6 @@ alias gpush='
     git add . &&
     git commit -m "..." &&
     git push'
-alias gpull='
-    echo "========== dotfiles ==========" &&
-    git -C ~/Development/dotfiles pull &&
-    echo "" &&
-    echo "============ Ref =============" &&
-    git -C ~/Development/reference pull &&
-    echo "" &&
-    echo "============ Code ============" &&
-    git -C ~/Development/code pull &&
-    echo "" &&
-    echo "=========== Notes ============" &&
-    git -C ~/Development/notes pull &&
-    echo "" &&
-    echo "========== Jordanmmck ========"  &&
-    git -C ~/Development/jordanmmck.github.io pull &&
-    echo ""'
-alias gstatus='
-    echo "========== dotfiles ==========" &&
-    git -C ~/Development/dotfiles status &&
-    echo "" &&
-    echo "============ Ref =============" &&
-    git -C ~/Development/reference status &&
-    echo "" &&
-    echo "============ Code ============" &&
-    git -C ~/Development/code status &&
-    echo "" &&
-    echo "=========== Writing ============" &&
-    git -C ~/Development/writing status &&
-    echo "" &&
-    echo "========== Jordanmmck ========"  &&
-    git -C ~/Development/jordanmmck.github.io status &&
-    echo ""'
 
 ### Source plugins
 

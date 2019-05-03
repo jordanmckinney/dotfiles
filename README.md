@@ -28,6 +28,7 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 - calibre
 - transmission
 - docker
+- vlc
 
 ### Mouse
 
