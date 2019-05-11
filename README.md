@@ -33,7 +33,7 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 ### Mouse
 
 - logitech gaming software (if needed)
-- mos (smooth scrolling)
+- setup mos (smooth scrolling)
 
 ### System preferences
 
@@ -47,6 +47,7 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 - trackpad > tap to click
 - printers > register printer
 - set home dir as default for finder
+- nightshift
 
 ### VSCode
 

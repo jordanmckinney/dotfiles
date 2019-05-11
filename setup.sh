@@ -83,3 +83,6 @@ https://draculatheme.com/iterm/
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 ## system key repeat
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+# mos
+brew cask install mos
