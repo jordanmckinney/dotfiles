@@ -86,3 +86,4 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # mos
 brew cask install mos
+brew install postgresql

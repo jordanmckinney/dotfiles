@@ -29,6 +29,7 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 - transmission
 - docker
 - vlc
+- postgresapp (https://postgresapp.com/)
 
 ### Mouse
 

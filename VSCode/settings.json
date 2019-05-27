@@ -2,6 +2,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "explorer.sortOrder": "type",
   "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.tabSizing": "shrink",
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -45,6 +46,9 @@
     "node_modules": true
   },
   "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
     "editor.tabSize": 2
   },
   "[html]": {
@@ -116,5 +120,6 @@
     "kit": "kitc --run"
   },
   "explorer.confirmDragAndDrop": false,
-  "explorer.openEditors.visible": 5
+  "explorer.openEditors.visible": 5,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
