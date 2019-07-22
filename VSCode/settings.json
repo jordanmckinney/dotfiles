@@ -9,7 +9,7 @@
   "editor.fontWeight": "500",
   "html.suggest.html5": true,
   "editor.formatOnSave": true,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
   "editor.hover.delay": 500,
   "editor.lightbulb.enabled": false,
@@ -41,7 +41,6 @@
   "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
   "editor.wordWrap": "on",
   "files.trimFinalNewlines": true,
-  "files.autoSave": "onFocusChange",
   "files.exclude": {
     "node_modules": true
   },
@@ -60,6 +59,14 @@
   "vim.leader": "<space>",
   "vim.insertModeKeyBindings": [
     {
+      "before": ["k", "j"],
+      "after": ["<esc>"]
+    },
+    {
+      "before": ["j", "k"],
+      "after": ["<esc>"]
+    },
+    {
       "before": ["j", "j"],
       "after": ["<esc>"]
     }
@@ -72,6 +79,14 @@
     {
       "before": ["leader", "w"],
       "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
     }
   ],
   "code-runner.clearPreviousOutput": true,
@@ -121,5 +136,22 @@
   },
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 5,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.rendererType": "dom",
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.blame.heatmap.enabled": false,
+  "gitlens.blame.highlight.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.views.repositories.enabled": false,
+  "gitlens.views.search.enabled": false,
+  "gitlens.mode.statusBar.enabled": false,
+  "nativescript.analytics.enabled": false
 }

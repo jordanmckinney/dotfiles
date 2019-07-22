@@ -48,8 +48,11 @@ COMPLETION_WAITING_DOTS="true"
 
 alias setup='sh ~/Development/dotfiles/js/eslint-prettier-config.sh'
 alias dot='code ~/Development/dotfiles'
-alias notes='code ~/Development/notes'
+alias notes='code ~/Documents/notes'
+alias ideas='code ~/Documents/ideas'
+alias journal='code ~/Documents/journal'
 alias codes='code ~/Development/code'
+alias ref='code ~/Development/reference'
 alias react='code ~/Development/react-course'
 
 alias tmux='tmux -2'
