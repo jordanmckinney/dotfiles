@@ -115,6 +115,7 @@ fi
 sudo apt install libpq-d
 sudo apt-get install postgresql python-psycopg2 libpq-dev
 
+sudo apt-get install gnome-tweak-tool
 # install Ant-Dracula theme
 # extract, cp to /usr/share/themes
 sudo add-apt-repository ppa:snwh/ppa
