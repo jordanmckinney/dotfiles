@@ -103,26 +103,6 @@ if [ -n "$VIRTUAL_ENV" ] ; then
     deactivate
 fi
 
-sudo apt install gnome-shell-extensions
-
-# shell
-cd /tmp && rm -rf flat-remix-gnome-theme &&
-git clone https://github.com/daniruiz/flat-remix-gnome &&
-mkdir -p ~/.themes && cp -r /tmp/flat-remix-gnome/Flat-Remix* ~/.themes &&
-gsettings set org.gnome.shell.extensions.user-theme name "Flat-Remix";
-
-# icons
-cd /tmp && rm -rf flat-remix &&
-git clone https://github.com/daniruiz/flat-remix &&
-mkdir -p ~/.icons && cp -r flat-remix/Flat-Remix* ~/.icons/ &&
-gsettings set org.gnome.desktop.interface icon-theme "Flat-Remix"
-
-# windows
-cd /tmp && rm -rf flat-remix-gtk &&
-git clone https://github.com/daniruiz/flat-remix-gtk &&
-mkdir -p ~/.themes && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/ &&
-gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
-
 # Set font to Source Code Pro for Powerline in system 
 # Also set other fonts
 # Add new ssh key to github
@@ -134,3 +114,9 @@ gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
 
 sudo apt install libpq-d
 sudo apt-get install postgresql python-psycopg2 libpq-dev
+
+# install Ant-Dracula theme
+# extract, cp to /usr/share/themes
+sudo add-apt-repository ppa:snwh/ppa
+sudo apt-get update
+sudo apt-get install paper-icon-theme

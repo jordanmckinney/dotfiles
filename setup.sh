@@ -3,6 +3,7 @@ xcode-select --install
 ## homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install yarn
+brew install tmux
 brew install tree
 brew install htop
 brew install neovim
@@ -87,3 +88,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # mos
 brew cask install mos
 brew install postgresql
+
+# Angualr
+npm install -g @angular/cli
