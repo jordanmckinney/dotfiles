@@ -12,6 +12,7 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 
 - Brave
 - Firefox
+- Chrome
 - iterm2
 - dropbox
 - ledger live
@@ -19,7 +20,6 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 - slack
 - alfred (cmd + j)
 - magnet
-- amphetamine
 - keybase
 - notion
 - spotify
@@ -30,6 +30,7 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 - docker
 - vlc
 - postgresapp (https://postgresapp.com/)
+- clipy
 
 ### Mouse
 
