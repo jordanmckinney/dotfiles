@@ -47,6 +47,8 @@
   "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
   "editor.wordWrap": "on",
   "files.trimFinalNewlines": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "files.exclude": {
     "node_modules": true
   },
@@ -110,5 +112,7 @@
   "gitlens.views.repositories.enabled": false,
   "gitlens.views.search.enabled": false,
   "gitlens.mode.statusBar.enabled": false,
-  "nativescript.analytics.enabled": false
+  "nativescript.analytics.enabled": false,
+  "explorer.confirmDelete": false,
+  "python.jediEnabled": false
 }
