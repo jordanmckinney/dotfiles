@@ -48,9 +48,6 @@ ln -s /Users/jordan/Development/dotfiles/vscode/settings.json /Users/jordan/Libr
 ln -s /Users/jordan/Development/dotfiles/vscode/keybindings.json /Users/jordan/Library/Application\ Support/Code/User/keybindings.json
 ln -s /Users/jordan/Development/dotfiles/vscode/snippets/ /Users/jordan/Library/Application\ Support/Code/User
 
-## eslint, etc
-npm install -g create-react-app eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react neovim npm npx prettier pure-prompt webpack webpack-dev-server babel-eslint
-
 ## Python
 brew install python3 pipenv
 brew install python@2
@@ -91,3 +88,11 @@ brew install postgresql
 
 # Angualr
 npm install -g @angular/cli
+
+## eslint, etc
+npx install-peerdeps -g eslint-config-airbnb
+
+npm install -g eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react neovim npm npx prettier pure-prompt webpack webpack-dev-server babel-eslint
+
+ln -s /Users/jordan/Development/dotfiles/js/.prettierrc.json /Users/jordan/.prettierrc.json
+ln -s /Users/jordan/Development/dotfiles/js/.eslintrc.json /Users/jordan/.eslintrc.json
