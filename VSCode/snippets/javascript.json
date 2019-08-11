@@ -1,10 +1,12 @@
 {
   "Inspect": {
     "prefix": "inspect",
-    "body": [
-      "console.log(util.inspect('$1', { colors: true, depth: null }));",
-      "$2"
-    ],
+    "body": ["console.log(util.inspect('$1', { colors: true, depth: null }));", "$2"],
     "description": "const util = require('util');"
+  },
+  "Arrow": {
+    "prefix": "arr",
+    "body": ["($1) => {$2}"],
+    "description": "arrow"
   }
 }

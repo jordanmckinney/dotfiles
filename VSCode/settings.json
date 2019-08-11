@@ -28,13 +28,10 @@
   "workbench.editor.closeOnFileDelete": true,
   "terminal.integrated.fontWeight": "500",
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-  "bracket-pair-colorizer-2.colors": [
-    "#87a5ff",
-    "#b087ff",
-    "#f187ff",
-    "#ff8787",
-    "#87ffd3"
-  ],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "bracket-pair-colorizer-2.colors": ["#87a5ff", "#b087ff", "#f187ff", "#ff8787", "#87ffd3"],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
   "workbench.startupEditor": "newUntitledFile",
