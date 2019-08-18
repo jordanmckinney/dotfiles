@@ -84,7 +84,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # mos
 brew cask install mos
-brew install postgresql
 
 # Angualr
 npm install -g @angular/cli
@@ -96,3 +95,7 @@ npm install -g eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-
 
 ln -s /Users/jordan/Development/dotfiles/js/.prettierrc.json /Users/jordan/.prettierrc.json
 ln -s /Users/jordan/Development/dotfiles/js/.eslintrc.json /Users/jordan/.eslintrc.json
+
+# https://postgresapp.com/
+sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
