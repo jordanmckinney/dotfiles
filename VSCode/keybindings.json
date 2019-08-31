@@ -51,5 +51,37 @@
     "key": "enter",
     "command": "list.select",
     "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+f6",
+    "command": "extension.rerunLastCommand"
+  },
+  {
+    "key": "cmd+f7",
+    "command": "-extension.rerunLastCommand"
+  },
+  {
+    "key": "cmd+f7",
+    "command": "-extension.rerunLastCommand"
+  },
+  {
+    "key": "cmd+f7",
+    "command": "-extension.rerunLastCommand"
+  },
+  {
+    "key": "cmd+f7",
+    "command": "-extension.rerunLastCommand"
+  },
+  {
+    "key": "cmd+f7",
+    "command": "-extension.rerunLastCommand"
+  },
+  {
+    "key": "cmd+f7",
+    "command": "-extension.rerunLastCommand"
+  },
+  {
+    "key": "cmd+f7",
+    "command": "-extension.rerunLastCommand"
   }
 ]
