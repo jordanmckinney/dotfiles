@@ -48,11 +48,11 @@ COMPLETION_WAITING_DOTS="true"
 
 alias setup='sh ~/Development/dotfiles/js/eslint-prettier-config.sh'
 alias dot='code ~/Development/dotfiles'
+alias cs='code ~/Development/cs'
 alias notes='code ~/Documents/notes'
 alias ideas='code ~/Documents/ideas'
 alias j='code ~/Documents/journal'
-alias codes='code ~/Development/code'
-alias ref='code ~/Development/reference'
+alias jordanmmck='code ~/Development/jordanmmck'
 alias react='code ~/Development/react-course'
 
 alias tmux='tmux -2'
@@ -67,10 +67,8 @@ alias t='tree'
 alias gadd='git add .'
 alias gst='git status'
 alias mux='tmuxinator'
-alias gpush='
-    git add . &&
-    git commit -m "..." &&
-    git push'
+alias gpush='git add . && git commit -m "..." && git push'
+alias rmdocker='docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi -f $(docker images)'
 
 ### Source plugins
 

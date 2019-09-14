@@ -53,35 +53,11 @@
     "when": "listFocus && !inputFocus"
   },
   {
-    "key": "cmd+f6",
+    "key": "cmd+f7",
+    "command": "-extension.rerunLastCommand"
+  },
+  {
+    "key": "ctrl+enter",
     "command": "extension.rerunLastCommand"
   },
-  {
-    "key": "cmd+f7",
-    "command": "-extension.rerunLastCommand"
-  },
-  {
-    "key": "cmd+f7",
-    "command": "-extension.rerunLastCommand"
-  },
-  {
-    "key": "cmd+f7",
-    "command": "-extension.rerunLastCommand"
-  },
-  {
-    "key": "cmd+f7",
-    "command": "-extension.rerunLastCommand"
-  },
-  {
-    "key": "cmd+f7",
-    "command": "-extension.rerunLastCommand"
-  },
-  {
-    "key": "cmd+f7",
-    "command": "-extension.rerunLastCommand"
-  },
-  {
-    "key": "cmd+f7",
-    "command": "-extension.rerunLastCommand"
-  }
 ]
