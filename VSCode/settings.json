@@ -6,9 +6,9 @@
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontWeight": "500",
+  "editor.fontWeight": "400",
   "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.insertSpaces": true,
   "editor.hover.delay": 500,
   "editor.lightbulb.enabled": false,
@@ -23,6 +23,7 @@
   "editor.suggest.localityBonus": true,
   "editor.suggest.shareSuggestSelections": true,
   "editor.suggestFontSize": 11,
+  "editor.renderWhitespace": "all",
   "workbench.commandPalette.history": 10,
   "workbench.useExperimentalGridLayout": true,
   "workbench.statusBar.feedback.visible": false,
@@ -37,17 +38,18 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
   "workbench.startupEditor": "newUntitledFile",
+  "python.venvPath": "/Users/jordan/.local/share/virtualenvs",
   "python.pythonPath": "/usr/local/bin/python3",
   "python.linting.enabled": true,
   "python.linting.lintOnSave": true,
-  "python.linting.pylintEnabled": true,
+  "python.linting.pylintEnabled": false,
   "python.linting.pylintPath": "/usr/local/bin/pylint",
   "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
   "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
   "editor.wordWrap": "on",
   "files.trimFinalNewlines": true,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 5000,
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 5000,
   "files.exclude": {
     "node_modules": true
   },
@@ -64,6 +66,9 @@
     "editor.tabSize": 2
   },
   "[scss]": {
+    "editor.tabSize": 2
+  },
+  "[solidity]": {
     "editor.tabSize": 2
   },
   "vim.leader": "<space>",
@@ -116,5 +121,7 @@
   "gitlens.mode.statusBar.enabled": false,
   "nativescript.analytics.enabled": false,
   "explorer.confirmDelete": false,
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "editor.hover.enabled": true,
+  "git.enableSmartCommit": true
 }

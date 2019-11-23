@@ -1,7 +1,5 @@
 if [ "$TMUX" = "" ]; then tmux; fi
 
-### Plugins
-
 plugins=(
     git 
     vi-mode 
@@ -11,13 +9,9 @@ plugins=(
     zsh-syntax-highlighting
 )
 
-### Appearance
-
 # pure theme
 autoload -U promptinit; promptinit
 prompt pure
-
-### Exports
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -25,8 +19,6 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
     export EDITOR='nvim'
 fi
-
-### Completion 
 
 # Hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -38,8 +30,6 @@ ENABLE_CORRECTION="true"
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
-
-### Aliases
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -63,14 +53,11 @@ alias v=nvim
 alias s=ls
 alias t='tree'
 
-# git stuff
 alias gadd='git add .'
 alias gst='git status'
 alias mux='tmuxinator'
 alias gpush='git add . && git commit -m "..." && git push'
 alias rmdocker='docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi -f $(docker images)'
-
-### Source plugins
 
 # disable ctrl-s scroll lock
 stty -ixon
