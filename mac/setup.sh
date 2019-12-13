@@ -1,4 +1,6 @@
 xcode-select --install
+# sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+# sudo xcodebuild -runFirstLaunch
 
 ## homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

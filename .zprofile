@@ -17,4 +17,5 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/H
 export ANDROID_HOME=/usr/local/share/android-sdk
 export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
 
+export PATH="$PATH:/Users/jordan/Development/flutter/bin"
 export PATH="/Users/jordan/Library/Python/3.7/bin:$PATH"
