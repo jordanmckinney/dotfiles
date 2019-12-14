@@ -8,30 +8,6 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 
 ## System Setup
 
-### Applications
-
-- Brave
-- Firefox
-- Chrome
-- iterm2
-- dropbox
-- ledger live
-- sublime text
-- slack
-- alfred (cmd + j)
-- magnet
-- keybase
-- notion
-- spotify
-- vscode
-- insomnia
-- calibre
-- transmission
-- docker
-- vlc
-- postgresapp (https://postgresapp.com/)
-- clipy
-
 ### Mouse
 
 - logitech gaming software (if needed)
