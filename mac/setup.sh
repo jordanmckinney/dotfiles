@@ -58,6 +58,8 @@ pip3 install bpython neovim
 pip3 install pylint
 pip3 install autopep8
 
+python3 -m pip install --user virtualenv
+
 ## neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cd ~/.config/nvim
@@ -101,3 +103,4 @@ ln -s /Users/jordan/Development/dotfiles/js/.eslintrc.json /Users/jordan/.eslint
 # https://postgresapp.com/
 sudo mkdir -p /etc/paths.d &&
 echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+# tell postgresapp to use postico instead of terminal

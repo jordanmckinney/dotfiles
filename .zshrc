@@ -46,7 +46,7 @@ alias jordanmmck='code ~/Development/jordanmmck'
 alias react='code ~/Development/react-course'
 
 alias tmux='tmux -2'
-alias pythons='bpython'
+alias py='bpython'
 alias python='python3'
 
 alias v=nvim
