@@ -162,5 +162,7 @@
   "leetcode.workspaceFolder": "/Users/jordan/Development/coding_problems/leetcode",
   "leetcode.defaultLanguage": "python3",
   "leetcode.showLocked": false,
-  "leetcode.showCommentDescription": true
+  "leetcode.showCommentDescription": true,
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.commentDescription": false
 }

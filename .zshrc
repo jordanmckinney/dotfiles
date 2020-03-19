@@ -36,14 +36,14 @@ COMPLETION_WAITING_DOTS="true"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-alias setup='sh ~/Development/dotfiles/js/eslint-prettier-config.sh'
+# alias setup='sh ~/Development/dotfiles/js/eslint-prettier-config.sh'
 alias dot='code ~/Development/dotfiles'
-alias cs='code ~/Development/cs'
+alias ref='code ~/Development/reference'
 alias notes='code ~/Documents/notes'
 alias ideas='code ~/Documents/ideas'
 alias j='code ~/Documents/journal'
 alias jordanmmck='code ~/Development/jordanmmck'
-alias react='code ~/Development/react-course'
+alias leet='code ~/Development/coding_problems'
 
 alias tmux='tmux -2'
 alias py='bpython'

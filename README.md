@@ -48,3 +48,4 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 - python
 - vim
 - vscode viml syntax
+- leetcode (https://github.com/leetcode-tools/leetcode-cli)
