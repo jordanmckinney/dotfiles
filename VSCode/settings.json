@@ -6,10 +6,10 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "materialTheme.accent": "Blue",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontWeight": "400",
-  "editor.formatOnSave": true,
   "editor.minimap.enabled": true,
   "editor.insertSpaces": true,
   "editor.hover.delay": 500,
@@ -31,7 +31,7 @@
   "workbench.statusBar.feedback.visible": false,
   "breadcrumbs.filePath": "on",
   "workbench.editor.closeOnFileDelete": true,
-  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontWeight": "400",
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -46,14 +46,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
   "workbench.startupEditor": "newUntitledFile",
-  "python.venvPath": "/Users/jordan/.local/share/virtualenvs",
-  "python.pythonPath": "/usr/local/bin/python3",
-  "python.linting.enabled": true,
-  "python.linting.lintOnSave": true,
-  "python.linting.pylintEnabled": false,
-  "python.linting.pylintPath": "/usr/local/bin/pylint",
-  "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
-  "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
   "editor.wordWrap": "on",
   "files.trimFinalNewlines": true,
   // "files.autoSave": "afterDelay",
@@ -62,7 +54,8 @@
     "node_modules": true
   },
   "[javascript]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.tabSize": 2
@@ -108,9 +101,15 @@
       "after": ["g", "k"]
     }
   ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 5,
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "terminal.integrated.rendererType": "dom",
   "gitlens.views.repositories.location": "gitlens",
   "gitlens.views.fileHistory.location": "gitlens",
@@ -129,7 +128,6 @@
   "gitlens.mode.statusBar.enabled": false,
   "nativescript.analytics.enabled": false,
   "explorer.confirmDelete": false,
-  "python.jediEnabled": false,
   "editor.hover.enabled": true,
   "git.enableSmartCommit": true,
   "workbench.colorCustomizations": {
@@ -156,8 +154,21 @@
     "editor.findMatchBorder": "#2979FF",
     "selection.background": "#2979FF40"
   },
-  "materialTheme.accent": "Blue",
   "window.zoomLevel": 0,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "prettier.resolveGlobalModules": true,
+  "editor.formatOnSave": true,
+  "python.jediEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": false,
+  "python.venvPath": "/Users/jordan/.local/share/virtualenvs",
+  "python.pythonPath": "/Users/jordan/.pyenv/shims/python",
+  "python.linting.pylintPath": "/Users/jordan/.pyenv/shims/pylint",
+  "python.formatting.autopep8Path": "/Users/jordan/.pyenv/shims/autopep8",
+  // "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
   "leetcode.hint.configWebviewMarkdown": false,
   "leetcode.workspaceFolder": "/Users/jordan/Development/coding_problems/leetcode",
   "leetcode.defaultLanguage": "python3",

@@ -1,10 +1,8 @@
-""" Setup 
-
-let g:python_host_prog = '/usr/local/bin/python2'
-let g:python2_host_prog = '/usr/local/bin/python2'
-let g:python3_host_prog = '/usr/local/bin/python3'
-
-""" Vim-Plug
+" let g:python3_host_prog = '/Users/jordan/.pyenv/shims/python'
+" let g:python_host_prog = '/Users/jordan/.pyenv/shims/python2'
+" let g:python2_host_prog = '/Users/jordan/.pyenv/shims/python2'
+let g:loaded_python3_provider = 0
+let g:loaded_python_provider = 0
 
 call plug#begin('~/.local/share/nvim/plugged')
 
@@ -26,15 +24,15 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'airblade/vim-gitgutter'
     Plug 'airblade/vim-rooter'
     Plug 'svermeulen/vim-easyclip'
-    Plug 'Shougo/deoplete.nvim'
-    if has('nvim')
-      Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-    else
-      Plug 'Shougo/deoplete.nvim'
-      Plug 'roxma/nvim-yarp'
-      Plug 'roxma/vim-hug-neovim-rpc'
-    endif
-    let g:deoplete#enable_at_startup = 1
+    " Plug 'Shougo/deoplete.nvim'
+    " if has('nvim')
+    "   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    " else
+    "   Plug 'Shougo/deoplete.nvim'
+    "   Plug 'roxma/nvim-yarp'
+    "   Plug 'roxma/vim-hug-neovim-rpc'
+    " endif
+    " let g:deoplete#enable_at_startup = 1
 
 call plug#end()
 " PlugInstall
@@ -42,8 +40,6 @@ call plug#end()
 " PlugClean
 " UpdateRemotePlugins
 " checkhealth
-
-""" Ag
 
 " The Silver Searcher
 if executable('ag')
@@ -56,8 +52,6 @@ if executable('ag')
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
 endif
-
-""" Nerdtree
 
 let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
@@ -79,8 +73,6 @@ let g:NERDTreeWinSize = 16
 
 " set focus to vim not nerdtree unless no file was opened
 autocmd VimEnter * if argc() | wincmd p | endif
-
-""" Lightline
 
 let g:lightline = {
       \ 'colorscheme': 'wombat',
@@ -197,19 +189,13 @@ let g:unite_force_overwrite_statusline = 0
 let g:vimfiler_force_overwrite_statusline = 0
 let g:vimshell_force_overwrite_statusline = 0
 
-""" Deoplete
-
 " Close the documentation window when completion is done
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
-
-""" Commentary
 
 autocmd FileType py setlocal commentstring=#\ %s
 autocmd FileType js setlocal commentstring=//\ %s
 autocmd FileType c setlocal commentstring=//\ %s
 autocmd FileType java setlocal commentstring=//\ %s
-
-""" General
 
 syntax enable           " enable syntax processing
 set wildmenu            " visual autocomplete for command menu
@@ -230,8 +216,6 @@ set noswapfile
 set wildignore=*.o,*~,*.pyc,*.a
 set wildignore=*.bmp,*.gif,*.ico,*.jpg,*.png
 set wildignore=*.git
-
-""" Appearance
 
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -267,19 +251,13 @@ highlight Normal ctermbg=None
 highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 81)
 
-""" Folding
-
 set modelines=1                 " only do this for this file
 set foldenable                  " enable folding
 set foldlevelstart=10           " open most folds by default
 set foldnestmax=10              " 10 nested fold max
 set foldmethod=indent           " fold based on indent level
 
-""" Tags
-
 " set tags=./tags,tags;$HOME
-
-""" Formatting
 
 filetype plugin indent on       " load filetype-specific indent files
 filetype plugin on
@@ -302,8 +280,6 @@ autocmd FileType css setlocal ts=2 sts=2 sw=2
 autocmd FileType json setlocal ts=2 sts=2 sw=2
 autocmd FileType markdown setlocal ts=2 sts=2 sw=2
 autocmd FileType txt setlocal ts=2 sts=2 sw=2
-
-""" Remappings
 
 " Swap v and CTRL-V, because Block mode is more useful that Visual mode
 nnoremap    v   <C-V>
@@ -378,8 +354,6 @@ nnoremap \ :Ag<SPACE>
 
 " jump to end of line without hitting shift
 nnoremap 2 $
-
-""" Searching
 
 set ignorecase                  " ignore case when searching
 set smartcase

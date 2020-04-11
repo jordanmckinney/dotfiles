@@ -6,12 +6,8 @@ plugins=(
     autosuggestions 
     python
     yarn
-    zsh-syntax-highlighting
+    fast-syntax-highlighting
 )
-
-# pure theme
-autoload -U promptinit; promptinit
-prompt pure
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -30,12 +26,6 @@ ENABLE_CORRECTION="true"
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-
 # alias setup='sh ~/Development/dotfiles/js/eslint-prettier-config.sh'
 alias dot='code ~/Development/dotfiles'
 alias ref='code ~/Development/reference'
@@ -47,7 +37,6 @@ alias leet='code ~/Development/coding_problems'
 
 alias tmux='tmux -2'
 alias py='bpython'
-alias python='python3'
 
 alias v=nvim
 alias s=ls
@@ -62,14 +51,15 @@ alias rmdocker='docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && do
 # disable ctrl-s scroll lock
 stty -ixon
 
-# tmux completion
-source ~/.bin/tmuxinator.zsh
-
-# vi mode
 source /Users/jordan/.oh-my-zsh/plugins/vi-mode/vi-mode.plugin.zsh
-
-# zsh autosuggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# zsh syntax highlighting
+source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /Users/jordan/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+# pure theme
+autoload -U promptinit; promptinit
+prompt pure

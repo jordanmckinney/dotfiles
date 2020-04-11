@@ -8,10 +8,16 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 
 ## System Setup
 
-### Mouse
+### Apps
 
-- logitech gaming software (if needed)
-- setup mos (smooth scrolling)
+- chrome
+- alfred
+- docker desktop
+- spotify
+- slack
+- whatsapp
+- notion
+- clipy
 
 ### System preferences
 
@@ -48,4 +54,9 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 - python
 - vim
 - vscode viml syntax
-- leetcode (https://github.com/leetcode-tools/leetcode-cli)
+- leetcode (<https://github.com/leetcode-tools/leetcode-cli)>
+
+### Mouse
+
+- logitech gaming software (if needed)
+- setup mos (smooth scrolling)
