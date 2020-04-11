@@ -18,6 +18,7 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 - whatsapp
 - notion
 - clipy
+- insomnia
 
 ### System preferences
 
