@@ -74,3 +74,8 @@ npm install -g leetcode-tools/leetcode-cli
 sudo mkdir -p /etc/paths.d &&
 echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
 # tell postgresapp to use postico instead of terminal
+
+# java
+brew tap adoptopenjdk/openjdk
+brew cask install adoptopenjdk8
+brew cask install adoptopenjdk13

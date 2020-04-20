@@ -175,5 +175,9 @@
   "leetcode.showLocked": false,
   "leetcode.showCommentDescription": true,
   "leetcode.hint.commandShortcut": false,
-  "leetcode.hint.commentDescription": false
+  "leetcode.hint.commentDescription": false,
+  "markdownlint.config": {
+    "MD027": false,
+    "MD028": false
+  }
 }
