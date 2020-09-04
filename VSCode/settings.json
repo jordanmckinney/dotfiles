@@ -11,6 +11,7 @@
   "editor.fontLigatures": true,
   "editor.fontWeight": "400",
   "editor.minimap.enabled": true,
+  "editor.minimap.size": "fit",
   "editor.insertSpaces": true,
   "editor.hover.delay": 500,
   "editor.lightbulb.enabled": false,
@@ -161,8 +162,8 @@
   "prettier.resolveGlobalModules": true,
   "editor.formatOnSave": true,
   "python.jediEnabled": false,
-  "python.linting.enabled": true,
-  "python.linting.lintOnSave": true,
+  "python.linting.enabled": false,
+  "python.linting.lintOnSave": false,
   "python.linting.pylintEnabled": false,
   "python.venvPath": "/Users/jordan/.local/share/virtualenvs",
   "python.pythonPath": "/Users/jordan/.pyenv/shims/python",
@@ -179,5 +180,7 @@
   "markdownlint.config": {
     "MD027": false,
     "MD028": false
-  }
+  },
+  "python.languageServer": "Microsoft",
+  "errorLens.onSave": true
 }

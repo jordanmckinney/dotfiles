@@ -34,10 +34,12 @@ alias ideas='code ~/Documents/ideas'
 alias j='code ~/Documents/journal'
 alias jordanmmck='code ~/Development/jordanmmck'
 alias leet='code ~/Development/coding_problems'
+alias scripts="grep 'scripts' -A 20 ./package.json | sed '/}/ q'"
 
 alias tmux='tmux -2'
 alias py='bpython'
 
+alias c='code .'
 alias v=nvim
 alias s=ls
 alias t='tree'
