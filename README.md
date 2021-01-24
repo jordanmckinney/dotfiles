@@ -61,3 +61,19 @@ ESLint script based on [this](https://github.com/paulolramos/eslint-prettier-air
 
 - logitech gaming software (if needed)
 - setup mos (smooth scrolling)
+
+### crontab
+
+```zsh
+crontab -e
+```
+
+```zsh
+0 10 * * * /usr/bin/rsync -aq --delete /Users/jordan/Documents/ /Volumes/docs/
+1 10 * * * /usr/bin/rsync -aq --delete /Users/jordan/Documents/ /Volumes/nano/Documents/
+```
+
+> preferences
+> security and privacy
+> files and folders
+> make sure cron bin has access

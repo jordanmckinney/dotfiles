@@ -57,24 +57,37 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mongodb]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[solidity]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "vim.leader": "<space>",
   "vim.insertModeKeyBindings": [
@@ -163,6 +176,7 @@
     "source.fixAll": true
   },
   "prettier.resolveGlobalModules": true,
+  "prettier.printWidth": 100,
   "editor.formatOnSave": true,
   "python.jediEnabled": false,
   "python.linting.enabled": false,
@@ -187,6 +201,7 @@
   "python.languageServer": "Microsoft",
   "errorLens.onSave": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "deno.enable": true
+  "deno.enable": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 
 }
