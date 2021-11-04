@@ -19,5 +19,8 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/H
 export ANDROID_HOME=/Users/jordan/Library/Android/sdk
 export ANDROID_SDK_ROOT=/Users/jordan/Library/Android/sdk
 
-export PATH="$PATH:/Users/jordan/Development/flutter/bin"
-export PATH="/Users/jordan/Library/Python/3.7/bin:$PATH"
+export PATH="$PATH:/Users/jordan/go/bin"
+export PATH="/Users/jordan/Library/Python/3.7/bin:$PATH"export PATH="/Users/jordan/.local/share/solana/install/active_release/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
