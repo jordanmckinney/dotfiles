@@ -9,13 +9,6 @@ plugins=(
     fast-syntax-highlighting
 )
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-    export EDITOR='vim'
-else
-    export EDITOR='nvim'
-fi
-
 # Hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 HYPHEN_INSENSITIVE="true"
@@ -33,13 +26,11 @@ alias notes='code ~/Documents/notes'
 alias ideas='code ~/Documents/ideas'
 alias j='code ~/Documents/journal'
 alias jordanmmck='code ~/Development/jordanmmck'
-alias leet='code ~/Development/coding_problems'
 
 alias tmux='tmux -2'
 alias py='bpython'
 
 alias c='code .'
-alias v=nvim
 alias s=ls
 alias t='tree'
 
