@@ -3,7 +3,7 @@ xcode-select --install
 # sudo xcodebuild -runFirstLaunch
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install yarn tmux tree htop neovim zsh the_silver_searcher
+brew install tmux tree htop the_silver_searcher
 
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -63,7 +63,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 npm install -g gatsby-cli
 npm install --global pure-prompt
-npm install -g leetcode-tools/leetcode-cli
 
 # npm install -g eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react neovim npm npx prettier pure-prompt webpack webpack-dev-server babel-eslint
 
