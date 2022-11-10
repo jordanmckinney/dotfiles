@@ -24,8 +24,8 @@ cp ~/Development/dotfiles/.gitconfig ~
 echo "source ~/Development/dotfiles/.zshrc" >> ~/.zshrc
 ln -s ~/Development/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/Development/dotfiles/.zprofile ~/.zprofile
-mkdir -p ~/.config/nvim
-ln -s ~/Development/dotfiles/vim/init.vim ~/.config/nvim/
+# mkdir -p ~/.config/nvim
+# ln -s ~/Development/dotfiles/vim/init.vim ~/.config/nvim/
 
 ln -s /Users/jordan/Development/dotfiles/vscode/settings.json /Users/jordan/Library/Application\ Support/Code/User/settings.json
 ln -s /Users/jordan/Development/dotfiles/vscode/keybindings.json /Users/jordan/Library/Application\ Support/Code/User/keybindings.json

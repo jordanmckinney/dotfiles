@@ -60,12 +60,4 @@
     "key": "ctrl+enter",
     "command": "extension.rerunLastCommand"
   },
-  {
-    "key": "ctrl+\\",
-    "command": "leetcode.testSolution"
-  },
-  {
-    "key": "ctrl+=",
-    "command": "leetcode.submitSolution"
-  }
 ]

@@ -21,9 +21,6 @@ COMPLETION_WAITING_DOTS="true"
 
 # alias setup='sh ~/Development/dotfiles/js/eslint-prettier-config.sh'
 alias dot='code ~/Development/dotfiles'
-alias ref='code ~/Development/reference'
-alias notes='code ~/Documents/notes'
-alias ideas='code ~/Documents/ideas'
 alias j='code ~/Documents/journal'
 alias jordanmmck='code ~/Development/jordanmmck'
 
@@ -39,6 +36,8 @@ alias gst='git status'
 alias mux='tmuxinator'
 alias gpush='git add . && git commit -m "..." && git push'
 alias rmdocker='docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi -f $(docker images)'
+alias ibrew="arch -x86_64 /usr/local/bin/brew"
+alias python=python3
 
 # disable ctrl-s scroll lock
 stty -ixon
