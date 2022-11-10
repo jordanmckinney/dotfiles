@@ -43,10 +43,12 @@
   "workbench.startupEditor": "newUntitledFile",
   "editor.wordWrap": "on",
   "files.trimFinalNewlines": true,
-  // "files.autoSave": "afterDelay",
-  // "files.autoSaveDelay": 5000,
   "files.exclude": {
     "node_modules": true
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[go]": {
     "editor.tabSize": 2,
