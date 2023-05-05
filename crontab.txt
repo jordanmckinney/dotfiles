@@ -1,0 +1,4 @@
+0 18 * * * rsync -av --delete --ignore-errors --exclude='.Trashes' --exclude='.Spotlight-V100' --exclude='.TemporaryItems' --exclude='.DocumentRevisions-V100' --exclude='.DS_Store' /Users/jordan/Downloads /Volumes/SSD/
+15 18 * * * rsync -av --delete --ignore-errors --exclude='.Trashes' --exclude='.Spotlight-V100' --exclude='.TemporaryItems' --exclude='.DocumentRevisions-V100' --exclude='.DS_Store' /Users/jordan/Library/Mobile\ Documents/com\~apple\~CloudDocs/JORDANMMCK /Volumes/SSD/Documents
+30 18 * * * rsync -av --delete --ignore-errors --exclude='.Trashes' --exclude='.Spotlight-V100' --exclude='.TemporaryItems' --exclude='.DocumentRevisions-V100' --exclude='.DS_Store' /Users/jordan/Documents/journal /Volumes/SSD/Documents
+0 19 * * * rsync -av --delete --ignore-errors --exclude='.Trashes' --exclude='.Spotlight-V100' --exclude='.TemporaryItems' --exclude='.DocumentRevisions-V100' --exclude='.DS_Store' /Volumes/SSD /Volumes/HDD

@@ -1,6 +1,6 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.iconTheme": "material-icon-theme",
   "explorer.sortOrder": "type",
   "window.newWindowDimensions": "inherit",
   "telemetry.enableTelemetry": false,
@@ -62,6 +62,10 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -71,6 +75,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -90,21 +98,23 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
   "[solidity]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.tabSize": 2
   },
   "vim.leader": "<space>",
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["k", "k"],
-      "after": ["<esc>"]
-    },
-    {
-      "before": ["j", "j"],
-      "after": ["<esc>"]
-    }
-  ],
+  // "vim.insertModeKeyBindings": [
+  //   {
+  //     "before": ["k", "k"],
+  //     "after": ["<esc>"]
+  //   },
+  //   {
+  //     "before": ["j", "j"],
+  //     "after": ["<esc>"]
+  //   }
+  // ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [";"],
@@ -209,5 +219,10 @@
   "go.toolsManagement.autoUpdate": true,
   "editor.largeFileOptimizations": false,
   "workbench.statusBar.visible": false,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "hardhat.telemetry": false,
+  "editor.inlineSuggest.enabled": true,
+  "solidity.telemetry": true,
+  "window.zoomLevel": -1,
+  "vsicons.dontShowNewVersionMessage": true
 }
