@@ -4,11 +4,11 @@
   "explorer.sortOrder": "type",
   "window.newWindowDimensions": "inherit",
   "telemetry.enableTelemetry": false,
-  "workbench.editor.highlightModifiedTabs": true,
+  // "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
-  "materialTheme.accent": "Blue",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "materialTheme.accent": "Blue",
   "editor.fontLigatures": true,
   "editor.fontWeight": "400",
   "editor.minimap.enabled": true,
@@ -18,9 +18,9 @@
   "editor.renderLineHighlight": "gutter",
   "editor.smoothScrolling": true,
   "editor.parameterHints.enabled": false,
+  "editor.parameterHints": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "html.suggest.html5": false,
-  "editor.parameterHints": true,
   "editor.tabCompletion": "on",
   "editor.cursorBlinking": "smooth",
   "editor.suggest.localityBonus": true,
@@ -43,6 +43,9 @@
   "workbench.startupEditor": "newUntitledFile",
   "editor.wordWrap": "on",
   "files.trimFinalNewlines": true,
+  "solidity.formatter": "forge",
+  "solidity.telemetry": true,
+  "explorer.autoReveal": false,
   "files.exclude": {
     "node_modules": true
   },
@@ -102,19 +105,9 @@
     "editor.tabSize": 4
   },
   "[solidity]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 4,
   },
   "vim.leader": "<space>",
-  // "vim.insertModeKeyBindings": [
-  //   {
-  //     "before": ["k", "k"],
-  //     "after": ["<esc>"]
-  //   },
-  //   {
-  //     "before": ["j", "j"],
-  //     "after": ["<esc>"]
-  //   }
-  // ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [";"],
@@ -139,7 +132,6 @@
       "after": ["p", "g", "v", "y"]
     }
   ],
-
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 5,
   "terminal.integrated.rendererType": "dom",
@@ -222,7 +214,6 @@
   "git.confirmSync": false,
   "hardhat.telemetry": false,
   "editor.inlineSuggest.enabled": true,
-  "solidity.telemetry": true,
-  "window.zoomLevel": -1,
-  "vsicons.dontShowNewVersionMessage": true
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.zoomLevel": -1
 }
