@@ -45,6 +45,7 @@
   "files.trimFinalNewlines": true,
   "solidity.formatter": "forge",
   "solidity.telemetry": true,
+  "solidity.defaultCompiler": "localNodeModule",
   "explorer.autoReveal": false,
   "files.exclude": {
     "node_modules": true
