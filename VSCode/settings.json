@@ -4,11 +4,10 @@
   "explorer.sortOrder": "type",
   "window.newWindowDimensions": "inherit",
   "telemetry.enableTelemetry": false,
-  // "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-  "materialTheme.accent": "Blue",
   "editor.fontLigatures": true,
   "editor.fontWeight": "400",
   "editor.minimap.enabled": true,
@@ -18,7 +17,6 @@
   "editor.renderLineHighlight": "gutter",
   "editor.smoothScrolling": true,
   "editor.parameterHints.enabled": false,
-  "editor.parameterHints": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "html.suggest.html5": false,
   "editor.tabCompletion": "on",
@@ -28,15 +26,13 @@
   "editor.suggestFontSize": 11,
   "editor.renderWhitespace": "all",
   "workbench.commandPalette.history": 10,
-  "workbench.useExperimentalGridLayout": true,
-  "workbench.statusBar.feedback.visible": false,
   "breadcrumbs.filePath": "on",
   "workbench.editor.closeOnFileDelete": true,
   "terminal.integrated.fontWeight": "400",
-  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "bracket-pair-colorizer-2.colors": ["#87a5ff", "#b087ff", "#f187ff", "#ff8787", "#87ffd3"],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
@@ -44,6 +40,7 @@
   "editor.wordWrap": "on",
   "files.trimFinalNewlines": true,
   "solidity.formatter": "forge",
+  "solidity.defaultCompiler": "localNodeModule",
   "solidity.telemetry": true,
   "solidity.defaultCompiler": "localNodeModule",
   "explorer.autoReveal": false,
@@ -106,7 +103,7 @@
     "editor.tabSize": 4
   },
   "[solidity]": {
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
   "vim.leader": "<space>",
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -115,7 +112,7 @@
       "commands": ["workbench.action.showCommands"]
     },
     {
-      "before": ["leader", "w"],
+      "before": ["leader", "r"],
       "commands": ["workbench.action.files.save"]
     },
     {
@@ -151,7 +148,6 @@
   "gitlens.views.repositories.enabled": false,
   "gitlens.views.search.enabled": false,
   "gitlens.mode.statusBar.enabled": false,
-  "nativescript.analytics.enabled": false,
   "explorer.confirmDelete": false,
   "editor.hover.enabled": true,
   "git.enableSmartCommit": true,
@@ -185,21 +181,15 @@
   "prettier.resolveGlobalModules": true,
   "prettier.printWidth": 100,
   "editor.formatOnSave": true,
-  "python.jediEnabled": false,
   "python.linting.enabled": false,
   "python.linting.lintOnSave": false,
   "python.linting.pylintEnabled": false,
   "python.venvPath": "/Users/jordan/.local/share/virtualenvs",
-  // "python.pythonPath": "/Users/jordan/.pyenv/shims/python",
-  // "python.linting.pylintPath": "/Users/jordan/.pyenv/shims/pylint",
-  // "python.formatting.autopep8Path": "/Users/jordan/.pyenv/shims/autopep8",
-  // "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
   "markdownlint.config": {
     "MD027": false,
     "MD028": false
   },
   "python.languageServer": "Default",
-  "errorLens.onSave": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.editorAssociations": {
@@ -209,12 +199,14 @@
   "editor.cursorStyle": "line",
   "editor.lineNumbers": "on",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "go.toolsManagement.autoUpdate": true,
   "editor.largeFileOptimizations": false,
   "workbench.statusBar.visible": false,
   "git.confirmSync": false,
-  "hardhat.telemetry": false,
   "editor.inlineSuggest.enabled": true,
   "vsicons.dontShowNewVersionMessage": true,
+  "git.openRepositoryInParentFolders": "never",
+  "solidity.remappingsUnix": ["@openzeppelin/=lib/openzeppelin-contracts/"],
+  "solidity.compileUsingRemoteVersion": "v0.8.18+commit.87f61d96",
+  "tsImportSorter.configuration.wrappingStyle": "prettier",
   "window.zoomLevel": -1
 }

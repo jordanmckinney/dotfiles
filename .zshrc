@@ -23,6 +23,7 @@ COMPLETION_WAITING_DOTS="true"
 alias dot='code ~/Development/dotfiles'
 alias j='code ~/Documents/journal'
 alias jordanmmck='code ~/Development/jordanmmck'
+alias theory='code ~/Documents/theory'
 
 alias tmux='tmux -2'
 alias py='bpython'
